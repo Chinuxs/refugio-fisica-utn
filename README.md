@@ -32,12 +32,11 @@ separado del código del simulador y se escribe en español claro.
 - [Estado y próximas tareas](PROJECT_STATUS.md)
 - [Material de la exposición](exposicion/README.md)
 - [Material de estudio](estudio/README.md)
-- [Abrir el simulador en GitHub Pages](https://chinuxs.github.io/fisica-utn-tiro-oblicuo/)
+- [Abrir el simulador en GitHub Pages](https://chinuxs.github.io/refugio-fisica-utn/)
 
-> **Nota sobre GitHub Pages:** el enlace publicado conserva por ahora el nombre
-> actual del repositorio. Después de renombrarlo a `refugio-fisica-utn`, habrá
-> que comprobar la nueva URL y actualizar este enlace y las demás referencias
-> al nombre anterior.
+> **Nota sobre GitHub Pages:** después de renombrar el repositorio a
+> `refugio-fisica-utn`, se comprobó que el simulador está publicado en la URL
+> enlazada arriba. La dirección anterior dejó de estar disponible.
 
 ## Cómo contribuir
 
