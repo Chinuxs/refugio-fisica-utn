@@ -1,10 +1,17 @@
-# Física I - Organización del repositorio
+# El Refugio de Física
 
-Este repositorio está organizado en dos áreas claras:
+Base de conocimiento personal y colaborativa para estudiar Física I en la
+Universidad Tecnológica Nacional, Facultad Regional La Plata (UTN FRLP).
 
-- `exposicion/`: material para preparar la exposición de Cinemática con un
-  simulador de tiro oblicuo.
-- `estudio/`: material de apoyo para parciales y repaso de Física I.
+El proyecto nació a partir de una exposición de Cinemática y su simulador de
+tiro oblicuo. Ahora también reúne material para preparar parciales y finales,
+con explicaciones, ejercicios resueltos, errores frecuentes y seguimiento del
+progreso. Los temas prioritarios actuales son **Dinámica** y **Movimiento
+Circular**.
+
+El contenido está organizado para que resulte útil a todos los compañeros,
+incluidas las personas que no programan: el material de estudio se mantiene
+separado del código del simulador y se escribe en español claro.
 
 ## Participantes
 
@@ -12,20 +19,29 @@ Este repositorio está organizado en dos áreas claras:
 - Santi Fox
 - César Romero
 
+## Áreas principales
+
+- `exposicion/`: exposición de Cinemática, documentación y simulador de tiro
+  oblicuo.
+- `estudio/`: parciales, finales, apuntes, ejercicios resueltos y errores
+  frecuentes de Física I.
+
 ## Enlaces rápidos
 
-- [exposicion/README.md](exposicion/README.md)
-- [estudio/README.md](estudio/README.md)
-- [Abrir simulador en GitHub Pages](https://chinuxs.github.io/fisica-utn-tiro-oblicuo/)
+- [Contexto permanente del proyecto](AI_CONTEXT.md)
+- [Estado y próximas tareas](PROJECT_STATUS.md)
+- [Material de la exposición](exposicion/README.md)
+- [Material de estudio](estudio/README.md)
+- [Abrir el simulador en GitHub Pages](https://chinuxs.github.io/fisica-utn-tiro-oblicuo/)
 
-## Detalles
+> **Nota sobre GitHub Pages:** el enlace publicado conserva por ahora el nombre
+> actual del repositorio. Después de renombrarlo a `refugio-fisica-utn`, habrá
+> que comprobar la nueva URL y actualizar este enlace y las demás referencias
+> al nombre anterior.
 
-- `exposicion/simulador/` contiene la aplicación web estática de tiro oblicuo
-  (`index.html`, `styles.css`, `script.js`).
-- `exposicion/docs/` contiene la documentación de apoyo para la exposición.
-- `estudio/` contiene las carpetas `parciales/`, `apuntes/` y `ejercicios/`.
+## Cómo contribuir
 
-## Objetivos
-
-- Preparar una exposición clara y accesible sobre Cinemática.
-- Mantener separado el material de estudio para parciales de Física I.
+Antes de agregar o modificar material, consultar
+[`AI_CONTEXT.md`](AI_CONTEXT.md). Allí se explican la filosofía de trabajo, el
+formato recomendado para resolver ejercicios y las reglas que ayudan a
+conservar el contenido existente.
