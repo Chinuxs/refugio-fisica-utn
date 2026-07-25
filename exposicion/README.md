@@ -12,7 +12,7 @@ Este directorio contiene el material y el simulador para preparar la exposición
 
 Cuando GitHub Pages esté activado en este repositorio, el simulador se podrá abrir desde este enlace:
 
-[Abrir simulador en GitHub Pages](https://chinuxs.github.io/fisica-utn-tiro-oblicuo/)
+[Abrir simulador en GitHub Pages](https://chinuxs.github.io/refugio-fisica-utn/)
 
 También puedes ejecutar el simulador localmente abriendo:
 
