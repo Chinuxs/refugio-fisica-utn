@@ -19,6 +19,8 @@ Preparar Física I concentrándose en:
 
 - [x] Apunte inicial de métodos de resolución.
 - [x] División de ecuaciones para eliminar incógnitas comunes.
+- [x] Organización por conceptos, herramientas matemáticas, métodos,
+  referencias rápidas y ejercicios.
 - [ ] Resumen conceptual.
 - [ ] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
@@ -61,5 +63,6 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**29 de julio de 2026:** se inició el apunte progresivo de Dinámica y se
-documentó el método de dividir ecuaciones para eliminar factores comunes.
+**29 de julio de 2026:** se inició la organización definitiva de apuntes basada
+en conceptos, herramientas matemáticas, métodos, referencias rápidas y
+ejercicios.

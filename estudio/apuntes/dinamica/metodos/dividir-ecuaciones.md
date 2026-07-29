@@ -1,12 +1,10 @@
-# Métodos de resolución en Dinámica
+# Dividir ecuaciones para eliminar una incógnita común
 
 Estas herramientas aparecen con frecuencia al aplicar la Segunda Ley de Newton.
 No son fórmulas nuevas de Física: son procedimientos algebraicos que permiten
 trabajar mejor con las ecuaciones obtenidas.
 
-## Método 1: dividir ecuaciones para eliminar una incógnita común
-
-### Cuándo conviene usarlo
+## Cuándo conviene usarlo
 
 Se puede considerar cuando:
 
@@ -18,7 +16,7 @@ Se puede considerar cuando:
 Algunos factores comunes posibles son la tensión, la masa, la normal, una
 longitud, una carga o una constante común.
 
-### Ejemplo: masa suspendida dentro de un automóvil acelerado
+## Ejemplo: masa suspendida dentro de un automóvil acelerado
 
 Al aplicar la Segunda Ley de Newton por componentes puede obtenerse:
 
@@ -69,7 +67,7 @@ $$
 No hace falta calcular un resultado numérico: este ejemplo muestra el método
 general.
 
-### Por qué es válido
+## Por qué es válido
 
 No se trata de sumar o restar polinomios. Se usa la propiedad de división de
 igualdades. Si:
@@ -101,7 +99,7 @@ $$
 
 si \(T\) es distinto de cero.
 
-### Ejemplo numérico sencillo
+## Ejemplo numérico sencillo
 
 Consideremos:
 
@@ -125,7 +123,7 @@ $$
 
 El factor común \(4\) se elimina.
 
-### Error frecuente
+## Error frecuente
 
 Este procedimiento no es lo mismo que sumar ecuaciones, restar polinomios o
 tachar cantidades sin comprobar cómo aparecen. Solo se pueden simplificar
@@ -146,7 +144,7 @@ $$
 En el segundo caso no se puede cancelar \(T\), porque está sumando y no
 multiplicando.
 
-### Regla práctica para el parcial
+## Regla práctica para el parcial
 
 > Cuando dos ecuaciones contienen la misma incógnita como factor, preguntarse:
 > “¿Puedo dividir una ecuación por la otra para eliminarla?”
@@ -154,7 +152,7 @@ multiplicando.
 > Antes de simplificar, comprobar que las cantidades canceladas sean factores y
 > que no sean cero.
 
-### Forma recomendada de escribirlo en un examen
+## Forma recomendada de escribirlo en un examen
 
 > Dividiendo miembro a miembro la ecuación (1) por la ecuación (2):
 

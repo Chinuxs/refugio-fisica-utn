@@ -37,13 +37,16 @@ separado del código del simulador y se escribe en español claro.
 > `refugio-fisica-utn`, se comprobó que el simulador está publicado en la URL
 > enlazada arriba. La dirección anterior dejó de estar disponible.
 
-## Accesos de estudio
+## Estudio
 
-- [Índice de material de estudio](estudio/README.md)
-- [Apuntes de Dinámica](estudio/apuntes/dinamica/README.md)
-- [Métodos de resolución de Dinámica](estudio/apuntes/dinamica/metodos-de-resolucion.md)
-- [Apuntes de Movimiento Circular](estudio/apuntes/movimiento-circular/README.md)
-- [Ejercicios resueltos](estudio/ejercicios/README.md)
+- [Material de estudio](estudio/README.md)
+- [Dinámica](estudio/apuntes/dinamica/README.md)
+- [Movimiento Circular](estudio/apuntes/movimiento-circular/README.md)
+- [Conceptos](estudio/apuntes/dinamica/conceptos/README.md)
+- [Herramientas matemáticas](estudio/apuntes/dinamica/herramientas-matematicas/README.md)
+- [Métodos](estudio/apuntes/dinamica/metodos/README.md)
+- [Referencias rápidas](estudio/apuntes/dinamica/referencias-rapidas/README.md)
+- [Ejercicios](estudio/ejercicios/README.md)
 - [Errores frecuentes](estudio/errores-comunes/README.md)
 - [Parciales y finales](estudio/parciales/README.md)
 

@@ -6,6 +6,27 @@ el material sin tener que revisar el código del simulador.
 
 ## Organización
 
+El material se separa según la función que cumple durante el estudio:
+
+| Área | Responde | Ejemplo |
+| --- | --- | --- |
+| Conceptos | ¿Qué significa físicamente? | Tensión |
+| Herramientas matemáticas | ¿Qué matemática necesito para continuar? | Vectores |
+| Métodos | ¿Qué procedimiento puedo reutilizar? | Dividir ecuaciones |
+| Referencias rápidas | ¿Qué necesito recordar en menos de 20 segundos? | Tangente |
+| Ejercicios | ¿Cómo se aplica todo a un problema completo? | Plano inclinado |
+| Errores frecuentes | ¿Qué confusión debo evitar? | Agregar una fuerza centrípeta |
+
+Los apuntes de [Dinámica](apuntes/dinamica/README.md) se organizan en:
+
+- [Conceptos](apuntes/dinamica/conceptos/README.md)
+- [Herramientas matemáticas](apuntes/dinamica/herramientas-matematicas/README.md)
+- [Métodos](apuntes/dinamica/metodos/README.md)
+- [Referencias rápidas](apuntes/dinamica/referencias-rapidas/README.md)
+
+El material de [Movimiento Circular](apuntes/movimiento-circular/README.md)
+mantiene su propio índice.
+
 ### Parciales y finales
 
 Guardar en `parciales/` los enunciados originales, recuperatorios, finales y
@@ -18,24 +39,6 @@ el nombre:
 
 Si un examen tiene una resolución propia, conviene guardarla en
 `ejercicios/`, indicando claramente de qué examen y ejercicio proviene.
-
-### Apuntes
-
-Guardar en `apuntes/` la teoría explicada, resúmenes, formularios y métodos de
-resolución. Organizar los documentos por tema.
-
-- [Dinámica](apuntes/dinamica/README.md)
-  - [Métodos de resolución](apuntes/dinamica/metodos-de-resolucion.md)
-- [Movimiento Circular](apuntes/movimiento-circular/README.md)
-
-Los métodos de resolución son herramientas reutilizables que aparecen durante
-los ejercicios, por ejemplo:
-
-- dividir ecuaciones para eliminar una incógnita;
-- elegir ejes convenientes;
-- descomponer vectores;
-- verificar unidades;
-- comprobar signos y sentidos.
 
 ### Ejercicios resueltos
 
@@ -55,6 +58,10 @@ aprendizaje principal. El formato completo está en
 
 Usar `errores-comunes/` para registrar confusiones conceptuales y prácticas,
 explicar por qué son errores y mostrar cómo detectarlos o corregirlos.
+
+Un concepto explica una idea física. Una herramienta matemática permite operar.
+Un método ordena la resolución. Una referencia rápida refresca un dato. Un
+ejercicio integra todo lo anterior y un error frecuente advierte qué evitar.
 
 ## Convenciones generales
 

@@ -26,12 +26,27 @@ numéricos. Cada material debe ayudar a:
 
 Priorizar la comprensión sobre la memorización de fórmulas.
 
+## Base de conocimiento de consulta rápida
+
+El Refugio no busca parecer un libro. Cada concepto, herramienta matemática,
+método o error detectado al resolver un ejercicio debe poder consultarse sin
+volver a leer toda la resolución.
+
+La prioridad es:
+
+1. Encontrar rápido.
+2. Recordar rápido.
+3. Volver al ejercicio.
+
+Evitar teoría innecesaria y no copiar capítulos completos de libros.
+
 ## Estructura principal
 
 - `exposicion/`: materiales de la exposición de Cinemática y simulador de tiro
   oblicuo.
 - `estudio/parciales/`: parciales, finales, recuperatorios y simulacros.
-- `estudio/apuntes/`: teoría, resúmenes y formularios.
+- `estudio/apuntes/`: conceptos, herramientas matemáticas, métodos y referencias
+  rápidas.
 - `estudio/ejercicios/`: ejercicios analizados y resueltos.
 
 ## Temas prioritarios actuales
@@ -82,6 +97,17 @@ Cada ejercicio resuelto debería incluir, cuando corresponda:
 - No inventar datos ausentes en los enunciados.
 - Marcar explícitamente cualquier hipótesis.
 - Mantener los documentos útiles para estudiantes que no sean programadores.
+
+## Diseño visual
+
+Cuando un concepto pueda explicarse mediante un dibujo, esquema o diagrama,
+debe preferirse el recurso visual antes que un bloque largo de texto.
+
+- Un DCL vale más que un párrafo.
+- Un triángulo vale más que una explicación extensa de seno y coseno.
+- Un esquema de fuerzas vale más que una descripción textual.
+- Usar diagramas ASCII sencillos o imágenes existentes siempre que ayuden.
+- Mantener el texto breve y orientado a retomar el ejercicio.
 
 ## Reglas para asistentes de IA
 
