@@ -27,6 +27,11 @@ Los apuntes de [Dinámica](apuntes/dinamica/README.md) se organizan en:
 El material de [Movimiento Circular](apuntes/movimiento-circular/README.md)
 mantiene su propio índice.
 
+Las fichas usan una
+[convención visual común](apuntes/PLANTILLA.md) para encontrar siempre en el
+mismo lugar el recordatorio, el esquema, la fórmula, el error y los enlaces
+relacionados.
+
 ### Parciales y finales
 
 Guardar en `parciales/` los enunciados originales, recuperatorios, finales y

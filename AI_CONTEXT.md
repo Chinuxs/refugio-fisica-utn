@@ -109,6 +109,28 @@ debe preferirse el recurso visual antes que un bloque largo de texto.
 - Usar diagramas ASCII sencillos o imágenes existentes siempre que ayuden.
 - Mantener el texto breve y orientado a retomar el ejercicio.
 
+### Convención visual para fichas
+
+Toda ficha nueva debe seguir este orden:
+
+1. `## 🎯 Qué recordar`
+2. `## 🖼️ Esquema / dibujo`
+3. `## 📐 Fórmula`
+4. `## ⚠️ Error frecuente`
+5. `## 🔗 Ver también`
+
+Usar siempre esos íconos y títulos para que la ubicación de la información sea
+predecible. La plantilla está en
+[`estudio/apuntes/PLANTILLA.md`](estudio/apuntes/PLANTILLA.md).
+
+Para recursos SVG:
+
+- usar una tipografía sans serif legible, como `Inter`, `Segoe UI` o `Arial`;
+- usar `Cambria Math`, `STIX Two Math` o una serif para fórmulas;
+- mantener contraste alto y no depender únicamente del color;
+- incluir texto alternativo al insertar la imagen en Markdown;
+- priorizar diagramas que aporten información, no decoración.
+
 ## Reglas para asistentes de IA
 
 Antes de cambiar el repositorio:

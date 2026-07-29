@@ -1,46 +1,32 @@
 # Trigonometría
 
-```text
-      /|
-   H / | O
-    /θ |
-   ────
-    A
-```
+## 🎯 Qué recordar
 
-`O`: cateto opuesto · `A`: cateto adyacente · `H`: hipotenusa
+En un triángulo rectángulo, elegí primero el ángulo de referencia. Los nombres
+“opuesto” y “adyacente” dependen de ese ángulo; la hipotenusa no cambia.
 
-## Seno
+## 🖼️ Esquema / dibujo
 
-\(\sin\theta=O/H\) · Uso: relacionar opuesto e hipotenusa.
-Error frecuente: usar el cateto adyacente como numerador.
+![Relaciones trigonométricas en un triángulo rectángulo](../assets/trigonometria-triangulo.svg)
 
-## Coseno
+## 📐 Fórmula
 
-\(\cos\theta=A/H\) · Uso: relacionar adyacente e hipotenusa.
-Error frecuente: usar el cateto opuesto como numerador.
+| Relación | Fórmula | Uso rápido |
+| --- | --- | --- |
+| Seno | \(\sin\theta=O/H\) | Relacionar opuesto e hipotenusa |
+| Coseno | \(\cos\theta=A/H\) | Relacionar adyacente e hipotenusa |
+| Tangente | \(\tan\theta=O/A=\sin\theta/\cos\theta\) | Relacionar los catetos |
+| Arcoseno | \(\theta=\arcsin(O/H)\) | Hallar el ángulo con \(O\) y \(H\) |
+| Arcocoseno | \(\theta=\arccos(A/H)\) | Hallar el ángulo con \(A\) y \(H\) |
+| Arcotangente | \(\theta=\arctan(O/A)\) | Hallar el ángulo con ambos catetos |
 
-## Tangente
+## ⚠️ Error frecuente
 
-\(\tan\theta=O/A=\sin\theta/\cos\theta\) · Uso: relacionar los catetos.
-Error frecuente: invertir opuesto y adyacente.
+- Intercambiar el cateto opuesto y el adyacente.
+- Invertir el cociente de la tangente.
+- Usar arcoseno o arcocoseno con un cociente fuera de \([-1,1]\).
+- Mezclar grados y radianes en la calculadora.
 
-## Arcoseno
+## 🔗 Ver también
 
-\(\theta=\arcsin(O/H)\) · Uso: hallar el ángulo con opuesto e hipotenusa.
-Error frecuente: usarlo sin comprobar que el cociente esté entre \(-1\) y \(1\).
-
-## Arcocoseno
-
-\(\theta=\arccos(A/H)\) · Uso: hallar el ángulo con adyacente e hipotenusa.
-Error frecuente: confundir el cateto adyacente con el opuesto.
-
-## Arcotangente
-
-\(\theta=\arctan(O/A)\) · Uso: hallar el ángulo con ambos catetos.
-Error frecuente: invertir el cociente.
-
-## Antes de calcular
-
-Comprobar si la calculadora está en grados o radianes.
-Error frecuente: informar un ángulo sin indicar su unidad.
+- [Dividir ecuaciones para eliminar una incógnita común](../metodos/dividir-ecuaciones.md)

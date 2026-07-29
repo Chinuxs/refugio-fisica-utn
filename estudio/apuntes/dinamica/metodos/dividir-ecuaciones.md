@@ -1,160 +1,75 @@
 # Dividir ecuaciones para eliminar una incógnita común
 
-Estas herramientas aparecen con frecuencia al aplicar la Segunda Ley de Newton.
-No son fórmulas nuevas de Física: son procedimientos algebraicos que permiten
-trabajar mejor con las ecuaciones obtenidas.
+## 🎯 Qué recordar
 
-## Cuándo conviene usarlo
+Si dos ecuaciones válidas contienen la misma incógnita como factor, dividir una
+por la otra puede eliminarla sin despejarla.
 
-Se puede considerar cuando:
+Conviene probarlo cuando:
 
-- se aplicó la Segunda Ley de Newton en dos direcciones;
-- aparecen dos ecuaciones simultáneamente válidas;
-- ambas contienen una misma incógnita como factor;
-- el cociente permite simplificar esa incógnita.
+- las ecuaciones describen dos direcciones del mismo problema;
+- el factor común es distinto de cero;
+- el cociente deja una relación más simple.
 
-Algunos factores comunes posibles son la tensión, la masa, la normal, una
-longitud, una carga o una constante común.
+## 🖼️ Esquema / dibujo
 
-## Ejemplo: masa suspendida dentro de un automóvil acelerado
+![Masa suspendida y división de sus ecuaciones de fuerza](../assets/dividir-ecuaciones.svg)
 
-Al aplicar la Segunda Ley de Newton por componentes puede obtenerse:
+## 📐 Fórmula
 
-$$
-T\sin\theta = ma
-$$
+Para una masa suspendida dentro de un automóvil acelerado:
 
 $$
-T\cos\theta = mg
+T\sin\theta=ma
 $$
 
-En estas ecuaciones aparecen las incógnitas \(T\) y \(\theta\). La tensión
-\(T\) es un factor común. En vez de despejarla por separado, se puede dividir
-la primera ecuación por la segunda:
+$$
+T\cos\theta=mg
+$$
+
+Dividiendo miembro a miembro la primera ecuación por la segunda:
 
 $$
 \frac{T\sin\theta}{T\cos\theta}
 =
 \frac{ma}{mg}
+\quad\Longrightarrow\quad
+\tan\theta=\frac{a}{g}
 $$
 
-Como \(T\) y \(m\) son factores comunes no nulos, se simplifican:
+Los factores \(T\) y \(m\) se simplifican porque son comunes y no nulos.
+
+La propiedad usada es:
 
 $$
-\frac{\sin\theta}{\cos\theta}
-=
-\frac{a}{g}
+A=B,\quad C=D,\quad C\neq0,\quad D\neq0
+\quad\Longrightarrow\quad
+\frac{A}{C}=\frac{B}{D}
 $$
 
-Usando
+> En un examen: “Dividiendo miembro a miembro la ecuación (1) por la
+> ecuación (2)”.
 
-$$
-\tan\theta = \frac{\sin\theta}{\cos\theta},
-$$
+## ⚠️ Error frecuente
 
-queda:
-
-$$
-\tan\theta = \frac{a}{g}
-$$
-
-y, por lo tanto:
-
-$$
-\theta = \arctan\left(\frac{a}{g}\right)
-$$
-
-No hace falta calcular un resultado numérico: este ejemplo muestra el método
-general.
-
-## Por qué es válido
-
-No se trata de sumar o restar polinomios. Se usa la propiedad de división de
-igualdades. Si:
-
-$$
-A=B
-$$
-
-y:
-
-$$
-C=D,
-$$
-
-con \(C\) y \(D\) distintos de cero, entonces:
-
-$$
-\frac{A}{C} = \frac{B}{D}
-$$
-
-En el problema, las dos ecuaciones son verdaderas simultáneamente. Por eso se
-pueden dividir miembro a miembro.
-
-La simplificación ocurre porque:
-
-$$
-\frac{TX}{TY} = \frac{X}{Y},
-$$
-
-si \(T\) es distinto de cero.
-
-## Ejemplo numérico sencillo
-
-Consideremos:
-
-$$
-8 = 2\cdot 4
-$$
-
-$$
-12 = 3\cdot 4
-$$
-
-Entonces:
-
-$$
-\frac{8}{12}
-=
-\frac{2\cdot 4}{3\cdot 4}
-=
-\frac{2}{3}
-$$
-
-El factor común \(4\) se elimina.
-
-## Error frecuente
-
-Este procedimiento no es lo mismo que sumar ecuaciones, restar polinomios o
-tachar cantidades sin comprobar cómo aparecen. Solo se pueden simplificar
-factores comunes del numerador y del denominador.
-
-Ejemplo válido:
+Solo se simplifican **factores** comunes:
 
 $$
 \frac{T\sin\theta}{T\cos\theta}
+=
+\frac{\sin\theta}{\cos\theta}
 $$
 
-Ejemplo no válido:
+No se cancelan términos que están sumando:
 
 $$
 \frac{T+\sin\theta}{T+\cos\theta}
+\neq
+\frac{\sin\theta}{\cos\theta}
 $$
 
-En el segundo caso no se puede cancelar \(T\), porque está sumando y no
-multiplicando.
+Antes de simplificar, comprobar que la cantidad sea un factor y que no sea cero.
 
-## Regla práctica para el parcial
+## 🔗 Ver también
 
-> Cuando dos ecuaciones contienen la misma incógnita como factor, preguntarse:
-> “¿Puedo dividir una ecuación por la otra para eliminarla?”
-
-> Antes de simplificar, comprobar que las cantidades canceladas sean factores y
-> que no sean cero.
-
-## Forma recomendada de escribirlo en un examen
-
-> Dividiendo miembro a miembro la ecuación (1) por la ecuación (2):
-
-Luego se muestra el cociente entre ambas ecuaciones y se indican explícitamente
-los factores que se simplifican.
+- [Referencia rápida de trigonometría](../referencias-rapidas/trigonometria.md)

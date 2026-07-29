@@ -21,6 +21,7 @@ Preparar Física I concentrándose en:
 - [x] División de ecuaciones para eliminar incógnitas comunes.
 - [x] Organización por conceptos, herramientas matemáticas, métodos,
   referencias rápidas y ejercicios.
+- [x] Convención visual común para fichas y primeros diagramas SVG.
 - [ ] Resumen conceptual.
 - [ ] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
@@ -63,6 +64,5 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**29 de julio de 2026:** se inició la organización definitiva de apuntes basada
-en conceptos, herramientas matemáticas, métodos, referencias rápidas y
-ejercicios.
+**29 de julio de 2026:** se adoptó una convención visual común para las fichas y
+se incorporaron los primeros diagramas SVG de trigonometría y Dinámica.
