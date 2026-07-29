@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title description">
+  <title id="title">Relaciones trigonométricas en un triángulo rectángulo</title>
+  <desc id="description">Tarjeta visual que relaciona seno, coseno y tangente con los lados de un triángulo de 35 grados.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .accent { fill: #4b93ff; }
+      .line { stroke: #4b93ff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="432" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <line x1="500" y1="24" x2="500" y2="456" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="64" y="76" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">IDENTIDAD TRIGONOMÉTRICA</text>
+    <text x="64" y="146" class="math bright" font-size="38" font-style="italic">tan(θ) = sin(θ) / cos(θ)</text>
+
+    <rect x="64" y="188" width="386" height="92" rx="16" fill="#2d323a"/>
+    <text x="88" y="222" class="muted" font-size="16">Para θ = 35°</text>
+    <text x="88" y="258" class="math bright" font-size="25">tan(35°) = 0.574 / 0.819 ≈ 0.700</text>
+
+    <text x="64" y="335" class="bright" font-size="18" font-weight="700">θ</text>
+    <text x="94" y="335" class="accent" font-size="18" font-weight="700">35°</text>
+    <rect x="64" y="360" width="386" height="14" rx="7" fill="#3a3f47"/>
+    <rect x="64" y="360" width="220" height="14" rx="7" fill="#4b93ff"/>
+    <circle cx="284" cy="367" r="15" fill="#f7f9fc"/>
+    <text x="64" y="415" class="muted" font-size="15">opuesto / adyacente</text>
+  </g>
+
+  <g class="ui">
+    <text x="540" y="76" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">TRIÁNGULO RECTÁNGULO</text>
+    <path d="M570 370 L570 120 L920 370 Z" class="line"/>
+    <path d="M570 338 L602 338 L602 370" class="line" stroke-width="3"/>
+    <path d="M646 370 A76 76 0 0 0 632 326" stroke="#f5c451" stroke-width="3" fill="none"/>
+
+    <circle cx="570" cy="120" r="8" fill="#4b93ff"/>
+    <circle cx="920" cy="370" r="8" fill="#4b93ff"/>
+    <text x="610" y="246" class="muted" font-size="16" transform="rotate(-35 610 246)">hipotenusa</text>
+    <text x="700" y="234" class="bright" font-size="17" font-weight="700" transform="rotate(-35 700 234)">1.00</text>
+    <text x="584" y="252" class="muted" font-size="16">opuesto</text>
+    <text x="584" y="276" class="bright" font-size="17" font-weight="700">0.57</text>
+    <text x="714" y="404" class="muted" font-size="16">adyacente</text>
+    <text x="802" y="404" class="bright" font-size="17" font-weight="700">0.82</text>
+    <text x="618" y="350" fill="#f5c451" font-size="18" font-weight="700">35°</text>
+  </g>
+</svg>
