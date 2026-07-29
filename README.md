@@ -31,12 +31,21 @@ separado del código del simulador y se escribe en español claro.
 - [Contexto permanente del proyecto](AI_CONTEXT.md)
 - [Estado y próximas tareas](PROJECT_STATUS.md)
 - [Material de la exposición](exposicion/README.md)
-- [Material de estudio](estudio/README.md)
 - [Abrir el simulador en GitHub Pages](https://chinuxs.github.io/refugio-fisica-utn/)
 
 > **Nota sobre GitHub Pages:** después de renombrar el repositorio a
 > `refugio-fisica-utn`, se comprobó que el simulador está publicado en la URL
 > enlazada arriba. La dirección anterior dejó de estar disponible.
+
+## Accesos de estudio
+
+- [Índice de material de estudio](estudio/README.md)
+- [Apuntes de Dinámica](estudio/apuntes/dinamica/README.md)
+- [Métodos de resolución de Dinámica](estudio/apuntes/dinamica/metodos-de-resolucion.md)
+- [Apuntes de Movimiento Circular](estudio/apuntes/movimiento-circular/README.md)
+- [Ejercicios resueltos](estudio/ejercicios/README.md)
+- [Errores frecuentes](estudio/errores-comunes/README.md)
+- [Parciales y finales](estudio/parciales/README.md)
 
 ## Cómo contribuir
 
