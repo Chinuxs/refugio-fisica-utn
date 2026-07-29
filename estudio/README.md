@@ -26,7 +26,6 @@ los documentos por tema, por ejemplo:
 
 - `apuntes/dinamica/`
 - `apuntes/movimiento-circular/`
-- `apuntes/MCUV/` para el material de Movimiento Circular ya existente.
 
 ### Ejercicios resueltos
 

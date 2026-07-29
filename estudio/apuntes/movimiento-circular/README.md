@@ -3,5 +3,6 @@
 Este directorio reunirá teoría explicada y resúmenes sobre magnitudes angulares,
 aceleración centrípeta, dinámica radial y movimiento circular vertical.
 
-El apunte general existente se conserva en
-[`../MCUV/`](../MCUV/README.md).
+## Archivo
+
+- [Movimiento Circular - Cheat Sheet UTN FRLP](Movimiento_Circular_UTN_FRLP.md)
