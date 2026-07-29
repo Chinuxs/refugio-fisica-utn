@@ -21,11 +21,21 @@ Si un examen tiene una resolución propia, conviene guardarla en
 
 ### Apuntes
 
-Guardar en `apuntes/` la teoría explicada, resúmenes y formularios. Organizar
-los documentos por tema, por ejemplo:
+Guardar en `apuntes/` la teoría explicada, resúmenes, formularios y métodos de
+resolución. Organizar los documentos por tema.
 
-- `apuntes/dinamica/`
-- `apuntes/movimiento-circular/`
+- [Dinámica](apuntes/dinamica/README.md)
+  - [Métodos de resolución](apuntes/dinamica/metodos-de-resolucion.md)
+- [Movimiento Circular](apuntes/movimiento-circular/README.md)
+
+Los métodos de resolución son herramientas reutilizables que aparecen durante
+los ejercicios, por ejemplo:
+
+- dividir ecuaciones para eliminar una incógnita;
+- elegir ejes convenientes;
+- descomponer vectores;
+- verificar unidades;
+- comprobar signos y sentidos.
 
 ### Ejercicios resueltos
 
