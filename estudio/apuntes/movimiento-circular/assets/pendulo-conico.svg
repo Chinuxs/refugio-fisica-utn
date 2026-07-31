@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title description">
+  <title id="title">Péndulo cónico y diagrama de cuerpo libre</title>
+  <desc id="description">Una masa gira unida a un hilo inclinado. Se indican el radio, el ángulo con la vertical y las componentes vertical y radial de la tensión.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="452" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <line x1="520" y1="24" x2="520" y2="476" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">GEOMETRÍA DEL GIRO</text>
+    <line x1="258" y1="104" x2="258" y2="400" stroke="#59616d" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="258" y1="112" x2="405" y2="330" stroke="#f7f9fc" stroke-width="5"/>
+    <circle cx="258" cy="112" r="11" fill="#f7f9fc"/>
+    <circle cx="405" cy="330" r="25" fill="#4b93ff"/>
+    <ellipse cx="258" cy="330" rx="147" ry="34" fill="none" stroke="#4b93ff" stroke-width="3" stroke-dasharray="9 9"/>
+    <path d="M258 177 A65 65 0 0 1 294 166" fill="none" stroke="#f5c451" stroke-width="3"/>
+    <text x="296" y="184" class="gold" font-size="20" font-weight="700">θ</text>
+    <text x="342" y="207" class="bright" font-size="18" font-weight="700" transform="rotate(56 342 207)">L</text>
+    <line x1="258" y1="384" x2="405" y2="384" stroke="#f5c451" stroke-width="3" marker-end="url(#arrowGold)"/>
+    <text x="323" y="414" class="gold" font-size="19" font-weight="700">R = L sin(θ)</text>
+  </g>
+
+  <g class="ui">
+    <text x="560" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">DCL Y COMPONENTES</text>
+    <circle cx="730" cy="248" r="25" fill="#4b93ff"/>
+    <line x1="730" y1="248" x2="645" y2="122" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="650" y="142" class="blue" font-size="20" font-weight="700">T</text>
+    <line x1="730" y1="248" x2="730" y2="388" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="746" y="372" class="gold" font-size="20" font-weight="700">mg</text>
+    <line x1="730" y1="248" x2="730" y2="120" stroke="#59616d" stroke-width="2" stroke-dasharray="7 7"/>
+    <line x1="730" y1="248" x2="610" y2="248" stroke="#59616d" stroke-width="2" stroke-dasharray="7 7"/>
+    <text x="558" y="190" class="muted" font-size="17">T cos(θ)</text>
+    <text x="594" y="280" class="muted" font-size="17">T sin(θ)</text>
+
+    <rect x="790" y="120" width="146" height="220" rx="16" fill="#2d323a"/>
+    <text x="810" y="158" class="muted" font-size="16">Vertical</text>
+    <text x="810" y="194" class="math bright" font-size="19">T cos θ = mg</text>
+    <line x1="810" y1="218" x2="916" y2="218" stroke="#444b57"/>
+    <text x="810" y="252" class="muted" font-size="16">Radial</text>
+    <text x="810" y="288" class="math bright" font-size="18">T sin θ = mvₜ²/R</text>
+    <text x="810" y="322" class="gold" font-size="16" font-weight="700">hacia el centro</text>
+  </g>
+</svg>
