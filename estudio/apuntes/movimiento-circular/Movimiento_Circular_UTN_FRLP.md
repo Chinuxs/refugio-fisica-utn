@@ -58,11 +58,26 @@ $$
 a_c=\omega^2 R
 $$
 
-### Características
+### ¿Qué representa?
 
-* Siempre apunta hacia el centro.
-* Cambia la dirección de la velocidad.
-* Existe aunque la rapidez sea constante.
+La aceleración centrípeta aparece porque el vector velocidad cambia
+continuamente de dirección durante el movimiento circular.
+
+Puede existir aunque la rapidez permanezca constante.
+
+Siempre apunta hacia el centro de la trayectoria.
+
+### ¿Qué cambia realmente?
+
+En MCU:
+
+```text
+✔ rapidez → constante
+
+✔ velocidad angular → constante
+
+✘ dirección del vector velocidad → cambia continuamente
+```
 
 ---
 
