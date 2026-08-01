@@ -19,6 +19,11 @@ Conviene probarlo cuando:
 
 Para una masa suspendida dentro de un automóvil acelerado:
 
+Tomando un marco de referencia inercial y suponiendo que la masa mantiene un
+ángulo constante respecto del automóvil, su aceleración horizontal es la del
+automóvil y su aceleración vertical es cero. En el DCL aparecen solamente las
+fuerzas reales: tensión y peso.
+
 $$
 T\sin\theta=ma
 $$
@@ -51,6 +56,10 @@ $$
 > ecuación (2)”.
 
 ## ⚠️ Error frecuente
+
+No mezclar marcos de referencia: en el marco inercial no se agrega una fuerza
+por la aceleración del automóvil. Si se analiza desde el automóvil, que es un
+marco no inercial, el planteo requiere explicitar la fuerza inercial.
 
 Solo se simplifican **factores** comunes:
 

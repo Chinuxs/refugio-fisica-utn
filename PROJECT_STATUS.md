@@ -22,6 +22,8 @@ Preparar Física I concentrándose en:
 - [x] Organización por conceptos, herramientas matemáticas, métodos,
   referencias rápidas y ejercicios.
 - [x] Convención visual común para fichas y primeros diagramas SVG.
+- [x] Criterio de signos según el eje y marco de referencia del péndulo en un
+  automóvil acelerado.
 - [ ] Resumen conceptual.
 - [ ] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
@@ -35,6 +37,8 @@ Preparar Física I concentrándose en:
 ## Movimiento Circular
 
 - [x] Apunte general de consulta.
+- [x] Condición física de una cuerda en el punto más alto de un círculo
+  vertical.
 - [ ] Movimiento Circular Uniforme.
 - [ ] Velocidad angular.
 - [ ] Velocidad tangencial.
@@ -64,5 +68,6 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**29 de julio de 2026:** se adoptó una convención visual común para las fichas y
-se incorporaron los primeros diagramas SVG de trigonometría y Dinámica.
+**31 de julio de 2026:** se incorporaron el criterio de signos según el eje, la
+elección de marco para el péndulo en un automóvil y la condición de tensión no
+negativa para una cuerda en movimiento circular vertical.
