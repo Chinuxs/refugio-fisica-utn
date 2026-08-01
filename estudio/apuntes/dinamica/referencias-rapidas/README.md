@@ -5,4 +5,5 @@ ejercicio.
 
 ## Referencias disponibles
 
+- [Rozamiento estático](rozamiento-estatico.md)
 - [Trigonometría](trigonometria.md)

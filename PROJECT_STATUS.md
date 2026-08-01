@@ -24,6 +24,8 @@ Preparar Física I concentrándose en:
 - [x] Convención visual común para fichas y primeros diagramas SVG.
 - [x] Criterio de signos según el eje y marco de referencia del péndulo en un
   automóvil acelerado.
+- [x] Criterio para usar el rozamiento estático máximo y decidir si el sistema
+  permanece en equilibrio.
 - [ ] Resumen conceptual.
 - [ ] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
@@ -68,6 +70,6 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**31 de julio de 2026:** se incorporaron el criterio de signos según el eje, la
-elección de marco para el péndulo en un automóvil y la condición de tensión no
-negativa para una cuerda en movimiento circular vertical.
+**1 de agosto de 2026:** se incorporaron el criterio correcto para usar el
+rozamiento estático máximo y el método para decidir si un sistema permanece en
+equilibrio.
