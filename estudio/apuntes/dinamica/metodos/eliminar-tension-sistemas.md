@@ -11,33 +11,12 @@ es un método para resolver el sistema.
 
 ## 🖼️ Esquema / dibujo
 
-```text
-Bloque A -------- cuerda ideal -------- Bloque B
-          → T                     T ←
-
-Sistema completo: bloques + cuerda
-
-                 +T
-                 −T
-                  ↓
-                  0
-
-Solo quedan las fuerzas externas:
-peso, rozamiento, normales, etc.
-```
+![Sistema de dos bloques y cancelación de la tensión](../assets/eliminacion-tension-sistema.svg)
 
 ### ¿Qué operaciones se usan?
 
-```text
-              sumar dos ecuaciones
-                       │
-            ┌──────────┴──────────┐
-            ↓                     ↓
- cancelar la incógnita T   factorizar la incógnita a
-          +T − T = 0          mA·a + mB·a
-                                   ↓
-                              (mA + mB)a
-```
+Sumar las ecuaciones → cancelar \(+T-T\) → factorizar
+\(m_Aa+m_Ba=(m_A+m_B)a\).
 
 ### ¿Por qué desaparece la tensión?
 
@@ -92,17 +71,7 @@ externas.
 
 ### Método general
 
-```text
-1. Plantear una ecuación por cuerpo
-                 ↓
-2. Identificar incógnitas comunes
-                 ↓
-3. Sumar las ecuaciones
-                 ↓
-4. Eliminar las fuerzas internas
-                 ↓
-5. Resolver la incógnita restante
-```
+![Método general para resolver un sistema de cuerpos](../assets/metodo-sistema-cuerpos.svg)
 
 ## ⚠️ Error frecuente
 

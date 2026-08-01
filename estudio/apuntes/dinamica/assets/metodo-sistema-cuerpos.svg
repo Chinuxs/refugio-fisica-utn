@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title description">
+  <title id="title">Método general para resolver un sistema de cuerpos</title>
+  <desc id="description">Flujo de cinco pasos: plantear una ecuación por cuerpo, identificar incógnitas comunes, sumar las ecuaciones, eliminar fuerzas internas y resolver la incógnita restante. El resultado distingue las fuerzas externas de las internas.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="512" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">MÉTODO PARA UN SISTEMA DE CUERPOS</text>
+
+    <rect x="62" y="104" width="260" height="92" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <circle cx="92" cy="134" r="17" fill="#4b93ff"/>
+    <text x="87" y="141" class="bright" font-size="18" font-weight="700">1</text>
+    <text x="122" y="139" class="bright" font-size="18" font-weight="700">Una ecuación</text>
+    <text x="92" y="172" class="muted" font-size="17">por cada cuerpo</text>
+
+    <line x1="322" y1="150" x2="368" y2="150" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <rect x="384" y="104" width="260" height="92" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <circle cx="414" cy="134" r="17" fill="#4b93ff"/>
+    <text x="409" y="141" class="bright" font-size="18" font-weight="700">2</text>
+    <text x="444" y="139" class="bright" font-size="18" font-weight="700">Identificar</text>
+    <text x="414" y="172" class="muted" font-size="17">incógnitas comunes</text>
+
+    <line x1="644" y1="150" x2="690" y2="150" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <rect x="706" y="104" width="230" height="92" rx="18" fill="#17345c" stroke="#4b93ff"/>
+    <circle cx="736" cy="134" r="17" fill="#4b93ff"/>
+    <text x="731" y="141" class="bright" font-size="18" font-weight="700">3</text>
+    <text x="766" y="139" class="bright" font-size="18" font-weight="700">Sumar</text>
+    <text x="736" y="172" class="muted" font-size="17">miembro a miembro</text>
+
+    <line x1="821" y1="196" x2="821" y2="248" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <rect x="572" y="264" width="364" height="98" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <circle cx="602" cy="295" r="17" fill="#4b93ff"/>
+    <text x="597" y="302" class="bright" font-size="18" font-weight="700">4</text>
+    <text x="632" y="298" class="bright" font-size="18" font-weight="700">Eliminar fuerzas internas</text>
+    <text x="602" y="335" class="gold math" font-size="20" font-weight="700">+T − T = 0</text>
+
+    <line x1="572" y1="313" x2="526" y2="313" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <rect x="62" y="264" width="448" height="98" rx="18" fill="#17345c" stroke="#4b93ff"/>
+    <circle cx="92" cy="295" r="17" fill="#4b93ff"/>
+    <text x="87" y="302" class="bright" font-size="18" font-weight="700">5</text>
+    <text x="122" y="298" class="bright" font-size="18" font-weight="700">Resolver la incógnita restante</text>
+    <text x="92" y="335" class="muted" font-size="17">Una ecuación para la aceleración</text>
+
+    <rect x="62" y="402" width="874" height="90" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <text x="92" y="438" class="muted" font-size="16" font-weight="700" letter-spacing="1.2">LECTURA FÍSICA</text>
+    <text x="92" y="471" class="bright" font-size="19">Las fuerzas internas se cancelan.</text>
+    <text x="470" y="471" class="gold" font-size="19" font-weight="700">Las fuerzas externas aceleran al sistema.</text>
+  </g>
+</svg>
