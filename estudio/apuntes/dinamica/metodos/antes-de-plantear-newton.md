@@ -7,31 +7,7 @@ Primero decidir si el sistema se mueve. Si permanece en equilibrio,
 
 ## 🖼️ Esquema / dibujo
 
-```text
-1. ¿El enunciado da un caso límite?
-                 ↓
-                SÍ
-                 ↓
-           usar fₑ = μₑN
-```
-
-```text
-2. ¿La masa real es menor que la masa límite?
-                       ↓
-                      SÍ
-                       ↓
-       el sistema permanece en equilibrio
-                       ↓
-                     a = 0
-```
-
-```text
-3. Si a = 0
-          ↓
-no plantear ecuaciones con aceleración
-          ↓
-volver al equilibrio
-```
+![Flujo para decidir si el sistema permanece en equilibrio](../assets/antes-de-plantear-newton.svg)
 
 ## 📐 Fórmula
 

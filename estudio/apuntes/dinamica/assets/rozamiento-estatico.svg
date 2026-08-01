@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title description">
+  <title id="title">El rozamiento estático se adapta hasta alcanzar su valor máximo</title>
+  <desc id="description">Comparación de un bloque con una fuerza aplicada pequeña y otro al límite de deslizamiento. Las flechas opuestas tienen igual tamaño en cada caso y una barra muestra que el rozamiento puede variar entre cero y mu e por N.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="472" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <line x1="500" y1="46" x2="500" y2="344" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="64" y="78" class="muted" font-size="17" font-weight="700" letter-spacing="1.4">FUERZA PEQUEÑA</text>
+    <text x="534" y="78" class="muted" font-size="17" font-weight="700" letter-spacing="1.4">LÍMITE DE DESLIZAMIENTO</text>
+
+    <line x1="76" y1="284" x2="454" y2="284" stroke="#59616d" stroke-width="5"/>
+    <rect x="210" y="192" width="126" height="90" rx="12" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <text x="238" y="246" class="bright" font-size="20" font-weight="700">BLOQUE</text>
+    <line x1="336" y1="220" x2="408" y2="220" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="342" y="202" class="blue" font-size="18" font-weight="700">F aplicada</text>
+    <line x1="210" y1="254" x2="138" y2="254" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="146" y="238" class="gold math" font-size="20" font-weight="700">fₑ</text>
+    <text x="118" y="326" class="bright" font-size="18">fₑ toma el valor necesario</text>
+
+    <line x1="546" y1="284" x2="924" y2="284" stroke="#59616d" stroke-width="5"/>
+    <rect x="680" y="192" width="126" height="90" rx="12" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <text x="708" y="246" class="bright" font-size="20" font-weight="700">BLOQUE</text>
+    <line x1="806" y1="220" x2="904" y2="220" stroke="#4b93ff" stroke-width="7" marker-end="url(#arrowBlue)"/>
+    <text x="820" y="198" class="blue" font-size="18" font-weight="700">F aumenta</text>
+    <line x1="680" y1="254" x2="582" y2="254" stroke="#f5c451" stroke-width="7" marker-end="url(#arrowGold)"/>
+    <text x="592" y="234" class="gold math" font-size="20" font-weight="700">fₑ,máx</text>
+    <text x="618" y="326" class="bright math" font-size="20">fₑ,máx = μₑN</text>
+
+    <text x="64" y="382" class="muted" font-size="16" font-weight="700" letter-spacing="1.2">VALORES POSIBLES DEL ROZAMIENTO ESTÁTICO</text>
+    <rect x="64" y="408" width="872" height="24" rx="12" fill="#2d323a" stroke="#59616d"/>
+    <rect x="64" y="408" width="872" height="24" rx="12" fill="#4b93ff" opacity="0.68"/>
+    <circle cx="690" cy="420" r="15" fill="#f7f9fc" stroke="#181b20" stroke-width="3"/>
+    <text x="60" y="466" class="bright math" font-size="21">0</text>
+    <text x="642" y="466" class="bright" font-size="17">un valor de equilibrio</text>
+    <text x="848" y="466" class="gold math" font-size="21" font-weight="700">μₑN</text>
+  </g>
+</svg>

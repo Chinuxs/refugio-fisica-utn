@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title description">
+  <title id="title">Flujo para decidir si un sistema permanece en equilibrio</title>
+  <desc id="description">Diagrama de decisión. Primero identifica si el enunciado plantea un caso límite, luego compara la masa real con la masa límite y, si no se supera, concluye que la aceleración es cero y aplica equilibrio a dos bloques unidos por una cuerda.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="602" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">ANTES DE ESCRIBIR ECUACIONES CON ACELERACIÓN</text>
+
+    <rect x="62" y="102" width="360" height="82" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <circle cx="92" cy="143" r="17" fill="#4b93ff"/>
+    <text x="87" y="150" class="bright" font-size="18" font-weight="700">1</text>
+    <text x="122" y="136" class="bright" font-size="18" font-weight="700">¿El enunciado da</text>
+    <text x="122" y="161" class="bright" font-size="18" font-weight="700">un caso límite?</text>
+
+    <line x1="422" y1="143" x2="514" y2="143" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="451" y="127" class="blue" font-size="15" font-weight="700">SÍ</text>
+    <rect x="530" y="102" width="406" height="82" rx="18" fill="#17345c" stroke="#4b93ff"/>
+    <text x="562" y="134" class="muted" font-size="16">Resolver el caso límite con</text>
+    <text x="562" y="166" class="bright math" font-size="25" font-weight="700">fₑ = fₑ,máx = μₑN</text>
+
+    <line x1="242" y1="184" x2="242" y2="238" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="254" y="216" class="blue" font-size="15" font-weight="700">DESPUÉS</text>
+
+    <rect x="62" y="254" width="360" height="82" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <circle cx="92" cy="295" r="17" fill="#4b93ff"/>
+    <text x="87" y="302" class="bright" font-size="18" font-weight="700">2</text>
+    <text x="122" y="288" class="bright" font-size="18" font-weight="700">¿La masa real es menor</text>
+    <text x="122" y="313" class="bright" font-size="18" font-weight="700">que la masa límite?</text>
+
+    <line x1="422" y1="295" x2="514" y2="295" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="451" y="279" class="blue" font-size="15" font-weight="700">SÍ</text>
+    <rect x="530" y="254" width="406" height="82" rx="18" fill="#17345c" stroke="#4b93ff"/>
+    <text x="562" y="287" class="bright" font-size="18" font-weight="700">Permanece en equilibrio</text>
+    <text x="562" y="317" class="gold math" font-size="25" font-weight="700">a = 0</text>
+
+    <line x1="733" y1="336" x2="733" y2="390" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+
+    <rect x="62" y="408" width="874" height="158" rx="20" fill="#2d323a" stroke="#59616d"/>
+    <circle cx="92" cy="449" r="17" fill="#4b93ff"/>
+    <text x="87" y="456" class="bright" font-size="18" font-weight="700">3</text>
+    <text x="122" y="444" class="bright" font-size="19" font-weight="700">Volver al equilibrio</text>
+    <text x="122" y="473" class="muted" font-size="17">No hace falta plantear ecuaciones con aceleración.</text>
+
+    <line x1="522" y1="426" x2="522" y2="548" stroke="#444b57"/>
+    <text x="558" y="444" class="muted" font-size="16" font-weight="700" letter-spacing="1.2">DOS BLOQUES UNIDOS</text>
+    <text x="558" y="478" class="bright math" font-size="24">ΣF = 0</text>
+    <rect x="558" y="500" width="156" height="42" rx="10" fill="#17345c" stroke="#4b93ff"/>
+    <text x="582" y="528" class="bright math" font-size="20">A: T = fₑ</text>
+    <rect x="734" y="500" width="166" height="42" rx="10" fill="#2b2a1d" stroke="#f5c451"/>
+    <text x="758" y="528" class="bright math" font-size="20">B: Pᴮ = T</text>
+
+    <text x="62" y="600" class="gold" font-size="18" font-weight="700">El equilibrio determina fₑ; μₑN solo fija su máximo.</text>
+  </g>
+</svg>
