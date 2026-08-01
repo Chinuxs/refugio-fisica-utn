@@ -17,26 +17,10 @@ $$
 
 ## 🖼️ Esquema / dibujo
 
-```text
-F aplicada pequeña
+![Comparación entre rozamiento estático adaptable y máximo](../assets/rozamiento-estatico.svg)
 
-      →
-[ BLOQUE ]
-← fₑ
-
-fₑ se adapta para mantener el equilibrio.
-```
-
-```text
-F aplicada aumenta
-
-      →→→
-[ BLOQUE ]
-←←← fₑ
-
-hasta llegar a:
-fₑ,máx = μₑN
-```
+Fuerza pequeña → \(f_e\) se adapta. Fuerza al límite →
+\(f_e=f_{e,\text{máx}}=\mu_eN\).
 
 ## 📐 Fórmula
 
