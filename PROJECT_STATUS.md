@@ -26,6 +26,8 @@ Preparar Física I concentrándose en:
   automóvil acelerado.
 - [x] Criterio para usar el rozamiento estático máximo y decidir si el sistema
   permanece en equilibrio.
+- [x] Eliminación de fuerzas internas al sumar las ecuaciones de un sistema de
+  partículas.
 - [ ] Resumen conceptual.
 - [ ] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
@@ -71,5 +73,6 @@ Preparar Física I concentrándose en:
 ## Última actualización
 
 **1 de agosto de 2026:** se incorporaron el criterio correcto para usar el
-rozamiento estático máximo y el método para decidir si un sistema permanece en
-equilibrio.
+rozamiento estático máximo, el método para decidir si un sistema permanece en
+equilibrio y la eliminación de la tensión como fuerza interna al sumar las
+ecuaciones del sistema.

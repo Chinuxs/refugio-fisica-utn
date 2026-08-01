@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-labelledby="title description">
+  <title id="title">Cancelación de la tensión en dos bloques unidos por una cuerda ideal</title>
+  <desc id="description">Un bloque A se mueve a la derecha sobre una mesa con rozamiento y está unido mediante una cuerda y una polea a un bloque B colgante que se mueve hacia abajo. La tensión tiene signo positivo en la ecuación de A y negativo en la de B. Al sumar ambas ecuaciones, las tensiones se cancelan y quedan las fuerzas externas.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="672" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <line x1="500" y1="44" x2="500" y2="392" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">SISTEMA FÍSICO</text>
+    <text x="536" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">DOS ECUACIONES SIMULTÁNEAS</text>
+
+    <line x1="70" y1="298" x2="412" y2="298" stroke="#59616d" stroke-width="5"/>
+    <line x1="412" y1="298" x2="412" y2="490" stroke="#59616d" stroke-width="5"/>
+    <circle cx="412" cy="265" r="34" fill="#2d323a" stroke="#aab1bd" stroke-width="4"/>
+    <path d="M264 216 H412 A34 34 0 0 1 446 250 V362" fill="none" stroke="#f7f9fc" stroke-width="4"/>
+
+    <rect x="172" y="214" width="92" height="82" rx="12" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <text x="204" y="263" class="bright" font-size="22" font-weight="700">A</text>
+    <rect x="402" y="362" width="88" height="88" rx="12" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <text x="434" y="414" class="bright" font-size="22" font-weight="700">B</text>
+
+    <line x1="264" y1="242" x2="346" y2="242" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="292" y="225" class="blue math" font-size="21" font-weight="700">T</text>
+    <line x1="172" y1="270" x2="96" y2="270" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="112" y="251" class="gold math" font-size="20" font-weight="700">fᵣ</text>
+    <line x1="446" y1="362" x2="446" y2="318" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="458" y="342" class="blue math" font-size="21" font-weight="700">T</text>
+    <line x1="446" y1="450" x2="446" y2="522" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="460" y="505" class="gold math" font-size="20" font-weight="700">Pᴮ</text>
+
+    <line x1="112" y1="150" x2="220" y2="150" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="112" y="130" class="bright" font-size="16">positivo A</text>
+    <line x1="350" y1="108" x2="350" y2="174" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="370" y="145" class="bright" font-size="16">positivo B</text>
+
+    <rect x="536" y="108" width="400" height="94" rx="16" fill="#2d323a" stroke="#59616d"/>
+    <text x="566" y="145" class="muted" font-size="16" font-weight="700">BLOQUE A</text>
+    <text x="566" y="180" class="bright math" font-size="27">T − fᵣ = mᴬa</text>
+    <rect x="536" y="222" width="400" height="94" rx="16" fill="#2d323a" stroke="#59616d"/>
+    <text x="566" y="259" class="muted" font-size="16" font-weight="700">BLOQUE B</text>
+    <text x="566" y="294" class="bright math" font-size="27">Pᴮ − T = mᴮa</text>
+    <text x="536" y="356" class="blue" font-size="17" font-weight="700">MISMA T · SIGNOS OPUESTOS</text>
+    <text x="536" y="386" class="bright" font-size="17">Los ejes positivos siguen el movimiento.</text>
+
+    <text x="62" y="560" class="muted" font-size="16" font-weight="700" letter-spacing="1.2">SUMAR · CANCELAR · FACTORIZAR</text>
+    <text x="178" y="612" class="bright math" font-size="27">(+T − T) + (Pᴮ − fᵣ) = (mᴬ + mᴮ)a</text>
+    <line x1="180" y1="600" x2="282" y2="600" stroke="#f05f68" stroke-width="3"/>
+    <line x1="500" y1="624" x2="500" y2="640" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <rect x="330" y="644" width="340" height="44" rx="14" fill="#17345c" stroke="#4b93ff"/>
+    <text x="360" y="674" class="bright math" font-size="24" font-weight="700">Pᴮ − fᵣ = (mᴬ + mᴮ)a</text>
+  </g>
+</svg>
