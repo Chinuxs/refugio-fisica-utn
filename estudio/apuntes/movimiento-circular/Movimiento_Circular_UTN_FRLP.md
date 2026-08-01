@@ -279,8 +279,18 @@ $$
 v_{\text{arriba,min}}=\sqrt{gR}
 $$
 
-Para una masa atada a una cuerda, se reemplaza $N$ por la tensión y la
-condición límite es tensión nula.
+### Si el cuerpo está unido a una cuerda
+
+En el DCL se usa la tensión $T$, no la normal $N$. En el punto más alto, con el
+eje radial positivo hacia el centro:
+
+$$
+T+mg=m\frac{v^2}{R}
+$$
+
+Una cuerda puede tirar, pero no empujar: debe cumplirse $T\geq0$. Si el cálculo
+da $T<0$, la cuerda se afloja y ese movimiento circular no puede mantenerse
+con los datos supuestos. El caso límite es $T=0$.
 
 Si sólo actúan fuerzas conservativas, relacionar velocidades entre alturas con:
 
