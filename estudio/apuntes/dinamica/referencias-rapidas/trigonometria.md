@@ -30,3 +30,4 @@ En un triángulo rectángulo, elegí primero el ángulo de referencia. Los nombr
 ## 🔗 Ver también
 
 - [Dividir ecuaciones para eliminar una incógnita común](../metodos/dividir-ecuaciones.md)
+- [Descomponer una fuerza inclinada](../herramientas-matematicas/descomponer-fuerza-inclinada.md)

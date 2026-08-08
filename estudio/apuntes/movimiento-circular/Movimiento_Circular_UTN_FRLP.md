@@ -349,6 +349,10 @@ $$
 Es el mismo patrón matemático que el peralte sin roce, pero las fuerzas reales
 son otras. Estas ecuaciones suponen viraje nivelado y rapidez constante.
 
+**Apoyo de Dinámica:** [Segunda Ley de Newton](../dinamica/conceptos/segunda-ley-newton.md),
+[equilibrio por componentes](../dinamica/conceptos/equilibrio-por-componentes.md)
+y [descomposición de una fuerza inclinada](../dinamica/herramientas-matematicas/descomponer-fuerza-inclinada.md).
+
 ---
 
 # 9. 🛰️ Órbita circular

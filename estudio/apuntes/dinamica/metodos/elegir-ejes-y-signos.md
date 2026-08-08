@@ -44,5 +44,6 @@ negativo.
 
 ## 🔗 Ver también
 
+- [Segunda Ley de Newton](../conceptos/segunda-ley-newton.md)
 - [Dividir ecuaciones para eliminar una incógnita común](dividir-ecuaciones.md)
 - [Movimiento Circular - Cheat Sheet UTN FRLP](../../movimiento-circular/Movimiento_Circular_UTN_FRLP.md)

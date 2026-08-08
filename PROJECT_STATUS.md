@@ -28,8 +28,10 @@ Preparar Física I concentrándose en:
   permanece en equilibrio.
 - [x] Eliminación de fuerzas internas al sumar las ecuaciones de un sistema de
   partículas.
+- [x] Equilibrio por componentes y Tercera Ley aplicados al caso de un avión.
+- [x] Herramientas rápidas de descomposición, conversión y verificación.
 - [ ] Resumen conceptual.
-- [ ] Segunda Ley de Newton.
+- [x] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
 - [ ] Tensión.
 - [ ] Rozamiento.
@@ -76,6 +78,6 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**8 de agosto de 2026:** se reorganizó el apunte de Movimiento Circular como
-machete visual de resolución y se incorporaron diagramas originales para
-comparar ejes, fuerzas radiales, curvas horizontales y condiciones de contacto.
+**8 de agosto de 2026:** se agregaron fichas breves de leyes de Newton,
+equilibrio por componentes, descomposición de fuerzas y controles numéricos,
+con enlaces desde el caso circular del avión.
