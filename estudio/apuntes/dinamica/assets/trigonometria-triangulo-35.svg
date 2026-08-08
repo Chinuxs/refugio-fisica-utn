@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title description">
-  <title id="title">Relaciones trigonométricas en un triángulo rectángulo</title>
+  <title id="title">Relaciones trigonométricas respecto de un ángulo de 35 grados</title>
   <desc id="description">Tarjeta visual que relaciona seno, coseno y tangente con los lados de un triángulo rectángulo. El ángulo de referencia de 35 grados está en el vértice inferior derecho; el cateto vertical es el opuesto y el horizontal es el adyacente.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">

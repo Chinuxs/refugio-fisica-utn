@@ -7,7 +7,7 @@ En un triángulo rectángulo, elegí primero el ángulo de referencia. Los nombr
 
 ## 🖼️ Esquema / dibujo
 
-![Relaciones trigonométricas en un triángulo rectángulo](../assets/trigonometria-triangulo.svg)
+![Relaciones trigonométricas respecto de un ángulo de 35 grados](../assets/trigonometria-triangulo-35.svg)
 
 ## 📐 Fórmula
 
