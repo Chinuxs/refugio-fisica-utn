@@ -42,7 +42,7 @@ $$
 \tan\theta=\frac{a}{g}
 $$
 
-Los factores \(T\) y \(m\) se simplifican porque son comunes y no nulos.
+Los factores $T$ y $m$ se simplifican porque son comunes y no nulos.
 
 La propiedad usada es:
 

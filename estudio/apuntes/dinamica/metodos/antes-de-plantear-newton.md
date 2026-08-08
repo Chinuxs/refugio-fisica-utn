@@ -3,7 +3,7 @@
 ## 🎯 Qué recordar
 
 Primero decidir si el sistema se mueve. Si permanece en equilibrio,
-\(a=0\) y no hacen falta ecuaciones con aceleración.
+$a=0$ y no hacen falta ecuaciones con aceleración.
 
 ## 🖼️ Esquema / dibujo
 
@@ -25,14 +25,14 @@ T = fₑ          Pᴮ = T
 ```
 
 El rozamiento se obtiene del equilibrio. No se reemplaza directamente por
-\(\mu_eN\).
+$\mu_eN$.
 
 ## ⚠️ Error frecuente
 
 ❌ Suponer movimiento y plantear aceleraciones sin revisar el caso límite.
 
 ✔ Comparar primero la situación real con el límite. Si no lo supera, usar
-\(a=0\) y equilibrio.
+$a=0$ y equilibrio.
 
 ## 🔗 Ver también
 

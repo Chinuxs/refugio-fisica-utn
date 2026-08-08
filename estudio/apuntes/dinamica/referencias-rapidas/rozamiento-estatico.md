@@ -2,7 +2,7 @@
 
 ## 🎯 Qué recordar
 
-El rozamiento estático **no siempre vale** \(\mu_e N\). Se adapta a lo
+El rozamiento estático **no siempre vale** $\mu_e N$. Se adapta a lo
 necesario para mantener el equilibrio:
 
 $$
@@ -19,24 +19,24 @@ $$
 
 ![Comparación entre rozamiento estático adaptable y máximo](../assets/rozamiento-estatico.svg)
 
-Fuerza pequeña → \(f_e\) se adapta. Fuerza al límite →
-\(f_e=f_{e,\text{máx}}=\mu_eN\).
+Fuerza pequeña → $f_e$ se adapta. Fuerza al límite →
+$f_e=f_{e,\text{máx}}=\mu_eN$.
 
 ## 📐 Fórmula
 
-Usar \(f_e=\mu_eN\) si dice:
+Usar $f_e=\mu_eN$ si dice:
 
 - «está a punto de deslizar»;
 - «masa máxima»;
 - «rozamiento máximo»;
 - «umbral de movimiento».
 
-No usarla solo porque el cuerpo está en reposo. En ese caso, obtener \(f_e\)
-con la Segunda Ley de Newton y verificar que \(f_e\leq\mu_eN\).
+No usarla solo porque el cuerpo está en reposo. En ese caso, obtener $f_e$
+con la Segunda Ley de Newton y verificar que $f_e\leq\mu_eN$.
 
 ### Checklist
 
-Antes de escribir \(f_e=\mu_eN\), preguntarme:
+Antes de escribir $f_e=\mu_eN$, preguntarme:
 
 - [ ] ¿Está en el límite?
 - [ ] ¿Dice «masa máxima»?
@@ -54,7 +54,7 @@ f_e=\mu_eN
 $$
 
 ✔ Si está quieto, primero aplicar equilibrio. Luego verificar
-\(f_e\leq\mu_eN\). La igualdad corresponde solo al límite de deslizamiento.
+$f_e\leq\mu_eN$. La igualdad corresponde solo al límite de deslizamiento.
 
 ## 🔗 Ver también
 

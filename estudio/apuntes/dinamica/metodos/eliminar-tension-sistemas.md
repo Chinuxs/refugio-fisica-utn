@@ -3,10 +3,10 @@
 ## 🎯 Qué recordar
 
 Dos cuerpos unidos por una cuerda ideal comparten dos incógnitas: la tensión
-\(T\) y la aceleración \(a\). Sus ecuaciones son verdaderas al mismo tiempo:
+$T$ y la aceleración $a$. Sus ecuaciones son verdaderas al mismo tiempo:
 forman un **sistema de ecuaciones**.
 
-Sumarlas miembro a miembro permite cancelar \(T\). No es «sumar polinomios»:
+Sumarlas miembro a miembro permite cancelar $T$. No es «sumar polinomios»:
 es un método para resolver el sistema.
 
 ## 🖼️ Esquema / dibujo
@@ -15,8 +15,8 @@ es un método para resolver el sistema.
 
 ### ¿Qué operaciones se usan?
 
-Sumar las ecuaciones → cancelar \(+T-T\) → factorizar
-\(m_Aa+m_Ba=(m_A+m_B)a\).
+Sumar las ecuaciones → cancelar $+T-T$ → factorizar
+$m_Aa+m_Ba=(m_A+m_B)a$.
 
 ### ¿Por qué desaparece la tensión?
 
@@ -75,10 +75,10 @@ externas.
 
 ## ⚠️ Error frecuente
 
-❌ Pensar que se están sumando polinomios o que \(T\) desaparece por un truco
+❌ Pensar que se están sumando polinomios o que $T$ desaparece por un truco
 algebraico.
 
-✔ Se está resolviendo un sistema de ecuaciones. \(T\) se cancela porque aparece
+✔ Se está resolviendo un sistema de ecuaciones. $T$ se cancela porque aparece
 con signos opuestos y, para el sistema completo, representa una interacción
 interna.
 
