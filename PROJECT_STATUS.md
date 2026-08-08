@@ -41,6 +41,8 @@ Preparar Física I concentrándose en:
 ## Movimiento Circular
 
 - [x] Apunte general de consulta.
+- [x] Machete visual para reconocer situaciones, elegir el DCL y aplicar
+  condiciones límite.
 - [x] Condición física de una cuerda en el punto más alto de un círculo
   vertical.
 - [ ] Movimiento Circular Uniforme.
@@ -72,7 +74,6 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**1 de agosto de 2026:** se incorporaron el criterio correcto para usar el
-rozamiento estático máximo, el método para decidir si un sistema permanece en
-equilibrio y la eliminación de la tensión como fuerza interna al sumar las
-ecuaciones del sistema.
+**8 de agosto de 2026:** se reorganizó el apunte de Movimiento Circular como
+machete visual de resolución, con mapa de reconocimiento, dibujos mínimos,
+selección de ecuaciones y condiciones límite.
