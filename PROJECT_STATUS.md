@@ -28,8 +28,10 @@ Preparar Física I concentrándose en:
   permanece en equilibrio.
 - [x] Eliminación de fuerzas internas al sumar las ecuaciones de un sistema de
   partículas.
+- [x] Equilibrio por componentes y Tercera Ley aplicados al caso de un avión.
+- [x] Herramientas rápidas de descomposición, conversión y verificación.
 - [ ] Resumen conceptual.
-- [ ] Segunda Ley de Newton.
+- [x] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
 - [ ] Tensión.
 - [ ] Rozamiento.
@@ -41,6 +43,10 @@ Preparar Física I concentrándose en:
 ## Movimiento Circular
 
 - [x] Apunte general de consulta.
+- [x] Machete visual para reconocer situaciones, elegir el DCL y aplicar
+  condiciones límite.
+- [x] Diagramas comparativos de ejes y signos, giros horizontales y contacto
+  en loop/cima convexa.
 - [x] Condición física de una cuerda en el punto más alto de un círculo
   vertical.
 - [ ] Movimiento Circular Uniforme.
@@ -72,7 +78,6 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**1 de agosto de 2026:** se incorporaron el criterio correcto para usar el
-rozamiento estático máximo, el método para decidir si un sistema permanece en
-equilibrio y la eliminación de la tensión como fuerza interna al sumar las
-ecuaciones del sistema.
+**8 de agosto de 2026:** se agregaron fichas breves de leyes de Newton,
+equilibrio por componentes, descomposición de fuerzas y controles numéricos,
+con enlaces desde el caso circular del avión.

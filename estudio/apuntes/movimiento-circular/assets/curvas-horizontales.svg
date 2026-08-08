@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title description">
+  <title id="title">Qué fuerza mantiene tres giros horizontales</title>
+  <desc id="description">Comparación de una curva plana, una curva peraltada sin roce y un avión en viraje nivelado. En cada caso se muestran solamente las fuerzas reales y se identifica la fuerza o componente horizontal que apunta hacia el centro.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="652" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <line x1="333" y1="88" x2="333" y2="578" stroke="#444b57"/>
+  <line x1="666" y1="88" x2="666" y2="578" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">GIRO HORIZONTAL · ¿QUÉ APUNTA AL CENTRO?</text>
+
+    <text x="62" y="118" class="bright" font-size="18" font-weight="700">1 · CURVA PLANA</text>
+    <text x="62" y="144" class="muted" font-size="15">corte frontal · con roce</text>
+    <line x1="60" y1="368" x2="300" y2="368" stroke="#59616d" stroke-width="8"/>
+    <rect x="139" y="320" width="72" height="46" rx="10" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <circle cx="175" cy="320" r="7" fill="#f7f9fc"/>
+    <line x1="175" y1="312" x2="175" y2="206" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="190" y="230" class="blue" font-size="19" font-weight="700">N</text>
+    <line x1="175" y1="328" x2="175" y2="448" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="190" y="430" class="gold" font-size="19" font-weight="700">mg</text>
+    <line x1="139" y1="342" x2="70" y2="342" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="78" y="326" class="blue" font-size="18" font-weight="700">fₛ</text>
+    <text x="60" y="184" class="gold" font-size="16" font-weight="700">← centro</text>
+    <rect x="60" y="486" width="240" height="66" rx="14" fill="#17345c" stroke="#4b93ff"/>
+    <text x="89" y="515" class="math bright" font-size="19">N = mg</text>
+    <text x="89" y="541" class="math bright" font-size="19">fₛ = m v²/R</text>
+
+    <text x="365" y="118" class="bright" font-size="18" font-weight="700">2 · CURVA PERALTADA</text>
+    <text x="365" y="144" class="muted" font-size="15">corte frontal · rapidez de diseño</text>
+    <line x1="365" y1="395" x2="635" y2="260" stroke="#59616d" stroke-width="12"/>
+    <circle cx="500" cy="328" r="22" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <line x1="500" y1="328" x2="430" y2="188" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="420" y="181" class="blue" font-size="19" font-weight="700">N</text>
+    <line x1="500" y1="328" x2="500" y2="458" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="514" y="438" class="gold" font-size="19" font-weight="700">mg</text>
+    <line x1="430" y1="188" x2="430" y2="328" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 7"/>
+    <line x1="430" y1="328" x2="500" y2="328" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 7"/>
+    <line x1="500" y1="328" x2="500" y2="188" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 7"/>
+    <text x="372" y="274" class="blue" font-size="16">N cos β</text>
+    <text x="434" y="352" class="blue" font-size="16">N sin β</text>
+    <path d="M500 283 A45 45 0 0 0 480 288" fill="none" stroke="#f5c451" stroke-width="3"/>
+    <text x="470" y="276" class="gold" font-size="17" font-weight="700">β</text>
+    <text x="365" y="184" class="gold" font-size="16" font-weight="700">← centro</text>
+    <rect x="365" y="486" width="270" height="66" rx="14" fill="#17345c" stroke="#4b93ff"/>
+    <text x="389" y="515" class="math bright" font-size="18">N cos β = mg</text>
+    <text x="389" y="541" class="math bright" font-size="18">N sin β = m v²/R</text>
+
+    <text x="698" y="118" class="bright" font-size="18" font-weight="700">3 · AVIÓN INCLINADO</text>
+    <text x="698" y="144" class="muted" font-size="15">viraje nivelado</text>
+    <line x1="742" y1="350" x2="900" y2="270" stroke="#f7f9fc" stroke-width="7" stroke-linecap="round"/>
+    <path d="M800 320 L835 292 L826 333 Z" fill="#2d323a" stroke="#f7f9fc" stroke-width="2"/>
+    <circle cx="821" cy="319" r="6" fill="#f7f9fc"/>
+    <line x1="821" y1="319" x2="750" y2="177" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="738" y="172" class="blue" font-size="19" font-weight="700">L</text>
+    <line x1="821" y1="319" x2="821" y2="458" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="837" y="438" class="gold" font-size="19" font-weight="700">mg</text>
+    <line x1="750" y1="177" x2="750" y2="319" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 7"/>
+    <line x1="750" y1="319" x2="821" y2="319" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 7"/>
+    <line x1="821" y1="319" x2="821" y2="177" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 7"/>
+    <text x="688" y="258" class="blue" font-size="16">L cos φ</text>
+    <text x="753" y="344" class="blue" font-size="16">L sin φ</text>
+    <path d="M821 274 A45 45 0 0 0 801 279" fill="none" stroke="#f5c451" stroke-width="3"/>
+    <text x="791" y="267" class="gold" font-size="17" font-weight="700">φ</text>
+    <text x="698" y="184" class="gold" font-size="16" font-weight="700">← centro</text>
+    <rect x="698" y="486" width="238" height="66" rx="14" fill="#17345c" stroke="#4b93ff"/>
+    <text x="718" y="515" class="math bright" font-size="18">L cos φ = mg</text>
+    <text x="718" y="541" class="math bright" font-size="18">L sin φ = m v²/R</text>
+
+    <rect x="62" y="596" width="874" height="50" rx="14" fill="#2d323a" stroke="#59616d"/>
+    <text x="104" y="627" class="bright" font-size="18" font-weight="700">No se agrega “fuerza centrípeta”:</text>
+    <text x="406" y="627" class="gold" font-size="18">la flecha horizontal azul ya produce la resultante radial.</text>
+  </g>
+</svg>

@@ -8,3 +8,4 @@ Procedimientos reutilizables para plantear, resolver y verificar ejercicios.
 - [Dividir ecuaciones para eliminar una incógnita común](dividir-ecuaciones.md)
 - [Elegir ejes y asignar signos](elegir-ejes-y-signos.md)
 - [Eliminar la tensión en sistemas de partículas](eliminar-tension-sistemas.md)
+- [Verificar un resultado](verificar-resultado.md)

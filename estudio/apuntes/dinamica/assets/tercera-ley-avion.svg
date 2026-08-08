@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title description">
+  <title id="title">Acción y reacción actúan sobre cuerpos distintos</title>
+  <desc id="description">Arriba se muestra que peso y sustentación actúan ambos sobre el avión y no forman un par de Tercera Ley. Abajo se muestran por separado el par gravitatorio avión-Tierra y el par de interacción avión-aire.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#242830"/><stop offset="1" stop-color="#181b20"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.28"/></filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/></marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/></marker>
+    <style>.ui{font-family:Inter,"Segoe UI",Arial,sans-serif}.math{font-family:"Cambria Math","STIX Two Math",Georgia,serif}.muted{fill:#aab1bd}.bright{fill:#f7f9fc}.blue{fill:#4b93ff}.gold{fill:#f5c451}.red{fill:#f05f68}</style>
+  </defs>
+  <rect x="24" y="24" width="952" height="552" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">TERCERA LEY · BUSCAR EL OTRO CUERPO</text>
+    <rect x="62" y="100" width="874" height="162" rx="18" fill="#2d323a" stroke="#59616d"/>
+    <text x="88" y="132" class="bright" font-size="17" font-weight="700">DCL DEL AVIÓN</text>
+    <line x1="250" y1="190" x2="390" y2="190" stroke="#f7f9fc" stroke-width="7" stroke-linecap="round"/><circle cx="320" cy="190" r="8" fill="#f7f9fc"/>
+    <line x1="320" y1="182" x2="320" y2="126" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/><text x="338" y="150" class="blue" font-size="18">L · aire sobre avión</text>
+    <line x1="320" y1="198" x2="320" y2="246" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/><text x="338" y="230" class="gold" font-size="18">P · Tierra sobre avión</text>
+    <text x="620" y="158" class="red" font-size="42" font-weight="700">≠ par</text><text x="620" y="200" class="bright" font-size="18">Ambas fuerzas actúan</text><text x="620" y="228" class="bright" font-size="18">sobre el mismo cuerpo.</text>
+
+    <rect x="62" y="292" width="410" height="224" rx="18" fill="#17345c" stroke="#4b93ff"/>
+    <text x="88" y="326" class="bright" font-size="17" font-weight="700">INTERACCIÓN GRAVITATORIA</text>
+    <circle cx="166" cy="410" r="44" fill="#2d323a" stroke="#f7f9fc"/><text x="139" y="416" class="bright" font-size="16">avión</text>
+    <circle cx="370" cy="410" r="58" fill="#3a3020" stroke="#f5c451"/><text x="344" y="416" class="bright" font-size="16">Tierra</text>
+    <line x1="210" y1="390" x2="306" y2="390" stroke="#f5c451" stroke-width="4" marker-end="url(#arrowGold)"/><line x1="326" y1="436" x2="230" y2="436" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="218" y="370" class="gold" font-size="14">Tierra → avión</text><text x="230" y="466" class="blue" font-size="14">avión → Tierra</text>
+
+    <rect x="528" y="292" width="408" height="224" rx="18" fill="#3a3020" stroke="#f5c451"/>
+    <text x="554" y="326" class="bright" font-size="17" font-weight="700">INTERACCIÓN CON EL AIRE</text>
+    <line x1="578" y1="404" x2="712" y2="404" stroke="#f7f9fc" stroke-width="7" stroke-linecap="round"/><circle cx="645" cy="404" r="7" fill="#f7f9fc"/><text x="600" y="434" class="bright" font-size="15">avión</text>
+    <path d="M790 382 C826 360 866 382 856 414 C884 432 854 464 820 450 C786 468 760 438 778 414 C754 392 774 370 790 382 Z" fill="#2d323a" stroke="#aab1bd"/><text x="800" y="420" class="bright" font-size="16">aire</text>
+    <line x1="645" y1="394" x2="645" y2="344" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/><text x="662" y="360" class="blue" font-size="14">aire → avión</text>
+    <line x1="820" y1="450" x2="820" y2="498" stroke="#f5c451" stroke-width="4" marker-end="url(#arrowGold)"/><text x="698" y="492" class="gold" font-size="14">avión → aire</text>
+    <text x="292" y="552" class="muted" font-size="17">Igual módulo · sentido opuesto · cuerpos distintos</text>
+  </g>
+</svg>

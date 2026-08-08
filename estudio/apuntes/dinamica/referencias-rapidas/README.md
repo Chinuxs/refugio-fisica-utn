@@ -7,3 +7,4 @@ ejercicio.
 
 - [Rozamiento estático](rozamiento-estatico.md)
 - [Trigonometría](trigonometria.md)
+- [Conversión de velocidades](conversion-velocidades.md)

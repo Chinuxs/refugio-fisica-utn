@@ -53,8 +53,8 @@
 
     <line x1="112" y1="150" x2="220" y2="150" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
     <text x="112" y="130" class="bright" font-size="16">positivo A</text>
-    <line x1="350" y1="108" x2="350" y2="174" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
-    <text x="370" y="145" class="bright" font-size="16">positivo B</text>
+    <line x1="365" y1="350" x2="365" y2="424" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="286" y="392" class="bright" font-size="16">positivo B</text>
 
     <rect x="536" y="108" width="400" height="94" rx="16" fill="#2d323a" stroke="#59616d"/>
     <text x="566" y="145" class="muted" font-size="16" font-weight="700">BLOQUE A</text>
