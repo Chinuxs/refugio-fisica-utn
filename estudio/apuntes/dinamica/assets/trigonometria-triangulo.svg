@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title description">
   <title id="title">Relaciones trigonométricas en un triángulo rectángulo</title>
-  <desc id="description">Tarjeta visual que relaciona seno, coseno y tangente con los lados de un triángulo de 35 grados.</desc>
+  <desc id="description">Tarjeta visual que relaciona seno, coseno y tangente con los lados de un triángulo rectángulo. El ángulo de referencia de 35 grados está en el vértice inferior derecho; el cateto vertical es el opuesto y el horizontal es el adyacente.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#242830"/>
@@ -40,18 +40,17 @@
 
   <g class="ui">
     <text x="540" y="76" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">TRIÁNGULO RECTÁNGULO</text>
-    <path d="M570 370 L570 120 L920 370 Z" class="line"/>
+    <path d="M570 370 L570 125 L920 370 Z" class="line"/>
     <path d="M570 338 L602 338 L602 370" class="line" stroke-width="3"/>
-    <path d="M646 370 A76 76 0 0 0 632 326" stroke="#f5c451" stroke-width="3" fill="none"/>
+    <path d="M844 370 A76 76 0 0 1 858 326" stroke="#f5c451" stroke-width="3" fill="none"/>
 
-    <circle cx="570" cy="120" r="8" fill="#4b93ff"/>
+    <circle cx="570" cy="125" r="8" fill="#4b93ff"/>
     <circle cx="920" cy="370" r="8" fill="#4b93ff"/>
-    <text x="610" y="246" class="muted" font-size="16" transform="rotate(-35 610 246)">hipotenusa</text>
-    <text x="700" y="234" class="bright" font-size="17" font-weight="700" transform="rotate(-35 700 234)">1.00</text>
+    <text x="745" y="222" class="muted" font-size="16" text-anchor="middle" transform="rotate(35 745 222)">hipotenusa = <tspan class="bright" font-weight="700">1.00</tspan></text>
     <text x="584" y="252" class="muted" font-size="16">opuesto</text>
     <text x="584" y="276" class="bright" font-size="17" font-weight="700">0.57</text>
     <text x="714" y="404" class="muted" font-size="16">adyacente</text>
     <text x="802" y="404" class="bright" font-size="17" font-weight="700">0.82</text>
-    <text x="618" y="350" fill="#f5c451" font-size="18" font-weight="700">35°</text>
+    <text x="852" y="350" fill="#f5c451" font-size="18" font-weight="700">θ = 35°</text>
   </g>
 </svg>
