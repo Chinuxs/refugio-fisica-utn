@@ -98,6 +98,8 @@ La vista superior muestra el giro.      N tiene componente radial.
 Para péndulo cónico y loop usar los esquemas específicos de las secciones
 correspondientes.
 
+![Comparación de las fuerzas reales que mantienen una curva plana, una curva peraltada y un viraje de avión](assets/curvas-horizontales.svg)
+
 ---
 
 # 🧲 ¿Qué fuerza real produce la resultante radial?
@@ -413,6 +415,8 @@ $T<0$, la hipótesis de cuerda tensa es imposible. El límite es $T=0$.
 ## Cima convexa: cuerpo sobre la pista
 
 En la parte superior, el centro está abajo, pero la normal apunta arriba:
+
+![Comparación de fuerzas entre el punto alto dentro de un loop y una cima convexa](assets/loop-interior-vs-cima.svg)
 
 $$
 mg-N=m\frac{v^2}{R}

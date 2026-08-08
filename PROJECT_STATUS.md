@@ -43,6 +43,8 @@ Preparar Física I concentrándose en:
 - [x] Apunte general de consulta.
 - [x] Machete visual para reconocer situaciones, elegir el DCL y aplicar
   condiciones límite.
+- [x] Diagramas comparativos de ejes y signos, giros horizontales y contacto
+  en loop/cima convexa.
 - [x] Condición física de una cuerda en el punto más alto de un círculo
   vertical.
 - [ ] Movimiento Circular Uniforme.
@@ -75,5 +77,5 @@ Preparar Física I concentrándose en:
 ## Última actualización
 
 **8 de agosto de 2026:** se reorganizó el apunte de Movimiento Circular como
-machete visual de resolución, con mapa de reconocimiento, dibujos mínimos,
-selección de ecuaciones y condiciones límite.
+machete visual de resolución y se incorporaron diagramas originales para
+comparar ejes, fuerzas radiales, curvas horizontales y condiciones de contacto.

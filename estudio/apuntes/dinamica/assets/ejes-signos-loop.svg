@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title description">
+  <title id="title">Las fuerzas no cambian cuando se elige otro eje</title>
+  <desc id="description">Dos diagramas del mismo cuerpo en el punto alto de un círculo vertical. Con el eje radial positivo hacia el centro, tensión y peso son positivos. Con el eje vertical positivo hacia arriba, ambas fuerzas y la aceleración radial son negativas. Las dos ecuaciones son equivalentes.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
+    </marker>
+    <marker id="arrowMuted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#aab1bd"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="512" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+  <line x1="500" y1="86" x2="500" y2="438" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">MISMO DCL · DOS ELECCIONES DE EJE</text>
+
+    <text x="62" y="118" class="blue" font-size="18" font-weight="700">A · +r hacia el centro</text>
+    <path d="M120 330 A130 130 0 0 1 380 330" fill="none" stroke="#59616d" stroke-width="8"/>
+    <circle cx="250" cy="230" r="24" fill="#4b93ff"/>
+    <circle cx="250" cy="330" r="7" fill="#f7f9fc"/>
+    <text x="266" y="337" class="muted" font-size="15">centro</text>
+
+    <line x1="236" y1="254" x2="236" y2="306" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="207" y="282" class="blue" font-size="19" font-weight="700">T</text>
+    <line x1="266" y1="254" x2="266" y2="306" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="280" y="282" class="gold" font-size="19" font-weight="700">mg</text>
+
+    <line x1="104" y1="184" x2="104" y2="274" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="70" y="170" class="blue" font-size="17" font-weight="700">+r</text>
+    <line x1="396" y1="184" x2="396" y2="274" stroke="#aab1bd" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrowMuted)"/>
+    <text x="410" y="238" class="muted" font-size="16">aᵣ</text>
+
+    <rect x="62" y="366" width="386" height="62" rx="16" fill="#17345c" stroke="#4b93ff"/>
+    <text x="110" y="406" class="math bright" font-size="25">T + mg = m v²/R</text>
+
+    <text x="540" y="118" class="gold" font-size="18" font-weight="700">B · +y hacia arriba</text>
+    <path d="M620 330 A130 130 0 0 1 880 330" fill="none" stroke="#59616d" stroke-width="8"/>
+    <circle cx="750" cy="230" r="24" fill="#4b93ff"/>
+    <circle cx="750" cy="330" r="7" fill="#f7f9fc"/>
+    <text x="766" y="337" class="muted" font-size="15">centro</text>
+
+    <line x1="736" y1="254" x2="736" y2="306" stroke="#4b93ff" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <text x="707" y="282" class="blue" font-size="19" font-weight="700">T</text>
+    <line x1="766" y1="254" x2="766" y2="306" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
+    <text x="780" y="282" class="gold" font-size="19" font-weight="700">mg</text>
+
+    <line x1="604" y1="274" x2="604" y2="184" stroke="#f5c451" stroke-width="4" marker-end="url(#arrowGold)"/>
+    <text x="570" y="302" class="gold" font-size="17" font-weight="700">+y</text>
+    <line x1="896" y1="184" x2="896" y2="274" stroke="#aab1bd" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrowMuted)"/>
+    <text x="910" y="238" class="muted" font-size="16">aᵣ</text>
+
+    <rect x="540" y="366" width="396" height="62" rx="16" fill="#3a3020" stroke="#f5c451"/>
+    <text x="577" y="406" class="math bright" font-size="25">−T − mg = −m v²/R</text>
+
+    <text x="178" y="482" class="bright" font-size="19" font-weight="700">Las fuerzas son las mismas.</text>
+    <text x="502" y="482" class="muted" font-size="19">Cambian sus signos según el eje.</text>
+    <text x="256" y="514" class="gold" font-size="17" font-weight="700">La aceleración se muestra separada: no es una fuerza.</text>
+  </g>
+</svg>

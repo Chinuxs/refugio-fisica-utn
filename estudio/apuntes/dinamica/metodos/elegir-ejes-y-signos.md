@@ -10,15 +10,9 @@ asigna el signo de cada componente.
 
 ## 🖼️ Esquema / dibujo
 
-Punto más alto de un círculo vertical:
+Punto más alto de un círculo vertical, comparando dos elecciones válidas:
 
-```text
-        ● bloque
-        ↓ T
-        ↓ P
-        ↓ sentido radial positivo
-        ○ centro
-```
+![Las mismas fuerzas con dos elecciones diferentes de eje](../assets/ejes-signos-loop.svg)
 
 Como el sentido radial positivo apunta hacia el centro, tanto la tensión como
 el peso tienen signo positivo en ese eje.

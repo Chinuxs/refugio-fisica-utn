@@ -15,6 +15,9 @@
     <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
       <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
     </marker>
+    <marker id="arrowMuted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#aab1bd"/>
+    </marker>
     <style>
       .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
       .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
@@ -49,9 +52,9 @@
     <text x="650" y="142" class="blue" font-size="20" font-weight="700">T</text>
     <line x1="730" y1="248" x2="730" y2="388" stroke="#f5c451" stroke-width="5" marker-end="url(#arrowGold)"/>
     <text x="746" y="372" class="gold" font-size="20" font-weight="700">mg</text>
-    <line x1="730" y1="248" x2="730" y2="120" stroke="#59616d" stroke-width="2" stroke-dasharray="7 7"/>
-    <line x1="730" y1="248" x2="610" y2="248" stroke="#59616d" stroke-width="2" stroke-dasharray="7 7"/>
-    <text x="558" y="190" class="muted" font-size="17">T cos(θ)</text>
+    <line x1="730" y1="248" x2="730" y2="124" stroke="#aab1bd" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrowMuted)"/>
+    <line x1="730" y1="248" x2="614" y2="248" stroke="#aab1bd" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrowMuted)"/>
+    <text x="650" y="190" class="muted" font-size="17">T cos(θ)</text>
     <text x="594" y="280" class="muted" font-size="17">T sin(θ)</text>
 
     <rect x="790" y="120" width="146" height="220" rx="16" fill="#2d323a"/>
