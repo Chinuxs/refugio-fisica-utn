@@ -56,4 +56,3 @@ avión y, al mismo tiempo, acelerar respecto de la pista.
 - [Segunda Ley de Newton](segunda-ley-newton.md)
 - [Equilibrio por componentes](equilibrio-por-componentes.md)
 - [Dividir ecuaciones](../metodos/dividir-ecuaciones.md)
-
