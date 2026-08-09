@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title description">
+  <title id="title">Reloj colgante observado desde la pista y desde un avión acelerado</title>
+  <desc id="description">Comparación entre el marco aproximadamente inercial de la pista y el marco no inercial del avión. El reloj está quieto respecto del avión, pero acelera respecto de la pista.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="952" height="472" rx="28" fill="url(#surface)" stroke="#444b57" filter="url(#shadow)"/>
+
+  <g class="ui">
+    <text x="62" y="72" class="muted" font-size="18" font-weight="700" letter-spacing="1.5">AVIÓN ACELERANDO</text>
+    <line x1="702" y1="62" x2="884" y2="62" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <text x="737" y="50" class="blue" font-size="18" font-weight="700">a →</text>
+
+    <path d="M98 190 H858 L912 226 H832 L784 278 H152 L116 244 H72 Z" fill="#2d323a" stroke="#59616d" stroke-width="3"/>
+    <path d="M234 190 L304 120 H548 L626 190" fill="#2d323a" stroke="#59616d" stroke-width="3"/>
+    <path d="M331 187 L369 136 H455 L505 187 Z" fill="#17345c" stroke="#4b93ff" stroke-width="2"/>
+
+    <line x1="430" y1="190" x2="382" y2="286" stroke="#f7f9fc" stroke-width="4"/>
+    <circle cx="382" cy="286" r="24" fill="#f5c451"/>
+    <line x1="430" y1="190" x2="430" y2="288" stroke="#59616d" stroke-width="2" stroke-dasharray="7 7"/>
+    <path d="M430 242 A52 52 0 0 1 407 237" fill="none" stroke="#f5c451" stroke-width="3"/>
+    <text x="398" y="230" class="gold" font-size="18" font-weight="700">θ</text>
+    <text x="344" y="326" class="bright" font-size="17" font-weight="700">reloj</text>
+
+    <rect x="62" y="348" width="414" height="105" rx="16" fill="#2d323a"/>
+    <text x="88" y="380" class="muted" font-size="15" font-weight="700" letter-spacing="1">PISTA / SUELO</text>
+    <text x="88" y="410" class="bright" font-size="19" font-weight="700">marco inercial aproximado</text>
+    <text x="88" y="438" class="math blue" font-size="20">a reloj = a avión ≠ 0</text>
+
+    <rect x="524" y="348" width="414" height="105" rx="16" fill="#2d323a"/>
+    <text x="550" y="380" class="muted" font-size="15" font-weight="700" letter-spacing="1">AVIÓN</text>
+    <text x="550" y="410" class="bright" font-size="19" font-weight="700">marco no inercial</text>
+    <text x="550" y="438" class="math gold" font-size="20">a reloj/avión = 0</text>
+
+    <rect x="594" y="105" width="300" height="63" rx="14" fill="#17345c" stroke="#4b93ff"/>
+    <text x="620" y="132" class="bright" font-size="17" font-weight="700">quieto respecto del avión</text>
+    <text x="620" y="155" class="blue" font-size="17" font-weight="700">≠ sin aceleración</text>
+  </g>
+</svg>
+

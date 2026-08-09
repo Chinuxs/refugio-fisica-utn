@@ -81,4 +81,5 @@ Antes de simplificar, comprobar que la cantidad sea un factor y que no sea cero.
 
 ## 🔗 Ver también
 
+- [Marcos inerciales y no inerciales](../conceptos/marcos-inerciales-y-no-inerciales.md)
 - [Referencia rápida de trigonometría](../referencias-rapidas/trigonometria.md)

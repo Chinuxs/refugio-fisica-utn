@@ -30,6 +30,7 @@ Preparar Física I concentrándose en:
   partículas.
 - [x] Equilibrio por componentes y Tercera Ley aplicados al caso de un avión.
 - [x] Herramientas rápidas de descomposición, conversión y verificación.
+- [x] Distinción entre marco inercial y no inercial en sistemas acelerados.
 - [ ] Resumen conceptual.
 - [x] Segunda Ley de Newton.
 - [ ] Diagramas de cuerpo libre.
@@ -78,6 +79,5 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
-**8 de agosto de 2026:** se agregaron fichas breves de leyes de Newton,
-equilibrio por componentes, descomposición de fuerzas y controles numéricos,
-con enlaces desde el caso circular del avión.
+**8 de agosto de 2026:** se agregó una ficha visual para distinguir marcos
+inerciales y no inerciales antes de aplicar la Segunda Ley de Newton.
