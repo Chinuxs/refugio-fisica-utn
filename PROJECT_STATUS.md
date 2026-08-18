@@ -6,6 +6,7 @@ Preparar Física I concentrándose en:
 
 - Dinámica.
 - Movimiento Circular.
+- Trabajo y Energía.
 
 ## Exposición de Cinemática
 
@@ -60,6 +61,16 @@ Preparar Física I concentrándose en:
 - [ ] Errores frecuentes.
 - [ ] Preguntas orales.
 
+## Trabajo y Energía
+
+- [x] Machete visual para reconocer la herramienta y relacionar estados.
+- [x] Trabajo de fuerzas, energía cinética y teorema trabajo–energía.
+- [x] Energías potenciales gravitatoria y elástica.
+- [x] Conservación de energía mecánica y fuerzas no conservativas.
+- [x] Referencia breve de rozamiento cinético y potencia.
+- [ ] Ejercicios de parciales y finales.
+- [ ] Fichas específicas surgidas de ejercicios reales.
+
 ## Material por incorporar
 
 - [ ] Parciales anteriores.
@@ -74,10 +85,12 @@ Preparar Física I concentrándose en:
 2. Clasificar ejercicios por tema.
 3. Resolver ejercicios de Dinámica.
 4. Resolver ejercicios de Movimiento Circular.
-5. Construir un registro de errores frecuentes.
-6. Actualizar el estado después de cada sesión de estudio.
+5. Resolver ejercicios de Trabajo y Energía.
+6. Construir un registro de errores frecuentes.
+7. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
 
-**8 de agosto de 2026:** se agregó una ficha visual para distinguir marcos
-inerciales y no inerciales antes de aplicar la Segunda Ley de Newton.
+**17 de agosto de 2026:** se incorporó la guía inicial de Trabajo y Energía,
+orientada a reconocer herramientas, relacionar estados y evitar errores de
+signos y conservación.
