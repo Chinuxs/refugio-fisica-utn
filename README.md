@@ -39,16 +39,22 @@ separado del código del simulador y se escribe en español claro.
 
 ## Estudio
 
-- [Material de estudio](estudio/README.md)
-- [Dinámica](estudio/apuntes/dinamica/README.md)
-- [Movimiento Circular](estudio/apuntes/movimiento-circular/README.md)
-- [Conceptos](estudio/apuntes/dinamica/conceptos/README.md)
-- [Herramientas matemáticas](estudio/apuntes/dinamica/herramientas-matematicas/README.md)
-- [Métodos](estudio/apuntes/dinamica/metodos/README.md)
-- [Referencias rápidas](estudio/apuntes/dinamica/referencias-rapidas/README.md)
-- [Ejercicios](estudio/ejercicios/README.md)
-- [Errores frecuentes](estudio/errores-comunes/README.md)
+### 🎯 Acceso rápido
 - [Parciales y finales](estudio/parciales/README.md)
+- [Errores frecuentes](estudio/errores-comunes/README.md)
+
+### Temas de la materia
+
+**Dinámica**
+- [Ejercicios resueltos](estudio/ejercicios/dinamica/README.md)
+- [Ver tema completo →](estudio/apuntes/dinamica/README.md)
+
+**Movimiento Circular**
+- [Ejercicios resueltos](estudio/ejercicios/movimiento-circular/README.md)
+- [Ver tema completo →](estudio/apuntes/movimiento-circular/README.md)
+
+**Trabajo y Energía**
+- [Ver tema completo →](estudio/apuntes/trabajo-energia/README.md)
 
 ## Cómo contribuir
 
