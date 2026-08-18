@@ -45,6 +45,7 @@ $$
 ## 🔗 Ver también
 
 - [Equilibrio por componentes](equilibrio-por-componentes.md)
+- [Marcos inerciales y no inerciales](marcos-inerciales-y-no-inerciales.md)
 - [Elegir ejes y asignar signos](../metodos/elegir-ejes-y-signos.md)
 - [Verificar un resultado](../metodos/verificar-resultado.md)
 - [Movimiento Circular - machete visual](../../movimiento-circular/Movimiento_Circular_UTN_FRLP.md)

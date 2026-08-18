@@ -10,3 +10,4 @@ Los conceptos se agregarán cuando aparezcan en ejercicios reales.
 - [Segunda Ley de Newton](segunda-ley-newton.md)
 - [Equilibrio por componentes](equilibrio-por-componentes.md)
 - [Tercera Ley de Newton](tercera-ley-newton.md)
+- [Marcos inerciales y no inerciales](marcos-inerciales-y-no-inerciales.md)
