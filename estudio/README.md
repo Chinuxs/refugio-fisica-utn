@@ -27,9 +27,18 @@ Los apuntes de [Dinámica](apuntes/dinamica/README.md) se organizan en:
 El material de [Movimiento Circular](apuntes/movimiento-circular/README.md)
 mantiene su propio índice.
 
-La guía de [Trabajo y Energía](apuntes/trabajo-energia/README.md) funciona como
-un machete visual para elegir entre trabajo neto, energía mecánica y
-conservación al relacionar estados iniciales y finales.
+Para los siguientes temas hay dos entradas: **teoría esencial** para repasar
+y **resolución por casos** para elegir un planteo a partir del ejercicio.
+
+| Tema | Repasar | Resolver |
+| --- | --- | --- |
+| [Trabajo y Energía](apuntes/trabajo-energia/README.md) | [Teoría esencial](apuntes/trabajo-energia/teoria-esencial.md) | [Casos del TP 6](apuntes/trabajo-energia/resolucion-por-casos.md) |
+| [Movimiento Armónico Simple](apuntes/movimiento-armonico-simple/README.md) | [Teoría esencial](apuntes/movimiento-armonico-simple/teoria-esencial.md) | [Casos del TP 7](apuntes/movimiento-armonico-simple/resolucion-por-casos.md) |
+| [Impulso y cantidad de movimiento](apuntes/impulso-cantidad-movimiento/README.md) | [Teoría esencial](apuntes/impulso-cantidad-movimiento/teoria-esencial.md) | [Casos del TP 8](apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md) |
+
+Cada tema incluye fuentes, condiciones de aplicación, errores frecuentes y
+comprobaciones breves. La guía ampliada anterior de Trabajo y Energía sigue
+accesible desde su índice.
 
 Las fichas usan una
 [convención visual común](apuntes/PLANTILLA.md) para encontrar siempre en el

@@ -54,6 +54,16 @@ Evitar teoría innecesaria y no copiar capítulos completos de libros.
 - Dinámica.
 - Movimiento Circular.
 - Relación entre Dinámica y Movimiento Circular.
+- Trabajo y Energía.
+- Movimiento Armónico Simple.
+- Impulso y cantidad de movimiento, centro de masa y choques.
+
+Para estos tres últimos temas, mantener dos guías breves por tema:
+`teoria-esencial.md` (conceptos, fórmulas y condiciones) y
+`resolucion-por-casos.md` (cómo reconocer el caso y qué plantear).
+Basar los casos en los TP de la cátedra, indicar sus números de ejercicio y
+registrar las fuentes en `fuentes.md`. Priorizar la consulta rápida; conservar
+el material ampliado como referencia adicional.
 
 ## Formato para documentar ejercicios
 

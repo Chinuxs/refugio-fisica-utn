@@ -7,6 +7,8 @@ Preparar Física I concentrándose en:
 - Dinámica.
 - Movimiento Circular.
 - Trabajo y Energía.
+- Movimiento Armónico Simple.
+- Impulso y cantidad de movimiento.
 
 ## Exposición de Cinemática
 
@@ -63,6 +65,8 @@ Preparar Física I concentrándose en:
 
 ## Trabajo y Energía
 
+- [x] Teoría esencial y resolución por casos del TP 6, con fuentes y comprobaciones.
+- [x] Guía anterior conservada como consulta ampliada.
 - [x] Machete visual para reconocer la herramienta y relacionar estados.
 - [x] Trabajo de fuerzas, energía cinética y teorema trabajo–energía.
 - [x] Energías potenciales gravitatoria y elástica.
@@ -70,6 +74,22 @@ Preparar Física I concentrándose en:
 - [x] Referencia breve de rozamiento cinético y potencia.
 - [ ] Ejercicios de parciales y finales.
 - [ ] Fichas específicas surgidas de ejercicios reales.
+
+## Movimiento Armónico Simple
+
+- [x] Teoría esencial: cinemática, energía, equilibrio y péndulo simple.
+- [x] Resolución por casos del TP 7: fase, tiempos, resortes, roce y péndulos.
+- [x] Referencia breve de oscilaciones amortiguadas y forzadas.
+- [x] Fuentes y comprobaciones de convenciones y resultados.
+- [ ] Incorporar resoluciones completas de ejercicios y parciales.
+
+## Impulso y cantidad de movimiento
+
+- [x] Teoría esencial: impulso, sistemas, centro de masa y choques.
+- [x] Resolución por casos del TP 8, separando impacto y recorrido.
+- [x] Comprobaciones breves de impulso y choque seguido de frenado.
+- [x] Fuentes y criterios para enunciados que requieren hipótesis adicionales.
+- [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
 ## Material por incorporar
 
@@ -86,10 +106,17 @@ Preparar Física I concentrándose en:
 3. Resolver ejercicios de Dinámica.
 4. Resolver ejercicios de Movimiento Circular.
 5. Resolver ejercicios de Trabajo y Energía.
-6. Construir un registro de errores frecuentes.
-7. Actualizar el estado después de cada sesión de estudio.
+6. Resolver ejercicios de MAS e Impulso y cantidad de movimiento.
+7. Construir un registro de errores frecuentes.
+8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**19 de septiembre de 2026:** se incorporaron teoría esencial y resolución
+por casos para Trabajo y Energía, MAS e Impulso y cantidad de movimiento,
+basadas en las presentaciones y los TP 6, 7 y 8 provistos. Se agregaron fuentes,
+ejemplos comprobados y accesos desde la portada. Se conservó la guía ampliada
+anterior de Trabajo y Energía.
 
 **19 de septiembre de 2026:** se organizó la portada por temas de Física
 (Dinámica, Movimiento Circular y Trabajo y Energía), con acceso rápido a

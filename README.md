@@ -6,8 +6,9 @@ Universidad Tecnológica Nacional, Facultad Regional La Plata (UTN FRLP).
 El proyecto nació a partir de una exposición de Cinemática y su simulador de
 tiro oblicuo. Ahora también reúne material para preparar parciales y finales,
 con explicaciones, ejercicios resueltos, errores frecuentes y seguimiento del
-progreso. Los temas prioritarios actuales son **Dinámica** y **Movimiento
-Circular**.
+progreso. Los temas disponibles son **Dinámica**, **Movimiento Circular**,
+**Trabajo y Energía**, **Movimiento Armónico Simple** e **Impulso y cantidad
+de movimiento**.
 
 El contenido está organizado para que resulte útil a todos los compañeros,
 incluidas las personas que no programan: el material de estudio se mantiene
@@ -54,7 +55,22 @@ separado del código del simulador y se escribe en español claro.
 - [Ver tema completo →](estudio/apuntes/movimiento-circular/README.md)
 
 **Trabajo y Energía**
+
+- [Teoría esencial](estudio/apuntes/trabajo-energia/teoria-esencial.md)
+- [Resolución por casos](estudio/apuntes/trabajo-energia/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/trabajo-energia/README.md)
+
+**Movimiento Armónico Simple (MAS)**
+
+- [Teoría esencial](estudio/apuntes/movimiento-armonico-simple/teoria-esencial.md)
+- [Resolución por casos](estudio/apuntes/movimiento-armonico-simple/resolucion-por-casos.md)
+- [Ver tema completo →](estudio/apuntes/movimiento-armonico-simple/README.md)
+
+**Impulso y cantidad de movimiento**
+
+- [Teoría esencial](estudio/apuntes/impulso-cantidad-movimiento/teoria-esencial.md)
+- [Resolución por casos](estudio/apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md)
+- [Ver tema completo →](estudio/apuntes/impulso-cantidad-movimiento/README.md)
 
 ## Cómo contribuir
 
