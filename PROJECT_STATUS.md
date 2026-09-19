@@ -91,6 +91,11 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
+**19 de septiembre de 2026:** se organizó la portada por temas de Física
+(Dinámica, Movimiento Circular y Trabajo y Energía), con acceso rápido a
+parciales y errores frecuentes.
+
+
 **17 de agosto de 2026:** se incorporó la guía inicial de Trabajo y Energía,
 orientada a reconocer herramientas, relacionar estados y evitar errores de
 signos y conservación.
