@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="640" viewBox="0 0 1080 640" role="img" aria-labelledby="title desc">
+<title id="title">MAS: qué pasa en cada posición</title><desc id="desc">En menos A y más A la velocidad es cero y la aceleración máxima apunta al equilibrio. Al pasar por cero la rapidez es máxima y la aceleración nula. Se comparan barras de energía cinética y potencial.</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="616" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">MAS: qué pasa en cada posición</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">Recorrido de izquierda a derecha · resorte horizontal ideal · x medido desde el equilibrio.</text>
+<rect x="42" y="126" width="321" height="396" rx="16" fill="#202a38"/>
+<text x="62" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">EXTREMO · x = −A</text>
+<line x1="67" y1="208" x2="67" y2="282" stroke="#b9c7da" stroke-width="5"/>
+<path d="M69.00 247.00 L79.00 247.00 L80.41 238.00 L83.22 256.00 L86.03 238.00 L88.84 256.00 L91.66 238.00 L94.47 256.00 L97.28 238.00 L100.09 256.00 L102.91 238.00 L105.72 256.00 L108.53 238.00 L111.34 256.00 L114.16 238.00 L116.97 256.00 L119.78 238.00 L122.59 256.00 L124.00 247.00 L134.00 247.00" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<rect x="134" y="225" width="52" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="160.0" y="254.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">m</text>
+<line x1="67" y1="270" x2="335" y2="270" stroke="#b9c7da" stroke-width="2"/>
+<line x1="160" y1="312" x2="220" y2="312" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)" stroke-dasharray="6 4"/>
+<text x="190.0" y="337" font-size="21" fill="#ffce75" text-anchor="middle">a</text>
+<text x="62" y="376" font-size="20" fill="#f4f7fc" text-anchor="start">v = 0; a apunta a +x</text>
+<text x="62" y="425" font-size="21" fill="#79b7ff" text-anchor="start" font-weight="700">K</text>
+<rect x="99" y="405" width="229" height="25" rx="4" fill="#141b25"/>
+<text x="109" y="424" font-size="18" fill="#b9c7da" text-anchor="start">0</text>
+<text x="62" y="472" font-size="21" fill="#ffce75" text-anchor="start" font-weight="700">U</text>
+<rect x="99" y="452" width="229" height="25" rx="4" fill="#141b25"/>
+<rect x="99" y="452" width="229" height="25" rx="4" fill="#ffce75"/>
+<rect x="379" y="126" width="321" height="396" rx="16" fill="#202a38"/>
+<text x="399" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">CENTRO · x = 0</text>
+<line x1="404" y1="208" x2="404" y2="282" stroke="#b9c7da" stroke-width="5"/>
+<path d="M406.00 247.00 L416.00 247.00 L419.53 238.00 L426.59 256.00 L433.66 238.00 L440.72 256.00 L447.78 238.00 L454.84 256.00 L461.91 238.00 L468.97 256.00 L476.03 238.00 L483.09 256.00 L490.16 238.00 L497.22 256.00 L504.28 238.00 L511.34 256.00 L518.41 238.00 L525.47 256.00 L529.00 247.00 L539.00 247.00" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<rect x="539" y="225" width="52" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="565.0" y="254.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">m</text>
+<line x1="404" y1="270" x2="672" y2="270" stroke="#b9c7da" stroke-width="2"/>
+<line x1="540" y1="312" x2="632" y2="312" stroke="#79b7ff" stroke-width="3" marker-end="url(#a1)"/>
+<text x="585" y="337" font-size="21" fill="#79b7ff" text-anchor="middle">v</text>
+<text x="399" y="376" font-size="20" fill="#f4f7fc" text-anchor="start">v = +ωA; a = 0</text>
+<text x="399" y="425" font-size="21" fill="#79b7ff" text-anchor="start" font-weight="700">K</text>
+<rect x="436" y="405" width="229" height="25" rx="4" fill="#141b25"/>
+<rect x="436" y="405" width="229" height="25" rx="4" fill="#79b7ff"/>
+<text x="399" y="472" font-size="21" fill="#ffce75" text-anchor="start" font-weight="700">U</text>
+<rect x="436" y="452" width="229" height="25" rx="4" fill="#141b25"/>
+<text x="446" y="471" font-size="18" fill="#b9c7da" text-anchor="start">0</text>
+<rect x="716" y="126" width="321" height="396" rx="16" fill="#202a38"/>
+<text x="736" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">EXTREMO · x = +A</text>
+<line x1="741" y1="208" x2="741" y2="282" stroke="#b9c7da" stroke-width="5"/>
+<path d="M743.00 247.00 L753.00 247.00 L758.41 238.00 L769.22 256.00 L780.03 238.00 L790.84 256.00 L801.66 238.00 L812.47 256.00 L823.28 238.00 L834.09 256.00 L844.91 238.00 L855.72 256.00 L866.53 238.00 L877.34 256.00 L888.16 238.00 L898.97 256.00 L909.78 238.00 L920.59 256.00 L926.00 247.00 L936.00 247.00" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<rect x="936" y="225" width="52" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="962.0" y="254.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">m</text>
+<line x1="741" y1="270" x2="1009" y2="270" stroke="#b9c7da" stroke-width="2"/>
+<line x1="962" y1="312" x2="892" y2="312" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)" stroke-dasharray="6 4"/>
+<text x="927.0" y="337" font-size="21" fill="#ffce75" text-anchor="middle">a</text>
+<text x="736" y="376" font-size="20" fill="#f4f7fc" text-anchor="start">v = 0; a apunta a −x</text>
+<text x="736" y="425" font-size="21" fill="#79b7ff" text-anchor="start" font-weight="700">K</text>
+<rect x="773" y="405" width="229" height="25" rx="4" fill="#141b25"/>
+<text x="783" y="424" font-size="18" fill="#b9c7da" text-anchor="start">0</text>
+<text x="736" y="472" font-size="21" fill="#ffce75" text-anchor="start" font-weight="700">U</text>
+<rect x="773" y="452" width="229" height="25" rx="4" fill="#141b25"/>
+<rect x="773" y="452" width="229" height="25" rx="4" fill="#ffce75"/>
+<text x="540" y="560" font-size="25" fill="#79dfba" text-anchor="middle" class="eq">E = K + U = ½kA²  ·  constante durante toda la oscilación</text>
+<text x="42" y="605" font-size="19" fill="#b9c7da" text-anchor="start">Flecha azul: velocidad. Flecha dorada discontinua: aceleración, no una fuerza adicional.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="580" viewBox="0 0 1080 580" role="img" aria-labelledby="title desc">
+<title id="title">Impulso: el área bajo F(t)</title><desc id="desc">Gráfico de fuerza: crece linealmente de 0 a 4 N entre 0 y 2 s, se mantiene hasta 3 s y baja a cero a 5 s. Cada una de las tres áreas vale 4 N s, total 12 N s. La fuerza media es 2,4 N.</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="556" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">Impulso: el área bajo F(t)</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">TP 8 · ejercicio 6 · fuerza positiva entre 0 y 5 s.</text>
+<rect x="42" y="126" width="666" height="362" rx="12" fill="#202a38"/>
+<path d="M105 432 L305 200 L305 432 Z" stroke="#79b7ff" stroke-width="2" fill="#203e5c"/>
+<rect x="305" y="200" width="100" height="232" rx="0" fill="#314633" stroke="#79dfba"/>
+<path d="M405 432 L405 200 L605 432 Z" stroke="#ffce75" stroke-width="2" fill="#483d2c"/>
+<line x1="95" y1="432" x2="662" y2="432" stroke="#b9c7da" stroke-width="2" marker-end="url(#a0)"/>
+<line x1="105" y1="452" x2="105" y2="165" stroke="#b9c7da" stroke-width="2" marker-end="url(#a0)"/>
+<line x1="105" y1="432" x2="105" y2="440" stroke="#b9c7da" stroke-width="2"/>
+<text x="105" y="467" font-size="19" fill="#b9c7da" text-anchor="middle">0</text>
+<line x1="205" y1="432" x2="205" y2="440" stroke="#b9c7da" stroke-width="2"/>
+<text x="205" y="467" font-size="19" fill="#b9c7da" text-anchor="middle">1</text>
+<line x1="305" y1="432" x2="305" y2="440" stroke="#b9c7da" stroke-width="2"/>
+<text x="305" y="467" font-size="19" fill="#b9c7da" text-anchor="middle">2</text>
+<line x1="405" y1="432" x2="405" y2="440" stroke="#b9c7da" stroke-width="2"/>
+<text x="405" y="467" font-size="19" fill="#b9c7da" text-anchor="middle">3</text>
+<line x1="505" y1="432" x2="505" y2="440" stroke="#b9c7da" stroke-width="2"/>
+<text x="505" y="467" font-size="19" fill="#b9c7da" text-anchor="middle">4</text>
+<line x1="605" y1="432" x2="605" y2="440" stroke="#b9c7da" stroke-width="2"/>
+<text x="605" y="467" font-size="19" fill="#b9c7da" text-anchor="middle">5</text>
+<text x="86" y="438" font-size="18" fill="#b9c7da" text-anchor="end">0</text>
+<text x="86" y="322" font-size="18" fill="#b9c7da" text-anchor="end">2</text>
+<text x="86" y="206" font-size="18" fill="#b9c7da" text-anchor="end">4</text>
+<text x="59" y="157" font-size="22" fill="#b9c7da" text-anchor="start">F (N)</text>
+<text x="638" y="470" font-size="20" fill="#b9c7da" text-anchor="start">t (s)</text>
+<line x1="105" y1="292.8" x2="605" y2="292.8" stroke="#f4f7fc" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="395" y="180" font-size="18" fill="#b9c7da" text-anchor="middle">Fmedia = 2,4 N (línea discontinua)</text>
+<text x="230" y="404" font-size="21" fill="#79b7ff" text-anchor="middle" font-weight="700">4 N·s</text>
+<text x="355" y="404" font-size="21" fill="#79dfba" text-anchor="middle" font-weight="700">4 N·s</text>
+<text x="480" y="404" font-size="21" fill="#ffce75" text-anchor="middle" font-weight="700">4 N·s</text>
+<rect x="728" y="126" width="310" height="362" rx="16" fill="#202a38"/>
+<text x="748" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">ÁREA TOTAL</text>
+<text x="751" y="209" font-size="26" fill="#f4f7fc" text-anchor="start" class="eq">J = 4 + 4 + 4</text>
+<text x="751" y="250" font-size="29" fill="#79b7ff" text-anchor="start" font-weight="700">J = 12 N·s</text>
+<text x="751" y="315" font-size="25" fill="#f4f7fc" text-anchor="start" class="eq">Fmedia = J / Δt</text>
+<text x="751" y="354" font-size="23" fill="#f4f7fc" text-anchor="start">= 12 / 5 = 2,4 N</text>
+<text x="751" y="419" font-size="23" fill="#79dfba" text-anchor="start" class="eq">Δv = J/m = 6 m/s</text>
+<text x="751" y="453" font-size="19" fill="#b9c7da" text-anchor="start">para m = 2 kg</text>
+<text x="42" y="545" font-size="19" fill="#b9c7da" text-anchor="start">F(t) da impulso [N·s]. F(x) da trabajo [J]. Leer siempre qué representa el eje horizontal.</text>
+</svg>

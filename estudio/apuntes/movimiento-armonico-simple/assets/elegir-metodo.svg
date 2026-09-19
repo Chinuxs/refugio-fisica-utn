@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650" role="img" aria-labelledby="title desc">
+<title id="title">MAS · elegir el método</title><desc id="desc">Diagrama de decisiones. Dan x(t): Leer A, ω y fase → derivar; Conservar el seno o coseno que dieron. Dan x₀ y v₀: A² = x₀² + (v₀/ω)²; Fijar la fase con posición y velocidad. Piden v en una posición: v² = ω²(A² − x²); Elegir el signo según el sentido. Piden el primer tiempo: Fase → sentido → t válido; Revisar las dos ramas del seno. Resorte vertical: Equilibrio nuevo → x desde allí; El alargamiento estático no es A</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="626" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">MAS · elegir el método</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">Reconocer el dato o la situación → elegir el primer planteo.</text>
+<rect x="42" y="128" width="430" height="70" rx="12" fill="#202a38"/>
+<text x="62" y="158" font-size="23" fill="#79b7ff" text-anchor="start" font-weight="700">Dan x(t)</text>
+<text x="62" y="183" font-size="18" fill="#b9c7da" text-anchor="start">Conservar el seno o coseno que dieron</text>
+<line x1="490" y1="163" x2="545" y2="163" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<rect x="565" y="128" width="473" height="70" rx="12" fill="#202a38"/>
+<text x="588" y="171" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">Leer A, ω y fase → derivar</text>
+<rect x="42" y="216" width="430" height="70" rx="12" fill="#202a38"/>
+<text x="62" y="246" font-size="23" fill="#79b7ff" text-anchor="start" font-weight="700">Dan x₀ y v₀</text>
+<text x="62" y="271" font-size="18" fill="#b9c7da" text-anchor="start">Fijar la fase con posición y velocidad</text>
+<line x1="490" y1="251" x2="545" y2="251" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<rect x="565" y="216" width="473" height="70" rx="12" fill="#202a38"/>
+<text x="588" y="259" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">A² = x₀² + (v₀/ω)²</text>
+<rect x="42" y="304" width="430" height="70" rx="12" fill="#202a38"/>
+<text x="62" y="334" font-size="23" fill="#79b7ff" text-anchor="start" font-weight="700">Piden v en una posición</text>
+<text x="62" y="359" font-size="18" fill="#b9c7da" text-anchor="start">Elegir el signo según el sentido</text>
+<line x1="490" y1="339" x2="545" y2="339" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<rect x="565" y="304" width="473" height="70" rx="12" fill="#202a38"/>
+<text x="588" y="347" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">v² = ω²(A² − x²)</text>
+<rect x="42" y="392" width="430" height="70" rx="12" fill="#202a38"/>
+<text x="62" y="422" font-size="23" fill="#79b7ff" text-anchor="start" font-weight="700">Piden el primer tiempo</text>
+<text x="62" y="447" font-size="18" fill="#b9c7da" text-anchor="start">Revisar las dos ramas del seno</text>
+<line x1="490" y1="427" x2="545" y2="427" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<rect x="565" y="392" width="473" height="70" rx="12" fill="#202a38"/>
+<text x="588" y="435" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">Fase → sentido → t válido</text>
+<rect x="42" y="480" width="430" height="70" rx="12" fill="#202a38"/>
+<text x="62" y="510" font-size="23" fill="#79b7ff" text-anchor="start" font-weight="700">Resorte vertical</text>
+<text x="62" y="535" font-size="18" fill="#b9c7da" text-anchor="start">El alargamiento estático no es A</text>
+<line x1="490" y1="515" x2="545" y2="515" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<rect x="565" y="480" width="473" height="70" rx="12" fill="#202a38"/>
+<text x="588" y="523" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">Equilibrio nuevo → x desde allí</text>
+<text x="42" y="615" font-size="19" fill="#b9c7da" text-anchor="start">Primero: equilibrio, eje positivo e instante inicial. Después: ecuaciones.</text>
+</svg>

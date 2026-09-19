@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="0 0 1080 720" role="img" aria-labelledby="title desc">
+<title id="title">Mismo momento; distinta energía cinética</title><desc id="desc">Una masa a 2 m/s alcanza a otra en reposo. Con impulso externo cero se conserva P=2 kg m/s. Choque elástico: velocidades cero y dos, energía 2 J. Inelástico con e=0,5: velocidades 0,5 y 1,5, energía 1,25 J. Plástico: unidas a 1 m/s, energía 1 J.</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="696" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">Mismo momento; distinta energía cinética</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">Ejemplo ilustrativo · dos masas de 1 kg · velocidades medidas respecto del suelo.</text>
+<text x="64" y="145" font-size="21" fill="#b9c7da" text-anchor="start" font-weight="700">ANTES</text>
+<rect x="182" y="123" width="60" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="212.0" y="152.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">1</text>
+<line x1="250" y1="145" x2="346" y2="145" stroke="#79b7ff" stroke-width="3" marker-end="url(#a1)"/>
+<text x="264" y="123" font-size="20" fill="#79b7ff" text-anchor="start">2 m/s</text>
+<rect x="437" y="123" width="60" height="44" rx="7" fill="#202a38" stroke="#ffce75"/>
+<text x="467.0" y="152.0" font-size="22" fill="#ffce75" text-anchor="middle" font-weight="700">2</text>
+<text x="515" y="151" font-size="22" fill="#ffce75" text-anchor="start">v₂ = 0</text>
+<text x="734" y="147" font-size="22" fill="#f4f7fc" text-anchor="start" class="eq">Pᵢ = 2 kg·m/s; Kᵢ = 2 J</text>
+<rect x="42" y="207" width="321" height="377" rx="16" fill="#202a38"/>
+<text x="62" y="243" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">ELÁSTICO</text>
+<text x="62" y="277" font-size="21" fill="#b9c7da" text-anchor="start">e = 1</text>
+<rect x="69" y="323" width="46" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="92.0" y="352.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">1</text>
+<text x="69" y="408" font-size="22" fill="#79b7ff" text-anchor="start">v₁ = 0</text>
+<rect x="216" y="323" width="46" height="44" rx="7" fill="#202a38" stroke="#ffce75"/>
+<text x="239.0" y="352.0" font-size="22" fill="#ffce75" text-anchor="middle" font-weight="700">2</text>
+<line x1="266" y1="345" x2="338" y2="345" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<text x="216" y="408" font-size="22" fill="#ffce75" text-anchor="start">v₂ = 2</text>
+<text x="62" y="438" font-size="18" fill="#b9c7da" text-anchor="start">velocidades en m/s</text>
+<text x="62" y="483" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">P𝒇 = 2 kg·m/s</text>
+<rect x="62" y="507" width="281" height="22" rx="4" fill="#141b25"/>
+<rect x="62" y="507" width="281.0" height="22" rx="4" fill="#79dfba"/>
+<text x="62" y="562" font-size="23" fill="#79dfba" text-anchor="start">K𝒇 = 2 J</text>
+<rect x="379" y="207" width="321" height="377" rx="16" fill="#202a38"/>
+<text x="399" y="243" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">INELÁSTICO</text>
+<text x="399" y="277" font-size="21" fill="#b9c7da" text-anchor="start">e = 0,5</text>
+<rect x="406" y="323" width="46" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="429.0" y="352.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">1</text>
+<line x1="456" y1="345" x2="474.0" y2="345" stroke="#79b7ff" stroke-width="3" marker-end="url(#a1)"/>
+<text x="406" y="408" font-size="22" fill="#79b7ff" text-anchor="start">v₁ = 0,5</text>
+<rect x="553" y="323" width="46" height="44" rx="7" fill="#202a38" stroke="#ffce75"/>
+<text x="576.0" y="352.0" font-size="22" fill="#ffce75" text-anchor="middle" font-weight="700">2</text>
+<line x1="603" y1="345" x2="657.0" y2="345" stroke="#ffce75" stroke-width="3" marker-end="url(#a2)"/>
+<text x="553" y="408" font-size="22" fill="#ffce75" text-anchor="start">v₂ = 1,5</text>
+<text x="399" y="438" font-size="18" fill="#b9c7da" text-anchor="start">velocidades en m/s</text>
+<text x="399" y="483" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">P𝒇 = 2 kg·m/s</text>
+<rect x="399" y="507" width="281" height="22" rx="4" fill="#141b25"/>
+<rect x="399" y="507" width="175.625" height="22" rx="4" fill="#79dfba"/>
+<text x="399" y="562" font-size="23" fill="#79dfba" text-anchor="start">K𝒇 = 1,25 J</text>
+<rect x="716" y="207" width="321" height="377" rx="16" fill="#202a38"/>
+<text x="736" y="243" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">PLÁSTICO</text>
+<text x="736" y="277" font-size="21" fill="#b9c7da" text-anchor="start">e = 0</text>
+<rect x="774" y="323" width="59" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="803.5" y="352.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">1</text>
+<rect x="833" y="323" width="59" height="44" rx="7" fill="#202a38" stroke="#ffce75"/>
+<text x="862.5" y="352.0" font-size="22" fill="#ffce75" text-anchor="middle" font-weight="700">2</text>
+<line x1="901" y1="345" x2="987" y2="345" stroke="#79dfba" stroke-width="3" marker-end="url(#a3)"/>
+<text x="780" y="408" font-size="21" fill="#79dfba" text-anchor="start">juntas · V = 1 m/s</text>
+<text x="736" y="483" font-size="23" fill="#f4f7fc" text-anchor="start" class="eq">P𝒇 = 2 kg·m/s</text>
+<rect x="736" y="507" width="281" height="22" rx="4" fill="#141b25"/>
+<rect x="736" y="507" width="140.5" height="22" rx="4" fill="#79dfba"/>
+<text x="736" y="562" font-size="23" fill="#79dfba" text-anchor="start">K𝒇 = 1 J</text>
+<text x="540" y="624" font-size="23" fill="#f4f7fc" text-anchor="middle">P se conserva en los tres casos. K sólo se conserva en el elástico.</text>
+<text x="42" y="685" font-size="19" fill="#b9c7da" text-anchor="start">Hipótesis: impulso externo despreciable durante el choque. “Plástico” significa que quedan unidos.</text>
+</svg>

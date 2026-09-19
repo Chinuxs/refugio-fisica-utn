@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="590" viewBox="0 0 1080 590" role="img" aria-labelledby="title desc">
+<title id="title">Choque y frenado: separar las etapas</title><desc id="desc">Antes: proyectil m con velocidad v y bloque M quieto. Durante el choque corto se desprecia el impulso del roce y mv=(m+M)V. Después, el roce frena al conjunto y V al cuadrado=2 mu g d. Resolver hacia atrás para hallar v.</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="566" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">Choque y frenado: separar las etapas</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">Proyectil que queda empotrado en un bloque sobre piso rugoso.</text>
+<rect x="42" y="126" width="321" height="359" rx="16" fill="#202a38"/>
+<text x="62" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">ANTES DEL CHOQUE</text>
+<circle cx="82" cy="250" r="8" fill="#79b7ff"/>
+<line x1="99" y1="250" x2="209" y2="250" stroke="#79b7ff" stroke-width="3" marker-end="url(#a1)"/>
+<text x="131" y="230" font-size="24" fill="#79b7ff" text-anchor="start">v</text>
+<text x="69" y="281" font-size="21" fill="#79b7ff" text-anchor="start">m</text>
+<rect x="247" y="230" width="69" height="57" rx="7" fill="#202a38" stroke="#ffce75"/>
+<text x="281.5" y="265.5" font-size="22" fill="#ffce75" text-anchor="middle" font-weight="700">M</text>
+<text x="242" y="323" font-size="20" fill="#b9c7da" text-anchor="start">quieto</text>
+<text x="62" y="390" font-size="21" fill="#b9c7da" text-anchor="start">Momento inicial:</text>
+<text x="62" y="431" font-size="28" fill="#f4f7fc" text-anchor="start" class="eq">pᵢ = mv</text>
+<line x1="62" y1="287" x2="342" y2="287" stroke="#b9c7da" stroke-width="2"/>
+<rect x="379" y="126" width="321" height="359" rx="16" fill="#202a38"/>
+<text x="399" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">JUSTO DESPUÉS</text>
+<rect x="413" y="230" width="116" height="57" rx="7" fill="#202a38" stroke="#79dfba"/>
+<text x="471.0" y="265.5" font-size="22" fill="#79dfba" text-anchor="middle" font-weight="700">m + M</text>
+<line x1="542" y1="253" x2="659" y2="253" stroke="#79dfba" stroke-width="3" marker-end="url(#a3)"/>
+<text x="597" y="231" font-size="24" fill="#79dfba" text-anchor="start">V</text>
+<text x="399" y="323" font-size="21" fill="#b9c7da" text-anchor="start">Impacto: Jext ≈ 0</text>
+<text x="399" y="390" font-size="21" fill="#b9c7da" text-anchor="start">Conservar momento:</text>
+<text x="399" y="431" font-size="28" fill="#f4f7fc" text-anchor="start" class="eq">mv = (m + M)V</text>
+<line x1="399" y1="287" x2="679" y2="287" stroke="#b9c7da" stroke-width="2"/>
+<rect x="716" y="126" width="321" height="359" rx="16" fill="#202a38"/>
+<text x="736" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">FINAL DEL FRENADO</text>
+<rect x="901" y="230" width="116" height="57" rx="7" fill="#202a38" stroke="#79dfba"/>
+<text x="959.0" y="265.5" font-size="22" fill="#79dfba" text-anchor="middle" font-weight="700">m + M</text>
+<text x="926" y="323" font-size="23" fill="#79dfba" text-anchor="start">v𝒇 = 0</text>
+<line x1="746" y1="291" x2="738" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="761" y1="291" x2="753" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="776" y1="291" x2="768" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="791" y1="291" x2="783" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="806" y1="291" x2="798" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="821" y1="291" x2="813" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="836" y1="291" x2="828" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="851" y1="291" x2="843" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="866" y1="291" x2="858" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="881" y1="291" x2="873" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="896" y1="291" x2="888" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="911" y1="291" x2="903" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="926" y1="291" x2="918" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="941" y1="291" x2="933" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="956" y1="291" x2="948" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="971" y1="291" x2="963" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="986" y1="291" x2="978" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="1001" y1="291" x2="993" y2="301" stroke="#ffce75" stroke-width="2"/>
+<line x1="746" y1="340" x2="976" y2="340" stroke="#ffce75" stroke-width="2" marker-end="url(#a2)"/>
+<text x="849" y="367" font-size="21" fill="#ffce75" text-anchor="start">d</text>
+<text x="736" y="400" font-size="21" fill="#b9c7da" text-anchor="start">Roce → cambio de K:</text>
+<text x="736" y="440" font-size="28" fill="#f4f7fc" text-anchor="start" class="eq">½V² = μₖgd</text>
+<line x1="736" y1="287" x2="1016" y2="287" stroke="#b9c7da" stroke-width="2"/>
+<text x="540" y="528" font-size="23" fill="#f4f7fc" text-anchor="middle">Resolver hacia atrás: frenado → V; después, choque → v del proyectil.</text>
+<text x="42" y="555" font-size="19" fill="#b9c7da" text-anchor="start">El roce es despreciable sólo durante el impacto corto. En el frenado, su trabajo es esencial.</text>
+</svg>

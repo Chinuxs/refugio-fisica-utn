@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650" role="img" aria-labelledby="title desc">
+<title id="title">De altura a resorte: seguir la energía</title><desc id="desc">Un bloque de 10 kg baja desde 3 metros. Sólo el tramo BC es rugoso. Termina comprimiendo 0,30 m un resorte de 2250 N/m. Energía inicial 294 J, final 101,25 J y 192,75 J transformados en energía interna.</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="626" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">De altura a resorte: seguir la energía</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">TP 6 · ejercicio 19 · reposo al inicio y en la máxima compresión.</text>
+<path d="M125 220 C145 220 185 345 355 345 H910" stroke="#b9c7da" stroke-width="5" fill="none"/>
+<line x1="445" y1="345" x2="650" y2="345" stroke="#ffce75" stroke-width="7"/>
+<line x1="446" y1="350" x2="437" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="459" y1="350" x2="450" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="472" y1="350" x2="463" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="485" y1="350" x2="476" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="498" y1="350" x2="489" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="511" y1="350" x2="502" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="524" y1="350" x2="515" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="537" y1="350" x2="528" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="550" y1="350" x2="541" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="563" y1="350" x2="554" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="576" y1="350" x2="567" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="589" y1="350" x2="580" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="602" y1="350" x2="593" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="615" y1="350" x2="606" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="628" y1="350" x2="619" y2="363" stroke="#ffce75" stroke-width="2"/>
+<line x1="641" y1="350" x2="632" y2="363" stroke="#ffce75" stroke-width="2"/>
+<rect x="114" y="171" width="60" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="144.0" y="200.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">m</text>
+<text x="96" y="148" font-size="22" fill="#79b7ff" text-anchor="start" font-weight="700">A · v = 0</text>
+<line x1="80" y1="220" x2="80" y2="345" stroke="#79dfba" stroke-width="2"/>
+<line x1="72" y1="220" x2="88" y2="220" stroke="#79dfba" stroke-width="2"/>
+<line x1="72" y1="345" x2="88" y2="345" stroke="#79dfba" stroke-width="2"/>
+<text x="45" y="288" font-size="19" fill="#79dfba" text-anchor="start">3 m</text>
+<text x="190" y="243" font-size="20" fill="#b9c7da" text-anchor="start">liso</text>
+<text x="440" y="392" font-size="21" fill="#ffce75" text-anchor="start">B</text>
+<text x="643" y="392" font-size="21" fill="#ffce75" text-anchor="start">C</text>
+<text x="503" y="316" font-size="21" fill="#ffce75" text-anchor="start">roce</text>
+<line x1="590" y1="289" x2="505" y2="289" stroke="#ff96ab" stroke-width="3" marker-end="url(#a4)"/>
+<text x="620" y="263" font-size="19" fill="#79b7ff" text-anchor="start">movimiento</text>
+<line x1="620" y1="281" x2="729" y2="281" stroke="#79b7ff" stroke-width="3" marker-end="url(#a1)"/>
+<text x="711" y="392" font-size="19" fill="#b9c7da" text-anchor="start">h = 0</text>
+<rect x="841" y="301" width="60" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="871.0" y="330.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">m</text>
+<path d="M901.00 322.00 L911.00 322.00 L913.53 313.00 L918.59 331.00 L923.66 313.00 L928.72 331.00 L933.78 313.00 L938.84 331.00 L943.91 313.00 L948.97 331.00 L954.03 313.00 L959.09 331.00 L964.16 313.00 L969.22 331.00 L974.28 313.00 L979.34 331.00 L984.41 313.00 L989.47 331.00 L992.00 322.00 L1002.00 322.00" stroke="#79dfba" stroke-width="3" fill="none"/>
+<line x1="1005" y1="275" x2="1005" y2="347" stroke="#b9c7da" stroke-width="5"/>
+<text x="819" y="150" font-size="22" fill="#79dfba" text-anchor="start" font-weight="700">FINAL · v = 0</text>
+<text x="819" y="183" font-size="20" fill="#b9c7da" text-anchor="start">k = 2250 N/m</text>
+<text x="819" y="214" font-size="20" fill="#b9c7da" text-anchor="start">x = 0,30 m</text>
+<rect x="42" y="423" width="480" height="166" rx="16" fill="#202a38"/>
+<text x="62" y="459" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">INICIO · Eᵢ = mgh = 294 J</text>
+<rect x="65" y="480" width="420" height="25" rx="4" fill="#ffce75"/>
+<text x="65" y="546" font-size="20" fill="#b9c7da" text-anchor="start">Toda la energía mecánica está en Uɡ.</text>
+<rect x="540" y="423" width="498" height="166" rx="16" fill="#202a38"/>
+<text x="560" y="459" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">FINAL · E𝒇 = ½kx² = 101,25 J</text>
+<rect x="563" y="480" width="145" height="25" rx="4" fill="#79dfba"/>
+<rect x="708" y="480" width="276" height="25" rx="4" fill="url(#hatch)" stroke="#79b7ff"/>
+<text x="563" y="540" font-size="20" fill="#79dfba" text-anchor="start">Uₑ = 101,25 J</text>
+<text x="563" y="572" font-size="20" fill="#79b7ff" text-anchor="start">192,75 J → energía interna</text>
+<text x="42" y="615" font-size="19" fill="#b9c7da" text-anchor="start">Wroce = E𝒇 − Eᵢ = −192,75 J. La energía total se conserva; la mecánica disminuye.</text>
+</svg>

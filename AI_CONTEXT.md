@@ -117,6 +117,11 @@ debe preferirse el recurso visual antes que un bloque largo de texto.
 - Un triángulo vale más que una explicación extensa de seno y coseno.
 - Un esquema de fuerzas vale más que una descripción textual.
 - Usar diagramas ASCII sencillos o imágenes existentes siempre que ayuden.
+- Para esquemas físicos nuevos, seguir el estilo SVG de Dinámica y Movimiento
+  Circular: ejes, flechas, cuerpos y etiquetas legibles directamente en GitHub.
+  En TyE, MAS e Impulso, los SVG se regeneran con
+  `py herramientas/generar_diagramas_estudio.py` (sin dependencias externas).
+  Revisar el resultado visual después de cambiar el generador.
 - Mantener el texto breve y orientado a retomar el ejercicio.
 
 ### Convención visual para fichas

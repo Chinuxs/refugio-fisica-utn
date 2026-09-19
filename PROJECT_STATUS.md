@@ -112,6 +112,13 @@ Preparar Física I concentrándose en:
 
 ## Última actualización
 
+**19 de septiembre de 2026:** se reemplazaron los seis esquemas de texto de
+las guías breves por SVG y se incorporaron seis gráficos complementarios.
+TyE incluye balance energético y contacto en loop; MAS, estados y curvas
+calculadas; Impulso, choques, centro de masa y áreas fuerza–tiempo. Los 12
+diagramas siguen el estilo de los temas anteriores y cuentan con un generador
+reproducible sin dependencias.
+
 **19 de septiembre de 2026:** se incorporaron teoría esencial y resolución
 por casos para Trabajo y Energía, MAS e Impulso y cantidad de movimiento,
 basadas en las presentaciones y los TP 6, 7 y 8 provistos. Se agregaron fuentes,

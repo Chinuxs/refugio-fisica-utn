@@ -9,13 +9,7 @@ Las referencias corresponden al **TP 7**.
 
 ## 🖼️ Esquema / dibujo
 
-```text
-¿Tengo x(t)?       → leer A, ω, fase → derivar
-¿Tengo x0 y v0?    → hallar A y fase → armar x(t)
-¿Piden v en x?    → energía / v²=ω²(A²−x²)
-¿Piden un tiempo? → fase + sentido + primer instante válido
-¿Resorte vertical?→ equilibrio nuevo → medir x desde allí
-```
+![Selector de métodos de MAS según ecuación horaria, condiciones iniciales, velocidad, tiempo o nuevo equilibrio](assets/elegir-metodo.svg)
 
 ## 📐 Fórmula
 
@@ -48,6 +42,8 @@ Resortes que soportan la misma oscilación en paralelo: $k_{eq}=\sum k_j$;
 usar la masa total que oscila. Luego $\omega=\sqrt{k_{eq}/m}$.
 
 ### 5. Resorte vertical / se detiene el ascensor — ej. 11, 15
+
+![Equilibrio del resorte vertical cargado y geometría del péndulo para oscilaciones pequeñas](assets/equilibrio-resorte-pendulo.svg)
 
 Calcular el equilibrio y medir $x$ respecto de él. Si el soporte se detiene
 bruscamente y el impulso sobre la masa es despreciable, la masa conserva

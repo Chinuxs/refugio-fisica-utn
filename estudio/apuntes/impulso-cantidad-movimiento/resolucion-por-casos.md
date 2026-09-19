@@ -9,12 +9,11 @@ la energía de una etapa posterior. Referencias: **TP 8**.
 
 ## 🖼️ Esquema / dibujo
 
-```text
-CAÍDA / RECORRIDO             CHOQUE CORTO               SUBIDA / FRENADO
-energía o cinemática    →  momento + tipo de choque  →   energía / trabajo
+![Proyectil empotrado en un bloque: momento durante el choque y trabajo del roce durante el frenado posterior](assets/choque-por-etapas.svg)
 
-La velocidad de salida de una etapa es la de entrada de la siguiente.
-```
+La velocidad de salida de una etapa es la de entrada de la siguiente. Si hay
+caída o recorrido previo al impacto, resolver primero esa etapa por energía
+o cinemática.
 
 ## 📐 Fórmula
 
@@ -107,6 +106,8 @@ otro cuerpo. En una explosión en vuelo, después del estallido cada fragmento
 hace su propio tiro; la energía cinética puede aumentar.
 
 ### Dos comprobaciones cortas
+
+![Gráfico del TP 8 ejercicio 6: dos triángulos y un rectángulo de 4 N·s cada uno; impulso total 12 N·s y fuerza media 2,4 N](assets/area-impulso.svg)
 
 **TP 8, ej. 6 — área fuerza–tiempo.** La figura tiene un triángulo de 0 a 2 s,
 un rectángulo de 2 a 3 s y otro triángulo de 3 a 5 s, con máximo de 4 N:

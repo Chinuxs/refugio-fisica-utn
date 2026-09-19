@@ -11,14 +11,7 @@ mismo balance. Los números de ejercicio corresponden al **TP 6**.
 
 ## 🖼️ Esquema / dibujo
 
-```text
-¿Qué aparece?
-├─ F y desplazamiento / gráfico F(x) → trabajo → cambio de K
-├─ alturas / resorte / roce          → Ei + Wnc = Ef
-├─ varios sectores                  → un balance por tramo
-├─ loop y contacto                  → energía + Newton radial
-└─ tiempo / motor                   → trabajo y potencia
-```
+![Selector de métodos de Trabajo y Energía según fuerzas, alturas, resortes, tramos, contacto o potencia](assets/elegir-metodo.svg)
 
 ## 📐 Fórmula
 
@@ -64,6 +57,8 @@ La resistencia media respecto del recorrido es $R=mg(h+d)/d$; sale en **N**.
 Para un cuerpo que entra horizontalmente con rapidez $v$: $Rd=\frac12mv^2$.
 
 ### 7. Resorte que impulsa a un loop — ej. 22–23
+
+![Fuerzas en la cima interior del loop y balance energético para la compresión mínima del resorte](assets/loop-contacto-energia.svg)
 
 Primero imponer contacto en la cima de una pista circular **por dentro**:
 $N+mg=mv_{\text{cima}}^2/R$. En el mínimo de contacto, $N=0$:

@@ -15,13 +15,9 @@
 
 ## 🖼️ Esquema / dibujo
 
-```text
-INICIAL                     RECORRIDO                     FINAL
-vi, hi, xi        trabajo aplicado / roce / pérdidas      vf, hf, xf
-     Ei         +                Wnc               =         Ef
+![Balance del TP 6 ejercicio 19: altura inicial, tramo rugoso y compresión del resorte; barras de energía mecánica y energía transformada](assets/balance-energia.svg)
 
-¿Peso y resorte ya están en U? → No sumarlos otra vez como trabajo.
-```
+![Trabajo de una fuerza inclinada y áreas con signo bajo un gráfico de fuerza contra posición](assets/trabajo-proyeccion-area.svg)
 
 ## 📐 Fórmula
 

@@ -14,15 +14,9 @@
 
 ## 🖼️ Esquema / dibujo
 
-```text
-extremo izquierdo          equilibrio             extremo derecho
-     −A                        0                         +A
-     v=0                    |v| máximo                   v=0
-     a hacia →                 a=0                  ← a hacia
-     U máximo               K máximo                U máximo
+![MAS en menos A, cero y más A: velocidad, aceleración hacia el equilibrio y reparto de energía cinética y potencial](assets/posicion-velocidad-energia.svg)
 
-De un extremo al equilibrio: T/4. De −A a +A: T/2.
-```
+De un extremo al equilibrio: $T/4$. De $-A$ a $+A$: $T/2$.
 
 ## 📐 Fórmula
 
@@ -37,6 +31,8 @@ También puede usarse coseno, ajustando la fase y las derivadas.
 | Velocidad en una posición | $v=\pm\omega\sqrt{A^2-x^2}$; signo según sentido |
 | Amplitud desde el estado inicial | $A=\sqrt{x_0^2+(v_0/\omega)^2}$ |
 | Energía del oscilador | $E=\frac12kA^2$; $U=\frac12kx^2$; $K=\frac12k(A^2-x^2)$ |
+
+![Curvas normalizadas de posición, velocidad y aceleración durante un período para fase inicial cero](assets/curvas-mas.svg)
 
 Para el resorte vertical, ese $U$ es el potencial **total efectivo** referido al
 equilibrio (elástico + gravitatorio, salvo una constante). La energía elástica

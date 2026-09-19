@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="610" viewBox="0 0 1080 610" role="img" aria-labelledby="title desc">
+<title id="title">Dónde está el equilibrio</title><desc id="desc">Resorte sin carga comparado con resorte cargado: la carga lo alarga delta=mg/k y el origen de la oscilación se fija en el nuevo equilibrio. Un péndulo oscila alrededor de la vertical y su período aproximado es dos pi por raíz de L sobre g.</desc>
+<defs>
+<marker id="a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79dfba"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ff96ab"/></marker>
+<marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#f4f7fc"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10 L10 0" stroke="#79b7ff" stroke-width="1" opacity="0.3"/></pattern>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style></defs>
+<rect x="12" y="12" width="1056" height="586" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="29" fill="#f4f7fc" text-anchor="start" font-weight="700">Dónde está el equilibrio</text>
+<text x="42" y="90" font-size="19" fill="#b9c7da" text-anchor="start">Dos osciladores: el resorte vertical y el péndulo simple.</text>
+<rect x="42" y="126" width="478" height="381" rx="16" fill="#202a38"/>
+<text x="62" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">RESORTE VERTICAL</text>
+<line x1="80" y1="206" x2="429" y2="206" stroke="#b9c7da" stroke-width="5"/>
+<path d="M155.00 207.00 L155.00 217.00 L164.00 218.88 L146.00 222.62 L164.00 226.38 L146.00 230.12 L164.00 233.88 L146.00 237.62 L164.00 241.38 L146.00 245.12 L164.00 248.88 L146.00 252.62 L164.00 256.38 L146.00 260.12 L164.00 263.88 L146.00 267.62 L164.00 271.38 L146.00 275.12 L155.00 277.00 L155.00 287.00" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<line x1="116" y1="288" x2="397" y2="288" stroke="#b9c7da" stroke-width="1.5" stroke-dasharray="5 5"/>
+<text x="82" y="193" font-size="19" fill="#b9c7da" text-anchor="start">sin carga</text>
+<path d="M340.00 207.00 L340.00 217.00 L349.00 221.31 L331.00 229.94 L349.00 238.56 L331.00 247.19 L349.00 255.81 L331.00 264.44 L349.00 273.06 L331.00 281.69 L349.00 290.31 L331.00 298.94 L349.00 307.56 L331.00 316.19 L349.00 324.81 L331.00 333.44 L349.00 342.06 L331.00 350.69 L340.00 355.00 L340.00 365.00" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<rect x="310" y="365" width="60" height="44" rx="7" fill="#202a38" stroke="#79b7ff"/>
+<text x="340.0" y="394.0" font-size="22" fill="#79b7ff" text-anchor="middle" font-weight="700">m</text>
+<line x1="267" y1="288" x2="267" y2="365" stroke="#ffce75" stroke-width="2"/>
+<line x1="260" y1="288" x2="274" y2="288" stroke="#ffce75" stroke-width="2"/>
+<line x1="260" y1="365" x2="310" y2="365" stroke="#ffce75" stroke-width="2"/>
+<text x="246" y="345" font-size="22" fill="#ffce75" text-anchor="start">δ</text>
+<line x1="372" y1="387" x2="472" y2="387" stroke="#79b7ff" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="397" y="373" font-size="21" fill="#79b7ff" text-anchor="start">x = 0</text>
+<text x="294" y="193" font-size="19" fill="#79b7ff" text-anchor="start">con carga</text>
+<text x="77" y="461" font-size="26" fill="#ffce75" text-anchor="start" class="eq">δ = mg/k</text>
+<text x="280" y="461" font-size="26" fill="#f4f7fc" text-anchor="start" class="eq">ω = √(k/m)</text>
+<rect x="540" y="126" width="498" height="381" rx="16" fill="#202a38"/>
+<text x="560" y="162" font-size="21" fill="#f4f7fc" text-anchor="start" font-weight="700">PÉNDULO · ÁNGULOS PEQUEÑOS</text>
+<line x1="777" y1="203" x2="777" y2="414" stroke="#b9c7da" stroke-width="1.5" stroke-dasharray="6 6"/>
+<line x1="777" y1="203" x2="822.9651601639368" y2="387.35618799243935" stroke="#f4f7fc" stroke-width="3"/>
+<circle cx="777" cy="203" r="6" fill="#f4f7fc"/>
+<circle cx="822.9651601639368" cy="387.35618799243935" r="14" fill="#79b7ff"/>
+<path d="M777 283 A80 80 0 0 0 796.35 280.62" stroke="#ffce75" stroke-width="2" fill="none"/>
+<text x="805" y="285" font-size="23" fill="#ffce75" text-anchor="start">θ</text>
+<text x="832" y="333" font-size="23" fill="#f4f7fc" text-anchor="start">L</text>
+<text x="582" y="239" font-size="19" fill="#b9c7da" text-anchor="start">vertical de</text>
+<text x="582" y="266" font-size="19" fill="#b9c7da" text-anchor="start">equilibrio</text>
+<line x1="704" y1="258" x2="765" y2="294" stroke="#b9c7da" stroke-width="1.5" marker-end="url(#a0)"/>
+<text x="787" y="461" font-size="29" fill="#f4f7fc" text-anchor="middle" class="eq">T ≈ 2π √(L/g)</text>
+<text x="42" y="575" font-size="19" fill="#b9c7da" text-anchor="start">Resorte: x desde el equilibrio cargado. Péndulo: θ desde la vertical; usar radianes en las ecuaciones.</text>
+</svg>

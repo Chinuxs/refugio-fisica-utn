@@ -14,15 +14,7 @@
 
 ## 🖼️ Esquema / dibujo
 
-```text
-SISTEMA = ambos cuerpos; +x hacia la derecha
-
-ANTES                       INTERACCIÓN                       DESPUÉS
-m1 → v1i   v2i ← m2       impulso externo ≈ 0              m1 v1f, m2 v2f
-       Pi                 ─────────────────→                      Pf
-
-¿Quedan unidos? → misma vf. ¿Elástico? → además Kf=Ki.
-```
+![Comparación numérica de choques elástico, inelástico y plástico: se conserva el momento, pero cambia la energía cinética](assets/comparar-choques.svg)
 
 ## 📐 Fórmula
 
@@ -38,6 +30,8 @@ de partículas elegido como sistema.
 | Movimiento del CM | $\vec P=M\vec v_{CM}$; $\sum\vec F_{ext}=M\vec a_{CM}$ | Masa total constante |
 | Velocidad respecto del CM | $\vec v'_j=\vec v_j-\vec v_{CM}$ | No mezclar referencias |
 | Energía cinética del sistema | $K=\frac12Mv_{CM}^2+\sum\frac12m_jv_j'^2$ | Traslación del CM + movimiento relativo |
+
+![Centro de masa más próximo a la masa mayor y transformación de velocidades desde el suelo al sistema del CM](assets/centro-masa.svg)
 
 **Choques frontales en 1D**, con velocidades algebraicas y sin impulso externo
 apreciable:
