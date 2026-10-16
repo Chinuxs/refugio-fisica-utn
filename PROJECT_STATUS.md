@@ -53,6 +53,8 @@ Preparar Física I concentrándose en:
   en loop/cima convexa.
 - [x] Condición física de una cuerda en el punto más alto de un círculo
   vertical.
+- [x] Significado del dato en rpm y conversión rápida a rad/s, con accesos
+  desde el índice y los errores frecuentes, y aplicación al caso de MAS.
 - [ ] Movimiento Circular Uniforme.
 - [ ] Velocidad angular.
 - [ ] Velocidad tangencial.
@@ -111,6 +113,18 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**15 de octubre de 2026:** se aclaró que un giro dado en rpm indica el módulo
+de la velocidad angular y se destacó la conversión rápida a rad/s, con el
+ejemplo de 60 rpm. Se agregaron accesos desde el índice de Movimiento Circular
+y los errores frecuentes. En MAS se completó la conversión y se explicitó
+que igualar la frecuencia de giro con la de oscilación requiere una oscilación
+completa por vuelta.
+
+**12 de octubre de 2026:** se reforzó la ficha de división de ecuaciones con
+condiciones de validez, cancelación de factores, recuperación de la tensión
+y un ejemplo numérico comprobado. Se corrigió la orientación del péndulo en
+el automóvil acelerado y se agregó un SVG de cancelación paso a paso.
 
 **19 de septiembre de 2026:** se reemplazaron los seis esquemas de texto de
 las guías breves por SVG y se incorporaron seis gráficos complementarios.

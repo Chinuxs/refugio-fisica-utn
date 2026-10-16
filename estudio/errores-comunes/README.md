@@ -22,6 +22,8 @@ problemas y la preparación de evaluaciones.
 
 - Pensar que rapidez constante implica aceleración nula.
 - Confundir velocidad angular con velocidad tangencial.
+- Usar el valor en rpm como si estuviera en rad/s. Ver
+  [significado del dato y conversión rápida](../apuntes/movimiento-circular/Movimiento_Circular_UTN_FRLP.md#velocidad-angular-frecuencia-y-período).
 - No identificar la dirección radial.
 - Usar `mv²/r` como una fuerza extra y no como la resultante radial.
 - No analizar por separado las direcciones radial y tangencial.

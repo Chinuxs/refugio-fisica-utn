@@ -165,7 +165,25 @@ $$
 
 - $\omega$: rad/s; $f$: Hz; $T$: s.
 - Una vuelta equivale a $2\pi\ \text{rad}$.
-- Conversión útil: $\displaystyle \omega=(\text{rpm})\frac{2\pi}{60}$.
+
+**Si el enunciado dice que un cuerpo gira a cierta cantidad de rpm, te está
+dando el módulo de su velocidad angular**, expresado en **revoluciones por
+minuto**. Una revolución es una vuelta completa.
+
+**Conversión rápida:** si el dato es $N\ \text{rpm}$, multiplicá por $2\pi$ y
+dividí por $60$:
+
+$$
+\boxed{\omega=\frac{N\cdot2\pi}{60}\ \text{rad/s}}
+$$
+
+El $2\pi$ convierte vueltas a radianes y el $60$ convierte el tiempo de minutos
+a segundos.
+
+**Ejemplo:** $60\ \text{rpm}$ equivale a una vuelta por segundo:
+$\omega=60\cdot2\pi/60=2\pi\ \text{rad/s}\approx6{,}28\ \text{rad/s}$.
+La frecuencia correspondiente es $f=N/60\ \text{Hz}$; para $60\ \text{rpm}$,
+$f=1\ \text{Hz}$.
 
 ## Velocidad tangencial
 

@@ -18,7 +18,13 @@ Las referencias corresponden al **TP 7**.
 Leer el coeficiente de **$t$ dentro del argumento**: ese es $\omega$.
 Derivar sin cambiar seno por coseno arbitrariamente; cada derivada aporta
 otro $\omega$. Calcular $T=2\pi/\omega$ y sustituir $t=0$ para comprobar la fase.
-Si dan rpm: $f=\mathrm{rpm}/60$; para un pistón, $A=\text{carrera}/2$.
+
+Si el dato es un giro a $N\ \mathrm{rpm}$, representa el módulo de su
+velocidad angular: $\omega_{\text{giro}}=N\cdot2\pi/60\ \mathrm{rad/s}$.
+Si hay **una oscilación completa por vuelta**, $f=N/60\ \mathrm{Hz}$ y la
+frecuencia angular del MAS coincide con $\omega_{\text{giro}}$.
+Ver [significado de rpm y ejemplo de conversión](../movimiento-circular/Movimiento_Circular_UTN_FRLP.md#velocidad-angular-frecuencia-y-período).
+Para un pistón, $A=\text{carrera}/2$.
 
 ### 2. Armar $x(t)$ con datos iniciales — ej. 5, 9, 11
 
