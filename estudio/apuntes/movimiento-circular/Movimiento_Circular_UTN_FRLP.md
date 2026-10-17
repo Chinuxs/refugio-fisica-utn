@@ -434,6 +434,69 @@ $$
 Una cuerda puede tirar, no empujar: debe cumplirse $T\geq0$. Si el cálculo da
 $T<0$, la hipótesis de cuerda tensa es imposible. El límite es $T=0$.
 
+### De rpm a tensión: caso de parcial
+
+**Ruta de consulta:** dato en rpm → $\omega$ → $a_r=\omega^2R$ → DCL local →
+$\sum F_r=ma_r$ → tensión o condición límite.
+
+**Datos aportados del parcial:** $m=1\ \text{kg}$, $R=0{,}6\ \text{m}$ y
+giro vertical a $60\ \text{rpm}$. Se pide la tensión arriba, abajo y la
+rapidez arriba para que $T=0$. Usamos $g=9{,}8\ \text{m/s}^2$ y una cuerda
+ideal, con centro fijo y radio constante mientras está tensa. No se
+identificó fecha ni número de ejercicio.
+
+**Alcance del dato:** los dos resultados de tensión siguientes suponen que
+las $60\ \text{rpm}$ corresponden a **ambos puntos**. Mantener esa rapidez
+durante toda la vuelta requiere una acción tangencial externa; con solo
+peso y tensión, la rapidez cambia. Si solo actúan esas dos fuerzas y el dato
+corresponde a un único punto, usar [energía entre alturas](#energía-entre-alturas)
+para hallar la otra rapidez. Una frecuencia media por vuelta tampoco fija
+las rapideces locales.
+En los DCL siguientes suponemos que no hay otras fuerzas radiales.
+
+**1. Convertir y obtener la aceleración radial.** Con la
+[conversión de rpm](#velocidad-angular-frecuencia-y-período) ya vista:
+
+$$
+\omega=2\pi\ \text{rad/s},
+\qquad
+a_r=(2\pi)^2\cdot0{,}6\ \text{m/s}^2\approx23{,}69\ \text{m/s}^2
+$$
+
+No hace falta calcular primero $v$ si se busca la tensión. Si se pide la
+rapidez lineal, $v=\omega R\approx3{,}77\ \text{m/s}$.
+
+**2. Dibujar el DCL y elegir $+r$ hacia el centro en cada punto.**
+
+![DCL de una masa con cuerda en el punto alto y bajo: arriba, tensión y peso apuntan hacia el centro; abajo, la tensión apunta hacia el centro y el peso se opone. Los ejes radiales están separados de las fuerzas.](assets/cuerda-vertical-dcl.svg)
+
+| Punto | Proyección sobre $+r$ | Despeje y resultado |
+| --- | --- | --- |
+| Arriba: $+r$ hacia abajo | $T_{\text{arriba}}+mg=ma_r$ | $T_{\text{arriba}}=ma_r-mg\approx13{,}89\ \text{N}$ |
+| Abajo: $+r$ hacia arriba | $T_{\text{abajo}}-mg=ma_r$ | $T_{\text{abajo}}=ma_r+mg\approx33{,}49\ \text{N}$ |
+
+Arriba, el peso **ayuda** a producir la resultante hacia el centro. Abajo,
+la tensión debe además **superar al peso**. A igual rapidez en ambos puntos,
+la diferencia es $T_{\text{abajo}}-T_{\text{arriba}}=2mg=19{,}6\ \text{N}$;
+esta comparación no vale si las rapideces son distintas.
+
+**3. Cambiar al caso límite pedido: arriba, $T=0$.**
+
+$$
+mg=m\frac{v_{\text{arriba,min}}^2}{R}
+\quad\Rightarrow\quad
+v_{\text{arriba,min}}=\sqrt{gR}
+=\sqrt{9{,}8\cdot0{,}6}\ \text{m/s}\approx2{,}42\ \text{m/s}
+$$
+
+Es otra rapidez, distinta de la del giro a $60\ \text{rpm}$. En ese instante
+el peso aporta toda la resultante radial: **$T=0$ no significa $a_r=0$**, sino
+$a_r=g$. Es el umbral local arriba; no es la rapidez mínima de partida abajo.
+
+**Chequeo para volver al ejercicio:** $ma_r$ y $mg$ tienen unidades de fuerza;
+las dos tensiones calculadas son positivas y $3{,}77>2{,}42\ \text{m/s}$,
+por lo que la cuerda puede permanecer tensa arriba en el caso calculado.
+
 ## Cima convexa: cuerpo sobre la pista
 
 En la parte superior, el centro está abajo, pero la normal apunta arriba:

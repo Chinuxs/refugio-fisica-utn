@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title description">
+  <title id="title">Cuerda en círculo vertical: DCL arriba y abajo</title>
+  <desc id="description">Arriba, la tensión y el peso apuntan hacia abajo, hacia el centro. Abajo, la tensión apunta hacia arriba, hacia el centro, y el peso apunta hacia abajo. Los ejes radiales se muestran separados de las fuerzas: el positivo siempre apunta hacia el centro. No se agrega una fuerza centrípeta.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242830"/>
+      <stop offset="1" stop-color="#181b20"/>
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#4b93ff"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#f5c451"/>
+    </marker>
+    <marker id="arrowAxis" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#aab1bd"/>
+    </marker>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, serif; }
+      .muted { fill: #aab1bd; }
+      .bright { fill: #f7f9fc; }
+      .blue { fill: #4b93ff; }
+      .gold { fill: #f5c451; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="1072" height="572" rx="28" fill="url(#surface)" stroke="#444b57"/>
+  <line x1="560" y1="50" x2="560" y2="492" stroke="#444b57"/>
+
+  <g class="ui">
+    <text x="66" y="76" class="bright" font-size="23" font-weight="700">PUNTO ALTO</text>
+    <text x="66" y="108" class="muted" font-size="18">El centro está abajo</text>
+
+    <circle cx="222" cy="166" r="20" fill="#4b93ff"/>
+    <line x1="211" y1="184" x2="211" y2="318" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <line x1="233" y1="184" x2="233" y2="275" stroke="#f5c451" stroke-width="4" marker-end="url(#arrowGold)"/>
+    <text x="176" y="262" class="blue" font-size="22" font-weight="700">T</text>
+    <text x="254" y="242" class="gold" font-size="22" font-weight="700">mg</text>
+
+    <line x1="392" y1="174" x2="392" y2="302" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#arrowAxis)"/>
+    <text x="410" y="240" class="muted" font-size="20">+r</text>
+    <text x="344" y="340" class="muted" font-size="17">hacia el centro</text>
+
+    <rect x="66" y="382" width="450" height="104" rx="16" fill="#2d323a"/>
+    <text x="92" y="420" class="math bright" font-size="28">T + mg = m aᵣ</text>
+    <text x="92" y="458" class="bright" font-size="18">El peso ayuda a curvar la trayectoria.</text>
+  </g>
+
+  <g class="ui">
+    <text x="604" y="76" class="bright" font-size="23" font-weight="700">PUNTO BAJO</text>
+    <text x="604" y="108" class="muted" font-size="18">El centro está arriba</text>
+
+    <circle cx="758" cy="268" r="20" fill="#4b93ff"/>
+    <line x1="758" y1="248" x2="758" y2="144" stroke="#4b93ff" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <line x1="758" y1="288" x2="758" y2="351" stroke="#f5c451" stroke-width="4" marker-end="url(#arrowGold)"/>
+    <text x="724" y="204" class="blue" font-size="22" font-weight="700">T</text>
+    <text x="778" y="331" class="gold" font-size="22" font-weight="700">mg</text>
+
+    <line x1="930" y1="286" x2="930" y2="158" stroke="#aab1bd" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#arrowAxis)"/>
+    <text x="948" y="224" class="muted" font-size="20">+r</text>
+    <text x="878" y="136" class="muted" font-size="17">hacia el centro</text>
+
+    <rect x="604" y="382" width="450" height="104" rx="16" fill="#2d323a"/>
+    <text x="630" y="420" class="math bright" font-size="28">T − mg = m aᵣ</text>
+    <text x="630" y="458" class="bright" font-size="18">La tensión debe superar al peso.</text>
+  </g>
+
+  <g class="ui">
+    <text x="66" y="528" class="muted" font-size="17">Flechas grises: ejes, no fuerzas. Esquemas sin escala.</text>
+    <text x="66" y="566" class="bright" font-size="22" font-weight="700">rpm → ω → aᵣ = ω²R → DCL local → ΣFᵣ = m aᵣ → tensión</text>
+  </g>
+</svg>

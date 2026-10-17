@@ -55,6 +55,8 @@ Preparar Física I concentrándose en:
   vertical.
 - [x] Significado del dato en rpm y conversión rápida a rad/s, con accesos
   desde el índice y los errores frecuentes, y aplicación al caso de MAS.
+- [x] Caso de parcial de cuerda en círculo vertical: conexión rpm → aceleración
+  radial → DCL → tensiones y límite, con hipótesis sobre la rapidez local.
 - [ ] Movimiento Circular Uniforme.
 - [ ] Velocidad angular.
 - [ ] Velocidad tangencial.
@@ -113,6 +115,13 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**16 de octubre de 2026:** se amplió la sección existente de cuerda en círculo
+vertical con el caso de $1\ \text{kg}$, radio $0{,}6\ \text{m}$ y $60\ \text{rpm}$.
+Se agregó un DCL comparativo de los puntos alto y bajo, el cálculo de ambas
+tensiones y la interpretación del límite $T=0$. Se explicitó cuándo puede
+usarse la misma rapidez en ambos puntos y cuándo se necesita energía, con
+acceso directo desde el índice de Movimiento Circular.
 
 **15 de octubre de 2026:** se aclaró que un giro dado en rpm indica el módulo
 de la velocidad angular y se destacó la conversión rápida a rad/s, con el
