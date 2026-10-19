@@ -34,14 +34,15 @@ Preparar Física I concentrándose en:
 - [x] Equilibrio por componentes y Tercera Ley aplicados al caso de un avión.
 - [x] Herramientas rápidas de descomposición, conversión y verificación.
 - [x] Distinción entre marco inercial y no inercial en sistemas acelerados.
-- [ ] Resumen conceptual.
+- [x] Resumen conceptual y guía de resolución por casos.
 - [x] Segunda Ley de Newton.
-- [ ] Diagramas de cuerpo libre.
+- [x] Diagramas de cuerpo libre.
 - [ ] Tensión.
 - [ ] Rozamiento.
 - [ ] Plano inclinado.
-- [ ] Ejercicios de parciales y finales.
-- [ ] Errores frecuentes.
+- [x] Ejercicios de TP clasificados por casuística.
+- [ ] Incorporar más ejercicios de parciales y finales.
+- [ ] Errores frecuentes consolidados en un índice único.
 - [ ] Preguntas orales.
 
 ## Movimiento Circular
@@ -57,13 +58,14 @@ Preparar Física I concentrándose en:
   desde el índice y los errores frecuentes, y aplicación al caso de MAS.
 - [x] Caso de parcial de cuerda en círculo vertical: conexión rpm → aceleración
   radial → DCL → tensiones y límite, con hipótesis sobre la rapidez local.
-- [ ] Movimiento Circular Uniforme.
-- [ ] Velocidad angular.
-- [ ] Velocidad tangencial.
-- [ ] Aceleración centrípeta.
-- [ ] Dinámica radial.
-- [ ] Movimiento circular vertical.
-- [ ] Ejercicios de parciales y finales.
+- [x] Movimiento Circular Uniforme.
+- [x] Velocidad angular.
+- [x] Velocidad tangencial.
+- [x] Aceleración centrípeta.
+- [x] Dinámica radial.
+- [x] Movimiento circular vertical.
+- [x] Guía de resolución por casos y ejercicios clasificados.
+- [ ] Incorporar más ejercicios de parciales y finales.
 - [ ] Errores frecuentes.
 - [ ] Preguntas orales.
 
@@ -106,15 +108,26 @@ Preparar Física I concentrándose en:
 ## Próximas tareas
 
 1. Incorporar finales y parciales al repositorio.
-2. Clasificar ejercicios por tema.
-3. Resolver ejercicios de Dinámica.
-4. Resolver ejercicios de Movimiento Circular.
+2. Completar el índice único de errores frecuentes.
+3. Resolver ejercicios adicionales de Dinámica.
+4. Resolver ejercicios adicionales de Movimiento Circular.
 5. Resolver ejercicios de Trabajo y Energía.
 6. Resolver ejercicios de MAS e Impulso y cantidad de movimiento.
 7. Construir un registro de errores frecuentes.
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**19 de octubre de 2026:** se organizó `estudio/parciales/` con los dos
+parciales disponibles de 2026, sus temas visibles y enlaces a la preparación
+correspondiente.
+
+Se contrastaron las guías de Dinámica y Movimiento
+Circular con las carpetas de cátedra de Leyes de Newton, Movimiento en el
+Plano y Movimiento Circular. Se agregaron números de TP a los mapas de casos,
+se verificó que las casuísticas principales estén enlazadas a ejercicios
+resueltos y se dejó Tiro Oblicuo fuera de esta ampliación porque el pedido se
+concentró en Dinámica y MCU.
 
 **16 de octubre de 2026:** se amplió la sección existente de cuerda en círculo
 vertical con el caso de $1\ \text{kg}$, radio $0{,}6\ \text{m}$ y $60\ \text{rpm}$.
