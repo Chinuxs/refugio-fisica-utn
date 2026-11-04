@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Estática y rototraslación: qué fuerzas y movimientos analizar</title>
+  <desc id="desc">Izquierda: escalera uniforme sobre piso rugoso y pared lisa. Peso vertical por el centro, normal del piso hacia arriba, normal de la pared hacia la izquierda y rozamiento del piso hacia la derecha. Derecha: rueda que avanza hacia la derecha sin deslizar; su centro tiene velocidad v, el punto superior 2v y el contacto velocidad cero. El giro es horario.</desc>
+  <rect width="1200" height="520" rx="18" fill="#f5f7fb"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#172b43">
+    <text x="28" y="42" font-size="26" font-weight="700">Equilibrar fuerzas y torques · combinar traslación y giro</text>
+    <text x="28" y="72" font-size="16">Dos modelos del TP 10. Esquemas ideales, sin escala; la rueda se observa desde un suelo fijo.</text>
+    <rect x="20" y="96" width="562" height="403" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="602" y="96" width="578" height="403" rx="14" fill="white" stroke="#d8e0eb"/>
+    <text x="42" y="135" font-size="22" font-weight="700">01 / ESCALERA EN EQUILIBRIO</text>
+    <text x="624" y="135" font-size="22" font-weight="700">02 / RODADURA SIN DESLIZAR</text>
+    <text x="42" y="164" font-size="16">Pared lisa · piso rugoso · peso propio</text>
+    <text x="624" y="164" font-size="16">El centro avanza y la rueda gira en sentido horario</text>
+
+    <path d="M60 382H436V190" fill="none" stroke="#94a3b8" stroke-width="7"/>
+    <path d="M136 378 433 212" stroke="#b07d37" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="136" cy="378" r="5" fill="#172b43"/>
+    <text x="113" y="410" font-size="18">O</text>
+    <circle cx="284" cy="295" r="5" fill="#172b43"/>
+    <text x="297" y="288" font-size="18">CG</text>
+    <path d="M284 295V365" stroke="#a63737" stroke-width="3"/>
+    <path d="M277 354 284 370 291 354Z" fill="#a63737"/>
+    <text x="298" y="351" font-size="18">P = Mg</text>
+    <path d="M136 378V295" stroke="#2457a7" stroke-width="3"/>
+    <path d="M129 306 136 290 143 306Z" fill="#2457a7"/>
+    <text x="57" y="281" font-size="18">Nsuelo</text>
+    <path d="M136 378H218" stroke="#176b56" stroke-width="3"/>
+    <path d="M207 371 223 378 207 385Z" fill="#176b56"/>
+    <text x="180" y="407" font-size="18">fₛ</text>
+    <path d="M433 212H344" stroke="#2457a7" stroke-width="3"/>
+    <path d="M355 205 339 212 355 219Z" fill="#2457a7"/>
+    <text x="349" y="194" font-size="18">Npared</text>
+    <path d="M433 212V378M284 295V378" stroke="#c1cbd8" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="42" y="448" font-family="Cambria Math,Georgia,serif" font-size="25">ΣFx = 0 · ΣFy = 0 · ΣτO = 0</text>
+    <text x="42" y="478" font-size="16">Tomar momentos en O elimina Nsuelo y fₛ.</text>
+
+    <path d="M649 383H1125" stroke="#94a3b8" stroke-width="5"/>
+    <circle cx="819" cy="298" r="83" fill="#edf4ff" stroke="#2457a7" stroke-width="3"/>
+    <path d="M819 215V381M736 298H902" stroke="#c1cbd8" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <circle cx="819" cy="298" r="5" fill="#172b43"/>
+    <text x="762" y="286" font-size="18">CM</text>
+    <path d="M819 298H1006" stroke="#2457a7" stroke-width="3"/>
+    <path d="M995 291 1011 298 995 305Z" fill="#2457a7"/>
+    <text x="950" y="282" font-size="19">vcm</text>
+    <path d="M819 215H1093" stroke="#176b56" stroke-width="3"/>
+    <path d="M1082 208 1098 215 1082 222Z" fill="#176b56"/>
+    <text x="999" y="201" font-size="19">2vcm</text>
+    <path d="M867 330A59 59 0 0 1 812 355" stroke="#2457a7" stroke-width="2" fill="none"/>
+    <path d="M821 349 806 354 819 362Z" fill="#2457a7"/>
+    <text x="887" y="350" font-size="21">ω</text>
+    <circle cx="819" cy="381" r="6" fill="#176b56"/>
+    <text x="840" y="411" font-size="18">CIR: vcontacto = 0</text>
+    <text x="651" y="448" font-family="Cambria Math,Georgia,serif" font-size="25">vcm = R|ω| · K = ½Mvcm² + ½Icmω²</text>
+    <text x="624" y="478" font-size="16">Velocidad cero en el contacto no implica aceleración cero.</text>
+  </g>
+</svg>

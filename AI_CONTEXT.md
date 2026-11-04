@@ -57,8 +57,15 @@ Evitar teoría innecesaria y no copiar capítulos completos de libros.
 - Trabajo y Energía.
 - Movimiento Armónico Simple.
 - Impulso y cantidad de movimiento, centro de masa y choques.
+- Cuerpo Rígido y Rotación: momento de inercia, torque, poleas, energía,
+  rodadura y conservación del momento angular. Mantener teoría esencial,
+  resolución por casos del TP 9 y fuentes con hipótesis y erratas explícitas.
+- Estática y Rototraslación: equilibrio, estabilidad, vuelco, rodadura y CIR.
+  Mantener teoría esencial, casos del TP 10 y fuentes; enlazar las inercias
+  del tema Cuerpo Rígido para evitar duplicados.
 
-Para estos tres últimos temas, mantener dos guías breves por tema:
+Para Trabajo y Energía, MAS, Impulso, Cuerpo Rígido y Estática y
+Rototraslación, mantener dos guías breves por tema:
 `teoria-esencial.md` (conceptos, fórmulas y condiciones) y
 `resolucion-por-casos.md` (cómo reconocer el caso y qué plantear).
 Basar los casos en los TP de la cátedra, indicar sus números de ejercicio y

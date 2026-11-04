@@ -9,6 +9,8 @@ Preparar Física I concentrándose en:
 - Trabajo y Energía.
 - Movimiento Armónico Simple.
 - Impulso y cantidad de movimiento.
+- Cuerpo Rígido y Rotación.
+- Estática y Rototraslación.
 
 ## Exposición de Cinemática
 
@@ -97,6 +99,25 @@ Preparar Física I concentrándose en:
 - [x] Fuentes y criterios para enunciados que requieren hipótesis adicionales.
 - [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
+## Cuerpo Rígido y Rotación
+
+- [x] Teoría esencial basada en la presentación de cátedra y Sears, capítulos 9–10.
+- [x] Guía por casos con referencias a los 35 ejercicios del TP 9.
+- [x] Momento de inercia, Steiner, torque, motores y poleas con masa.
+- [x] Energía, rodadura/eje instantáneo, momento angular y conservación.
+- [x] Referencias breves de impulso angular, precesión y segunda ley de Kepler.
+- [x] Esquema SVG comparativo y registro de hipótesis, erratas y comprobaciones.
+- [ ] Incorporar resoluciones completas de ejercicios y parciales.
+
+## Estática y Rototraslación
+
+- [x] Teoría esencial basada en presentación, TP 10 y Sears §10.3.
+- [x] Guía con 9 casos vinculados a los 21 ejercicios del TP 10.
+- [x] Equilibrio, estabilidad, reacciones, deslizamiento y vuelco.
+- [x] Energía de rodadura, rampas, carretes, ruedas, loop y cilindro con cuerda.
+- [x] Esquema SVG y fuentes con hipótesis y discrepancias de respuestas.
+- [ ] Incorporar resoluciones completas de ejercicios y parciales.
+
 ## Material por incorporar
 
 - [ ] Parciales anteriores.
@@ -117,6 +138,25 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**3 de noviembre de 2026:** se incorporó el segundo tema, Estática y
+Rototraslación, con teoría esencial, 9 casos del TP 10, esquema SVG y fuentes.
+Se comprobaron planteos y resultados representativos, con observaciones sobre
+las hipótesis de los ejercicios 17 y 19 y las aceleraciones del ejercicio 20.
+Ambos temas nuevos están enlazados desde la portada y el índice de estudio.
+
+**3 de noviembre de 2026:** se incorporó Cuerpo Rígido y Rotación a los temas
+de la materia y al índice de estudio. Se crearon teoría esencial, 11 casos de
+resolución del TP 9, esquema SVG y fuentes con comprobaciones y discrepancias
+de las respuestas impresas. El segundo tema se incorporó en la entrada anterior.
+
+**3 de noviembre de 2026:** se agregó una guía breve del Laboratorio 3
+(constante de un resorte), basada en el PDF de cátedra: mediciones, tablas,
+métodos estático y dinámico, comparación y errores. Accesible desde la portada
+y el índice de estudio. Se señaló la ambigüedad del error estático de la
+planilla para consultar a la cátedra. Pendiente tomar las medidas reales.
+Se incorporó un esquema SVG comparativo de los métodos: referencia inicial,
+alargamiento, fuerzas, amplitud y período.
 
 **19 de octubre de 2026:** se organizó `estudio/parciales/` con los dos
 parciales disponibles de 2026, sus temas visibles y enlaces a la preparación

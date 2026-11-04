@@ -8,7 +8,7 @@ tiro oblicuo. Ahora también reúne material para preparar parciales y finales,
 con explicaciones, ejercicios resueltos, errores frecuentes y seguimiento del
 progreso. Los temas disponibles son **Dinámica**, **Movimiento Circular**,
 **Trabajo y Energía**, **Movimiento Armónico Simple** e **Impulso y cantidad
-de movimiento**.
+de movimiento**, **Cuerpo Rígido y Rotación** y **Estática y Rototraslación**.
 
 El contenido está organizado para que resulte útil a todos los compañeros,
 incluidas las personas que no programan: el material de estudio se mantiene
@@ -41,6 +41,8 @@ separado del código del simulador y se escribe en español claro.
 ## Estudio
 
 ### 🎯 Acceso rápido
+
+- [Laboratorio 3: guía breve del resorte](estudio/laboratorios/laboratorio-3.md)
 - [Parciales y finales](estudio/parciales/README.md)
 - [Errores frecuentes](estudio/errores-comunes/README.md)
 
@@ -71,6 +73,18 @@ separado del código del simulador y se escribe en español claro.
 - [Teoría esencial](estudio/apuntes/impulso-cantidad-movimiento/teoria-esencial.md)
 - [Resolución por casos](estudio/apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/impulso-cantidad-movimiento/README.md)
+
+**Cuerpo Rígido y Rotación**
+
+- [Teoría esencial](estudio/apuntes/cuerpo-rigido/teoria-esencial.md)
+- [Resolución por casos del TP 9](estudio/apuntes/cuerpo-rigido/resolucion-por-casos.md)
+- [Ver tema completo →](estudio/apuntes/cuerpo-rigido/README.md)
+
+**Estática y Rototraslación**
+
+- [Teoría esencial](estudio/apuntes/estatica-rototraslacion/teoria-esencial.md)
+- [Resolución por casos del TP 10](estudio/apuntes/estatica-rototraslacion/resolucion-por-casos.md)
+- [Ver tema completo →](estudio/apuntes/estatica-rototraslacion/README.md)
 
 ## Cómo contribuir
 

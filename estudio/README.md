@@ -6,6 +6,8 @@ el material sin tener que revisar el código del simulador.
 
 ## Organización
 
+Guía práctica: [Laboratorio 3 — Constante de un resorte](laboratorios/laboratorio-3.md).
+
 El material se separa según la función que cumple durante el estudio:
 
 | Área | Responde | Ejemplo |
@@ -35,6 +37,8 @@ y **resolución por casos** para elegir un planteo a partir del ejercicio.
 | [Trabajo y Energía](apuntes/trabajo-energia/README.md) | [Teoría esencial](apuntes/trabajo-energia/teoria-esencial.md) | [Casos del TP 6](apuntes/trabajo-energia/resolucion-por-casos.md) |
 | [Movimiento Armónico Simple](apuntes/movimiento-armonico-simple/README.md) | [Teoría esencial](apuntes/movimiento-armonico-simple/teoria-esencial.md) | [Casos del TP 7](apuntes/movimiento-armonico-simple/resolucion-por-casos.md) |
 | [Impulso y cantidad de movimiento](apuntes/impulso-cantidad-movimiento/README.md) | [Teoría esencial](apuntes/impulso-cantidad-movimiento/teoria-esencial.md) | [Casos del TP 8](apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md) |
+| [Cuerpo Rígido y Rotación](apuntes/cuerpo-rigido/README.md) | [Teoría esencial](apuntes/cuerpo-rigido/teoria-esencial.md) | [Casos del TP 9](apuntes/cuerpo-rigido/resolucion-por-casos.md) |
+| [Estática y Rototraslación](apuntes/estatica-rototraslacion/README.md) | [Teoría esencial](apuntes/estatica-rototraslacion/teoria-esencial.md) | [Casos del TP 10](apuntes/estatica-rototraslacion/resolucion-por-casos.md) |
 
 Cada tema incluye fuentes, condiciones de aplicación, errores frecuentes y
 comprobaciones breves. La guía ampliada anterior de Trabajo y Energía sigue

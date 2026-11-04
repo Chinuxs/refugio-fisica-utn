@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cuerpo rígido: torque, polea y conservación del momento angular</title>
+  <desc id="desc">Tres esquemas. Una fuerza vertical sobre una barra horizontal produce torque con brazo perpendicular d. Una polea fija tiene dos tensiones que producen torques opuestos y pueden ser distintas. Dos masas que se acercan al eje reducen el momento de inercia y aumentan la rapidez angular si se conserva el momento angular.</desc>
+  <defs>
+    <marker id="blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#2457a7"/></marker>
+    <marker id="red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#a63737"/></marker>
+  </defs>
+  <rect width="1200" height="520" rx="18" fill="#f5f7fb"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#172b43">
+    <text x="28" y="42" font-size="26" font-weight="700">Elegir el planteo antes de calcular</text>
+    <text x="28" y="72" font-size="16">Definir sistema, eje y sentido positivo. Esquemas ideales, sin escala.</text>
+    <rect x="20" y="96" width="375" height="401" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="412" y="96" width="375" height="401" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="804" y="96" width="376" height="401" rx="14" fill="white" stroke="#d8e0eb"/>
+    <text x="40" y="133" font-size="21" font-weight="700">01 / TORQUE</text>
+    <text x="432" y="133" font-size="21" font-weight="700">02 / POLEA CON INERCIA</text>
+    <text x="824" y="133" font-size="21" font-weight="700">03 / CAMBIA LA INERCIA</text>
+
+    <path d="M76 290H305" stroke="#64748b" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="76" cy="290" r="8" fill="white" stroke="#172b43" stroke-width="3"/>
+    <circle cx="76" cy="290" r="2.5"/>
+    <text x="52" y="320" font-size="18">O</text>
+    <text x="40" y="347" font-size="15">Eje normal al plano</text>
+    <path d="M305 290V185" stroke="#2457a7" stroke-width="3" marker-end="url(#blue)"/>
+    <text x="318" y="209" font-size="21">F</text>
+    <path d="M305 280V355" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <path d="M84 365H297" stroke="#2457a7" stroke-width="2" marker-start="url(#blue)" marker-end="url(#blue)"/>
+    <text x="162" y="389" font-size="18">d⊥ = r</text>
+    <path d="M122 265A55 55 0 0 0 79 235" fill="none" stroke="#2457a7" stroke-width="2" marker-end="url(#blue)"/>
+    <text x="127" y="236" font-size="17">τ positivo</text>
+    <text x="40" y="431" font-family="Cambria Math,Georgia,serif" font-size="25">τ = Fd⊥ = rF sen φ</text>
+    <text x="40" y="462" font-size="15">Aquí φ = 90°. Si la fuerza pasa</text>
+    <text x="40" y="483" font-size="15">por O, su torque respecto de O es cero.</text>
+
+    <circle cx="600" cy="248" r="72" fill="#edf4ff" stroke="#2457a7" stroke-width="3"/>
+    <circle cx="600" cy="248" r="6" fill="#172b43"/>
+    <path d="M600 248H672" stroke="#64748b" stroke-width="1.5"/>
+    <text x="624" y="239" font-size="18">R</text>
+    <path d="M528 248V365" stroke="#2457a7" stroke-width="3" marker-end="url(#blue)"/>
+    <path d="M672 248V380" stroke="#a63737" stroke-width="3" marker-end="url(#red)"/>
+    <text x="487" y="344" font-size="20">T₁</text>
+    <text x="686" y="360" font-size="20">T₂</text>
+    <text x="469" y="169" font-size="15">Fuerzas de la cuerda sobre la polea</text>
+    <path d="M576 203A49 49 0 0 1 644 233" fill="none" stroke="#2457a7" stroke-width="2" marker-end="url(#blue)"/>
+    <text x="688" y="203" font-size="17">+ horario</text>
+    <text x="432" y="431" font-family="Cambria Math,Georgia,serif" font-size="25">(T₂ − T₁)R = Iα</text>
+    <text x="432" y="462" font-size="15">Sin deslizamiento: a = Rα.</text>
+    <text x="432" y="483" font-size="15">I ≠ 0 y α ≠ 0 implican T₁ ≠ T₂.</text>
+
+    <text x="847" y="181" font-size="17">Antes</text>
+    <text x="1043" y="181" font-size="17">Después</text>
+    <circle cx="888" cy="278" r="65" fill="#f5f7fb" stroke="#94a3b8" stroke-dasharray="5 4"/>
+    <circle cx="1085" cy="278" r="65" fill="#f5f7fb" stroke="#94a3b8" stroke-dasharray="5 4"/>
+    <path d="M830 278H946M1063 278H1107" stroke="#64748b" stroke-width="6"/>
+    <g fill="#2457a7"><circle cx="830" cy="278" r="10"/><circle cx="946" cy="278" r="10"/><circle cx="1063" cy="278" r="10"/><circle cx="1107" cy="278" r="10"/></g>
+    <g fill="#172b43"><circle cx="888" cy="278" r="4"/><circle cx="1085" cy="278" r="4"/></g>
+    <path d="M976 278H1006" stroke="#2457a7" stroke-width="2" marker-end="url(#blue)"/>
+    <text x="847" y="373" font-size="18">I mayor</text>
+    <text x="1045" y="373" font-size="18">I menor</text>
+    <text x="824" y="431" font-family="Cambria Math,Georgia,serif" font-size="25">Iᵢωᵢ = Ifωf → ωf aumenta</text>
+    <text x="824" y="462" font-size="15">Sólo si el torque externo axial es cero.</text>
+    <text x="824" y="483" font-size="15">L se conserva; K puede cambiar.</text>
+  </g>
+</svg>
