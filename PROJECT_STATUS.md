@@ -11,6 +11,7 @@ Preparar Física I concentrándose en:
 - Impulso y cantidad de movimiento.
 - Cuerpo Rígido y Rotación.
 - Estática y Rototraslación.
+- Modelo de cuerpo deformable, Elasticidad y Estática de los fluidos.
 
 ## Exposición de Cinemática
 
@@ -118,6 +119,19 @@ Preparar Física I concentrándose en:
 - [x] Esquema SVG y fuentes con hipótesis y discrepancias de respuestas.
 - [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
+## Elasticidad e Hidrostática
+
+- [x] Revisar las 16 diapositivas disponibles del TP 11 (ocho ejercicios).
+- [x] Revisar `tp11.pdf` completo: 21 ejercicios, páginas impresas 65–68.
+- [x] Teoría esencial y 14 casos que cubren los ejercicios 1–21 del PDF.
+- [x] Correspondencia de numeración PPTX/PDF y ampliación de fuerzas de presión,
+  flotación, boya oscilante y par enderezador.
+- [x] Introducción bibliográfica de Elasticidad claramente separada de cátedra.
+- [x] Esquema SVG de presión, empuje y lecturas de las dos balanzas.
+- [x] Fuentes y correcciones de unidades, densidades y equilibrio del ej. 17 del PDF.
+- [ ] Obtener material/alcance de Elasticidad y Tensión superficial de cátedra.
+- [ ] Incorporar nuevos ejercicios cuando estén disponibles.
+
 ## Material por incorporar
 
 - [ ] Parciales anteriores.
@@ -138,6 +152,35 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**5 de noviembre de 2026 — preparación con exámenes anteriores:** se
+inventariaron 39 archivos externos y se confirmaron seis copias binarias
+de fuentes ya usadas. Se incorporaron siete exámenes PDF y dos hojas
+auxiliares al segundo, más tres versiones del tercero. Cada espacio tiene
+patrones con límites de evidencia, cruce con TP, práctica y controles propios.
+El tercero excluye Rototraslación e Hidrodinámica, según el alcance informado.
+Se registraron errores de resúmenes/resoluciones; los vídeos y tres documentos
+de Office antiguo quedan sin validación de contenido (ver auditoría).
+
+**5 de noviembre de 2026 — parciales:** se prepararon espacios del segundo
+y tercer parcial con enunciados pendientes, pautas de resolución, preparación
+y seguimiento, enlazados desde acceso rápido y los índices. Se conservó y
+aclaró el archivo histórico del primer parcial que está en `Segundo_Parcial/`.
+Quedan pendientes las fechas y los temarios oficiales de ambas evaluaciones.
+
+**5 de noviembre de 2026 — ampliación:** se incorporó el TP 11 completo,
+con 21 ejercicios, a la base de la guía. Se agregaron seis casos y se amplió
+densidad para cubrir todos los enunciados. Se adoptó la numeración del PDF
+y se registraron diferencias con la presentación, incluyendo la confirmación
+de las lecturas correctas de las dos balanzas. Elasticidad no aparece en el TP;
+Tensión superficial sólo está mencionada en el título.
+
+**5 de noviembre de 2026:** se incorporó como último tema Modelo de cuerpo
+deformable, Elasticidad y Estática de los fluidos. El archivo disponible es
+una presentación con ocho ejercicios de Hidrostática; se prepararon teoría,
+casos, esquema SVG y fuentes. Se corrigió explícitamente el ejercicio de las
+dos balanzas. Elasticidad se presenta sólo como introducción complementaria
+de OpenStax, pendiente de confirmar el alcance de cátedra.
 
 **3 de noviembre de 2026:** se incorporó el segundo tema, Estática y
 Rototraslación, con teoría esencial, 9 casos del TP 10, esquema SVG y fuentes.

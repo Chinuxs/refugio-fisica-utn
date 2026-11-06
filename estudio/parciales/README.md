@@ -2,6 +2,17 @@
 
 Esta sección reúne los enunciados disponibles y los conecta con la guía de resolución del tema correspondiente. Usá los parciales como diagnóstico final, no como primer contacto con la teoría.
 
+## Preparar las próximas evaluaciones
+
+- [Segundo parcial: material, preparación y seguimiento](Segundo_Parcial/README.md).
+- [Tercer parcial: material, preparación y seguimiento](Tercer_Parcial/README.md).
+
+Ambos espacios incluyen exámenes anteriores, patrones, práctica y controles.
+Segundo: TyE, MAS e Impulso. Tercero: TP 9–11, **sin Rototraslación ni
+Hidrodinámica**. Fechas pendientes. [Auditoría y duplicados](auditoria-material.md).
+El archivo `Segundo_Parcial/1ParcialT2_2026.jpeg` es del
+primer parcial de otro turno, como se detalla abajo; no es un enunciado del segundo.
+
 ## Primer parcial 2026
 
 [Enunciado](Primer_Parcial/1Parcial_2026.jpeg) · [Resoluciones manuscritas](Primer_Parcial/)

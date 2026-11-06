@@ -8,7 +8,8 @@ tiro oblicuo. Ahora también reúne material para preparar parciales y finales,
 con explicaciones, ejercicios resueltos, errores frecuentes y seguimiento del
 progreso. Los temas disponibles son **Dinámica**, **Movimiento Circular**,
 **Trabajo y Energía**, **Movimiento Armónico Simple** e **Impulso y cantidad
-de movimiento**, **Cuerpo Rígido y Rotación** y **Estática y Rototraslación**.
+de movimiento**, **Cuerpo Rígido y Rotación**, **Estática y Rototraslación** y
+**Modelo de cuerpo deformable, Elasticidad y Estática de los fluidos**.
 
 El contenido está organizado para que resulte útil a todos los compañeros,
 incluidas las personas que no programan: el material de estudio se mantiene
@@ -44,6 +45,8 @@ separado del código del simulador y se escribe en español claro.
 
 - [Laboratorio 3: guía breve del resorte](estudio/laboratorios/laboratorio-3.md)
 - [Parciales y finales](estudio/parciales/README.md)
+- [Preparar el segundo parcial](estudio/parciales/Segundo_Parcial/README.md)
+- [Preparar el tercer parcial](estudio/parciales/Tercer_Parcial/README.md)
 - [Errores frecuentes](estudio/errores-comunes/README.md)
 
 ### Temas de la materia
@@ -85,6 +88,12 @@ separado del código del simulador y se escribe en español claro.
 - [Teoría esencial](estudio/apuntes/estatica-rototraslacion/teoria-esencial.md)
 - [Resolución por casos del TP 10](estudio/apuntes/estatica-rototraslacion/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/estatica-rototraslacion/README.md)
+
+**Modelo de cuerpo deformable, Elasticidad y Estática de los fluidos**
+
+- [Teoría esencial](estudio/apuntes/elasticidad-hidrostatica/teoria-esencial.md)
+- [Resolución por casos del TP 11 completo](estudio/apuntes/elasticidad-hidrostatica/resolucion-por-casos.md)
+- [Ver tema y alcance del material →](estudio/apuntes/elasticidad-hidrostatica/README.md)
 
 ## Cómo contribuir
 

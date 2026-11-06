@@ -63,9 +63,15 @@ Evitar teoría innecesaria y no copiar capítulos completos de libros.
 - Estática y Rototraslación: equilibrio, estabilidad, vuelco, rodadura y CIR.
   Mantener teoría esencial, casos del TP 10 y fuentes; enlazar las inercias
   del tema Cuerpo Rígido para evitar duplicados.
+- Modelo de cuerpo deformable, Elasticidad y Estática de los fluidos:
+  `estudio/apuntes/elasticidad-hidrostatica/`. Se dispone de `tp11.pdf` con
+  21 ejercicios y una presentación con ocho casos. Usar numeración del PDF:
+  PPTX 13/18/21 equivalen a PDF 11/17/20. Elasticidad sigue como complemento
+  bibliográfico; tensión superficial sólo figura en el título, sin ejercicios.
+  Registrar diferencias y correcciones de fuentes explícitamente.
 
 Para Trabajo y Energía, MAS, Impulso, Cuerpo Rígido y Estática y
-Rototraslación, mantener dos guías breves por tema:
+Rototraslación y Elasticidad e Hidrostática, mantener dos guías breves por tema:
 `teoria-esencial.md` (conceptos, fórmulas y condiciones) y
 `resolucion-por-casos.md` (cómo reconocer el caso y qué plantear).
 Basar los casos en los TP de la cátedra, indicar sus números de ejercicio y
@@ -73,6 +79,17 @@ registrar las fuentes en `fuentes.md`. Priorizar la consulta rápida; conservar
 el material ampliado como referencia adicional.
 
 ## Formato para documentar ejercicios
+
+### Preparación de parciales
+
+- Segundo parcial: Trabajo y Energía, MAS e Impulso/Cantidad de Movimiento.
+- Tercero: TP 9–11, excluyendo Rototraslación (TP 10: practicar sólo 1–9)
+  e Hidrodinámica; el estudiante confirmó que entra sólo Hidrostática.
+- Los índices en `estudio/parciales/` tienen enunciados, patrones y práctica.
+  No inferir alcance actual de exámenes antiguos ni contar RAR/copias o
+  soluciones como exámenes independientes. Auditoría en `auditoria-material.md`.
+
+### Resoluciones
 
 Cada ejercicio resuelto debería incluir, cuando corresponda:
 

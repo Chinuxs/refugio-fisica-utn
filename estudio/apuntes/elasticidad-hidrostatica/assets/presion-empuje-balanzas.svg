@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Hidrostática: presión, empuje y dos balanzas</title>
+  <desc id="desc">Tres paneles: la presión aumenta al bajar una profundidad vertical h; un bloque flotante tiene empuje hacia arriba y peso hacia abajo; en el ejercicio 17 del PDF el dinamómetro sostiene parte del peso del bloque y la balanza inferior recibe la reacción al empuje. La balanza inferior marca el peso del vaso y aceite más E, no el peso completo del bloque.</desc>
+  <rect width="1200" height="560" rx="18" fill="#f5f7fb"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#172b43">
+    <text x="28" y="42" font-size="26" font-weight="700">Presión → empuje → equilibrio</text>
+    <text x="28" y="73" font-size="16">Dibujar niveles para la presión; aislar cuerpos para las fuerzas. Esquemas sin escala.</text>
+    <rect x="20" y="96" width="370" height="438" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="406" y="96" width="370" height="438" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="792" y="96" width="388" height="438" rx="14" fill="white" stroke="#d8e0eb"/>
+    <text x="40" y="134" font-size="20" font-weight="700">01 / PROFUNDIDAD</text>
+    <text x="426" y="134" font-size="20" font-weight="700">02 / FLOTACIÓN LIBRE</text>
+    <text x="812" y="134" font-size="20" font-weight="700">03 / DOS BALANZAS</text>
+
+    <rect x="65" y="217" width="210" height="160" fill="#e0edff"/>
+    <path d="M65 190V377H275V190" fill="none" stroke="#64748b" stroke-width="3"/>
+    <path d="M65 217H275" stroke="#2457a7" stroke-width="2"/>
+    <text x="87" y="198" font-size="17">Superficie: p₀</text>
+    <circle cx="170" cy="337" r="5" fill="#2457a7"/>
+    <path d="M176 337H318M280 217H318" stroke="#94a3b8" stroke-dasharray="5 4"/>
+    <path d="M305 229V325" stroke="#2457a7" stroke-width="2"/>
+    <path d="M299 235 305 221 311 235Z M299 319 305 333 311 319Z" fill="#2457a7"/>
+    <text x="321" y="281" font-size="20">h</text>
+    <text x="87" y="359" font-size="17">Punto: p₀ + ρgh</text>
+    <text x="40" y="426" font-family="Cambria Math,Georgia,serif" font-size="25">Δp = ρgh</text>
+    <text x="40" y="462" font-size="16">h es vertical. Bajar suma presión;</text>
+    <text x="40" y="486" font-size="16">subir la resta en el mismo líquido.</text>
+    <text x="40" y="514" font-size="15">ρ: densidad del líquido.</text>
+
+    <rect x="443" y="259" width="295" height="118" fill="#e0edff"/>
+    <path d="M443 199V377H738V199" fill="none" stroke="#64748b" stroke-width="3"/>
+    <path d="M443 259H738" stroke="#2457a7" stroke-width="2"/>
+    <rect x="547" y="230" width="86" height="100" rx="4" fill="#e5cfa6" stroke="#9a7032" stroke-width="2"/>
+    <rect x="547" y="259" width="86" height="71" fill="#d1c6af" opacity="0.7"/>
+    <path d="M590 278V182" stroke="#176b56" stroke-width="3"/>
+    <path d="M583 192 590 177 597 192Z" fill="#176b56"/>
+    <text x="608" y="199" font-size="20">E</text>
+    <path d="M590 278V365" stroke="#a63737" stroke-width="3"/>
+    <path d="M583 355 590 370 597 355Z" fill="#a63737"/>
+    <text x="608" y="362" font-size="20">P</text>
+    <path d="M535 259V330M529 259H541M529 330H541" stroke="#475569" stroke-width="1.5"/>
+    <text x="455" y="301" font-size="16">Parte</text>
+    <text x="455" y="323" font-size="16">sumergida</text>
+    <text x="426" y="426" font-family="Cambria Math,Georgia,serif" font-size="25">E = ρgVsum = P</text>
+    <text x="426" y="462" font-size="16">Aquí sólo actúan peso y empuje.</text>
+    <text x="426" y="486" font-size="16">Vsum es el volumen desplazado,</text>
+    <text x="426" y="510" font-size="16">no siempre el volumen total.</text>
+
+    <path d="M850 163H1022" stroke="#64748b" stroke-width="5"/>
+    <path d="M936 163V228" stroke="#475569" stroke-width="2"/>
+    <rect x="922" y="178" width="28" height="30" rx="3" fill="white" stroke="#475569" stroke-width="2"/>
+    <text x="965" y="195" font-size="15">Soporte externo</text>
+    <rect x="835" y="245" width="202" height="110" fill="#e0edff"/>
+    <path d="M835 221V355H1037V221" fill="none" stroke="#64748b" stroke-width="3"/>
+    <path d="M835 245H1037" stroke="#2457a7" stroke-width="2"/>
+    <rect x="902" y="265" width="68" height="40" rx="4" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <path d="M936 228V265" stroke="#475569" stroke-width="2"/>
+    <rect x="865" y="365" width="142" height="30" rx="5" fill="white" stroke="#64748b" stroke-width="2"/>
+    <text x="936" y="386" text-anchor="middle" font-size="15">Balanza inferior</text>
+    <path d="M899 275V231" stroke="#176b56" stroke-width="2"/>
+    <path d="M893 240 899 226 905 240Z" fill="#176b56"/>
+    <text x="865" y="226" font-size="18">E ↑</text>
+    <path d="M995 286V336" stroke="#a63737" stroke-width="2"/>
+    <path d="M989 327 995 341 1001 327Z" fill="#a63737"/>
+    <text x="1050" y="292" font-size="16">Reacción</text>
+    <text x="1050" y="315" font-size="16">E ↓ sobre</text>
+    <text x="1050" y="338" font-size="16">el aceite</text>
+    <text x="812" y="426" font-family="Cambria Math,Georgia,serif" font-size="22">T = Pbloque − E</text>
+    <text x="812" y="458" font-family="Cambria Math,Georgia,serif" font-size="22">N = Pvaso + Paceite + E</text>
+    <text x="812" y="489" font-size="16">El bloque no toca el vaso.</text>
+    <text x="812" y="514" font-size="15">E y su reacción actúan en cuerpos distintos.</text>
+  </g>
+</svg>

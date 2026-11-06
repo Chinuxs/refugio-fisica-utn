@@ -39,6 +39,7 @@ y **resolución por casos** para elegir un planteo a partir del ejercicio.
 | [Impulso y cantidad de movimiento](apuntes/impulso-cantidad-movimiento/README.md) | [Teoría esencial](apuntes/impulso-cantidad-movimiento/teoria-esencial.md) | [Casos del TP 8](apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md) |
 | [Cuerpo Rígido y Rotación](apuntes/cuerpo-rigido/README.md) | [Teoría esencial](apuntes/cuerpo-rigido/teoria-esencial.md) | [Casos del TP 9](apuntes/cuerpo-rigido/resolucion-por-casos.md) |
 | [Estática y Rototraslación](apuntes/estatica-rototraslacion/README.md) | [Teoría esencial](apuntes/estatica-rototraslacion/teoria-esencial.md) | [Casos del TP 10](apuntes/estatica-rototraslacion/resolucion-por-casos.md) |
+| [Elasticidad e Hidrostática](apuntes/elasticidad-hidrostatica/README.md) | [Teoría esencial y alcance](apuntes/elasticidad-hidrostatica/teoria-esencial.md) | [Casos de los 21 ejercicios del TP 11](apuntes/elasticidad-hidrostatica/resolucion-por-casos.md) |
 
 Cada tema incluye fuentes, condiciones de aplicación, errores frecuentes y
 comprobaciones breves. La guía ampliada anterior de Trabajo y Energía sigue
@@ -50,6 +51,11 @@ mismo lugar el recordatorio, el esquema, la fórmula, el error y los enlaces
 relacionados.
 
 ### Parciales y finales
+
+Espacios de preparación: [segundo parcial](parciales/Segundo_Parcial/README.md)
+y [tercer parcial](parciales/Tercer_Parcial/README.md), con exámenes históricos,
+patrones y práctica contrastada con TP. Segundo: TyE, MAS e Impulso; tercero:
+TP 9–11 sin Rototraslación ni Hidrodinámica. Fechas pendientes.
 
 Guardar en `parciales/` los enunciados originales, recuperatorios, finales y
 simulacros. Cuando sea posible, registrar la fecha y el tipo de evaluación en
