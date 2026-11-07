@@ -44,6 +44,7 @@ separado del código del simulador y se escribe en español claro.
 ### 🎯 Acceso rápido
 
 - [Laboratorio 3: guía breve del resorte](estudio/laboratorios/laboratorio-3.md)
+- [Laboratorio 2: resultados y conclusiones](estudio/laboratorios/laboratorio-2-resultados.md)
 - [Parciales y finales](estudio/parciales/README.md)
 - [Preparar el segundo parcial](estudio/parciales/Segundo_Parcial/README.md)
 - [Preparar el tercer parcial](estudio/parciales/Tercer_Parcial/README.md)
@@ -91,8 +92,8 @@ separado del código del simulador y se escribe en español claro.
 
 **Modelo de cuerpo deformable, Elasticidad y Estática de los fluidos**
 
-- [Teoría esencial](estudio/apuntes/elasticidad-hidrostatica/teoria-esencial.md)
-- [Resolución por casos del TP 11 completo](estudio/apuntes/elasticidad-hidrostatica/resolucion-por-casos.md)
+- [Teoría esencial de cátedra: Elasticidad e Hidrostática](estudio/apuntes/elasticidad-hidrostatica/teoria-esencial.md)
+- [Casos del TP 11 y métodos de Elasticidad](estudio/apuntes/elasticidad-hidrostatica/resolucion-por-casos.md)
 - [Ver tema y alcance del material →](estudio/apuntes/elasticidad-hidrostatica/README.md)
 
 ## Cómo contribuir

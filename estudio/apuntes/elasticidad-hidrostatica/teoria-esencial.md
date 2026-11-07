@@ -14,14 +14,85 @@
 - **Equilibrio:** sumar fuerzas reales. Si importan sus puntos de aplicación,
   sumar también momentos, como en la barra flotante.
 
-La Hidrostática se basa en los ejercicios de cátedra disponibles. Elasticidad
-es un complemento introductorio: [alcance y fuentes](fuentes.md).
+Base: presentación teórica de cátedra del 7/11/2026, TP 11 y Sears
+§12.1–12.3. Los casos prácticos anteriores se conservan. Ver
+[alcance, correspondencias y erratas](fuentes.md).
 
 ## 🖼️ Esquema / dibujo
+
+![Tres deformaciones: tracción axial cambia la longitud, corte desplaza una cara y presión uniforme reduce el volumen. Cada una requiere un módulo diferente.](assets/elasticidad-tres-modulos.svg)
 
 ![Presión al descender en un líquido, empuje sobre un bloque y fuerzas en las dos balanzas del ejercicio 17 del PDF.](assets/presion-empuje-balanzas.svg)
 
 ## 📐 Fórmula
+
+### Sólido, líquido y gas — qué idealizamos
+
+Un sólido resiste cambios de forma y puede sostener esfuerzos normales y de
+corte. Un fluido no sostiene un esfuerzo de corte estático: se deforma
+continuamente si se lo aplica. El líquido conserva aproximadamente su volumen;
+el gas ocupa el recipiente y es mucho más compresible.
+
+En el modelo **ideal** de las diapositivas 14–16, el fluido es incompresible
+(ρ constante) y no viscoso. Viscosidad significa resistencia al movimiento
+relativo entre capas; no es densidad ni módulo de corte. Un fluido real en
+reposo también se estudia con hidrostática: no hace falta que su viscosidad
+sea cero. No se añaden fórmulas de flujo a este tema.
+
+### Elasticidad — tracción y compresión axial
+
+**Cátedra: diap. 4 y 8.** Barra uniforme, carga axial y régimen elástico lineal:
+
+$$S=\sigma=\frac{F_\perp}{A},\qquad
+\varepsilon=\frac{\Delta L}{L_0},\qquad
+S=Y\varepsilon\quad\Rightarrow\quad
+\boxed{\Delta L=\frac{FL_0}{AY}}.$$
+
+S es la «tensión» o esfuerzo normal de cátedra, **no una fuerza**;
+ε es la deformación específica. Y (también E en la diapositiva) es el módulo
+de Young: en Pa, al igual que S; ε no tiene unidades. F es la fuerza axial
+interna que transmite una sección, no la suma de las fuerzas de ambos extremos.
+Se usa geometría inicial y pequeñas deformaciones. Con tracción positiva,
+ΔL > 0; la compresión da ΔL < 0. Un elemento largo puede pandear: esta fórmula
+no analiza ese modo de fallo.
+
+Para comparar con un resorte: $k_{axial}=AY/L_0$ en N/m; Y es propiedad del
+material, mientras que k también depende de la geometría.
+
+### Curva de tracción — no toda elasticidad es lineal
+
+**Cátedra: diap. 5.** En el tramo proporcional, S crece linealmente con ε.
+Límite de proporcionalidad y límite elástico son conceptos distintos:
+puede haber respuesta elástica no lineal. Superado el límite elástico queda
+deformación permanente; la fluencia describe el avance de la deformación
+plástica y la rotura termina el ensayo.
+
+- En gráfico **S–ε**, la pendiente inicial es Y.
+- En gráfico **F–ΔL**, como el dibujo de la diapositiva, es $k=AY/L_0$,
+  **no Y**. Para obtener Y hay que conocer A y L₀.
+- Ductilidad: deformación plástica admitida antes de romperse. Resiliencia:
+  energía elástica recuperable por volumen; tenacidad: energía absorbida por
+  volumen hasta la rotura. En una curva S–ε se relacionan con áreas bajo la
+  curva, con unidades J/m³; en F–ΔL el área es trabajo, en J.
+
+### Corte y compresión volumétrica
+
+**Cátedra: diap. 6–8.** No usar Young para cualquier deformación:
+
+| Carga y cambio geométrico | Relación lineal | Qué mide el módulo |
+| --- | --- | --- |
+| Fuerza paralela a caras de área A, separadas h; desplazamiento lateral x | $G=(F_\parallel/A)/(x/h)$, $x=F_\parallel h/(AG)$ | Resistencia al corte |
+| Aumento uniforme de presión Δp; volumen inicial V₀ | $B=-\Delta p/(\Delta V/V_0)$, $\Delta V=-V_0\Delta p/B$ | Resistencia al cambio de volumen |
+
+Para corte pequeño, $x/h=\tan\varphi\simeq\varphi$ (en radianes).
+Y, G y B se expresan en Pa, pero **no son intercambiables**. La compresibilidad
+de cátedra es $K=1/B$, en Pa⁻¹: B grande significa poca compresibilidad.
+En B se usa el **incremento de presión**, no la presión absoluta inicial;
+Δp > 0 produce ΔV < 0 y B > 0.
+
+Valores orientativos de la diapositiva 8: acero Y = 200 GPa y G = 80 GPa;
+agua B = 2,0 GPa. Usar el dato del enunciado si difiere. Para gases, el módulo
+depende del proceso; la tabla indica temperatura constante y presión normal.
 
 ### Densidad y unidades
 
@@ -53,8 +124,32 @@ En una interfaz ideal la presión es continua (se desprecia tensión superficial
 $$p_{man}=p_{abs}-p_{atm}.$$
 
 Una superficie abierta al aire tiene presión manométrica cero, pero su presión
-absoluta es patm. Esta distinción se verifica en
-[OpenStax §14.2](https://openstax.org/books/university-physics-volume-1/pages/14-2-measuring-pressure).
+absoluta es patm (Sears §12.2). La presión es **escalar**; la fuerza de presión
+sí tiene dirección, siempre normal a la superficie en un fluido en reposo.
+
+### Manómetro, barómetro y presión atmosférica
+
+Para un manómetro de un líquido conectado a gas y abierto al aire:
+
+$$p_{gas}-p_{atm}=\rho g(y_{abierto}-y_{gas}),$$
+
+donde las y son alturas de las superficies, positivas hacia arriba.
+Si el líquido queda más bajo del lado del gas, la presión del gas es mayor.
+En un barómetro: $p_{atm}=p_{superior}+\rho gh$; sólo aproximar
+$p_{superior}\simeq0$ si se justifica despreciar el vapor.
+
+**Cátedra: diap. 19–21; Sears §12.2.** Referencia estándar:
+1 atm = 101325 Pa = 1013,25 hPa; 1 hPa = 100 Pa.
+No confundirla con la presión atmosférica real de cada lugar.
+
+Con altura y positiva hacia arriba, $dp/dy=-\rho g$.
+En gases, ρ puede cambiar con la altitud. La exponencial de la diapositiva 21,
+
+$$p(y)=p_0\exp\!\left(-\frac{\rho_0g}{p_0}y\right),$$
+
+corresponde a un modelo de gas ideal **isotérmico**, con g constante y
+$\rho/p=\rho_0/p_0$. No supone densidad uniforme ni describe toda atmósfera
+real. En un líquido de ρ constante se mantiene la relación lineal p₀ + ρgh.
 
 ### Pascal: transmitir presión
 
@@ -80,8 +175,15 @@ $$E=P\quad\Rightarrow\quad
 
 Con cuerda, lastre u otros apoyos, plantear Newton en lugar de imponer E = P
 al cuerpo aislado. El empuje pasa por el centro del volumen desplazado en
-un líquido homogéneo; no necesariamente por el CM del cuerpo. Véase
-[OpenStax §14.4](https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy).
+un líquido homogéneo; no necesariamente por el CM del cuerpo (diap. 24;
+Sears §12.3). La presentación lo llama «centro de flotación»; aquí también
+se lo identifica como **centro de empuje**.
+
+Con y positiva hacia arriba: cuerpo colgante desde arriba, **T + E − P = 0**.
+Si hay apoyo inferior y el agua rodea al cuerpo: **N + E − P = 0**.
+No copiar los signos negativos de T y N de la diapositiva 26: contradicen
+sus flechas. Si el cuerpo sella contra el fondo sin agua debajo, revisar las
+fuerzas de presión: no aplicar automáticamente E = ρgV.
 
 ### Presión variable y estabilidad — ampliación con el TP completo
 
@@ -105,26 +207,20 @@ el empuje adicional ante un pequeño descenso y es ρgAy. Al restar el
 equilibrio, resulta $F_{rest}=-\rho gAy$, equivalente a un resorte ideal
 de constante $k_{ef}=\rho gA$ (ej. 18).
 
-**Tensión superficial:** está mencionada en el título del TP, sin ejercicios
-ni desarrollo específico. No se da por cubierto ese contenido con estos casos.
+### Tensión superficial — explicación conceptual disponible
 
-### Elasticidad — complemento bibliográfico, alcance de cátedra pendiente
+**Sears §12.3, p. impresa 378 (PDF 10).** La cohesión molecular hace que la
+superficie líquida tienda a reducir su área y se comporte como una membrana
+tensa. Por eso un objeto pequeño y más denso que el agua puede sostenerse
+en la superficie: no basta con analizar sólo el empuje volumétrico.
+El efecto cobra importancia a pequeña escala, por la mayor relación
+área/volumen. No confundir tensión superficial con tensión de una cuerda ni
+con esfuerzo normal de un sólido.
 
-Para una barra uniforme con carga axial y pequeñas deformaciones:
-
-$$\sigma=\frac{F}{A},\qquad \varepsilon=\frac{\Delta L}{L_0},\qquad
-\sigma=Y\varepsilon\quad\Rightarrow\quad\Delta L=\frac{FL_0}{AY}.$$
-
-σ es esfuerzo normal, ε deformación relativa y Y módulo de Young.
-σ e Y se miden en Pa; ε es adimensional. F es la fuerza axial interna,
-no la suma de las dos fuerzas opuestas en los extremos.
-Para compresión uniforme de volumen: $B=-\Delta p/(\Delta V/V_0)$;
-para corte: $G=(F_\parallel/A)/(\Delta x/L_0)$ en régimen lineal.
-No confundir estos módulos con k de un resorte.
-
-Fuentes complementarias:
-[OpenStax §12.3](https://openstax.org/books/university-physics-volume-1/pages/12-3-stress-strain-and-elastic-modulus)
-y [§12.4](https://openstax.org/books/university-physics-volume-1/pages/12-4-elasticity-and-plasticity).
+El texto suministrado aporta este desarrollo cualitativo, no una práctica
+específica de capilaridad. En los 21 ejercicios del TP se mantiene el modelo
+sin tensión superficial. No se inventan ejercicios ni se deduce su peso en
+el examen a partir del título.
 
 ## ⚠️ Error frecuente
 
@@ -135,6 +231,11 @@ y [§12.4](https://openstax.org/books/university-physics-volume-1/pages/12-4-ela
 - Contar el peso del bloque dentro de la lectura inferior aunque lo sostenga
   un soporte externo: la balanza del vaso recibe la reacción al empuje.
 - Reemplazar aceite por agua en un cálculo sólo por costumbre.
+- Aplicar Young fuera del tramo lineal o confundir Y (Pa) con k (N/m).
+- Usar una fuerza de corte en una fórmula de tracción.
+- Obtener B negativo por olvidar que la compresión reduce el volumen.
+- Igualar una presión absoluta al doble cuando se duplica la profundidad:
+  se duplica ρgh, no necesariamente p₀ + ρgh.
 
 ## 🔗 Ver también
 

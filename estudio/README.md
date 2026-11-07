@@ -7,6 +7,9 @@ el material sin tener que revisar el código del simulador.
 ## Organización
 
 Guía práctica: [Laboratorio 3 — Constante de un resorte](laboratorios/laboratorio-3.md).
+Resultados de práctica: [Laboratorio 2 — Trabajo contra el rozamiento](laboratorios/laboratorio-2-resultados.md),
+con respuestas finales del formulario, Excel en SI y justificación de la
+conversión de masas de g a kg.
 
 El material se separa según la función que cumple durante el estudio:
 
@@ -39,7 +42,7 @@ y **resolución por casos** para elegir un planteo a partir del ejercicio.
 | [Impulso y cantidad de movimiento](apuntes/impulso-cantidad-movimiento/README.md) | [Teoría esencial](apuntes/impulso-cantidad-movimiento/teoria-esencial.md) | [Casos del TP 8](apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md) |
 | [Cuerpo Rígido y Rotación](apuntes/cuerpo-rigido/README.md) | [Teoría esencial](apuntes/cuerpo-rigido/teoria-esencial.md) | [Casos del TP 9](apuntes/cuerpo-rigido/resolucion-por-casos.md) |
 | [Estática y Rototraslación](apuntes/estatica-rototraslacion/README.md) | [Teoría esencial](apuntes/estatica-rototraslacion/teoria-esencial.md) | [Casos del TP 10](apuntes/estatica-rototraslacion/resolucion-por-casos.md) |
-| [Elasticidad e Hidrostática](apuntes/elasticidad-hidrostatica/README.md) | [Teoría esencial y alcance](apuntes/elasticidad-hidrostatica/teoria-esencial.md) | [Casos de los 21 ejercicios del TP 11](apuntes/elasticidad-hidrostatica/resolucion-por-casos.md) |
+| [Elasticidad e Hidrostática](apuntes/elasticidad-hidrostatica/README.md) | [Teoría de cátedra actualizada al 7/11](apuntes/elasticidad-hidrostatica/teoria-esencial.md) | [Casos del TP 11 y métodos de Elasticidad](apuntes/elasticidad-hidrostatica/resolucion-por-casos.md) |
 
 Cada tema incluye fuentes, condiciones de aplicación, errores frecuentes y
 comprobaciones breves. La guía ampliada anterior de Trabajo y Energía sigue

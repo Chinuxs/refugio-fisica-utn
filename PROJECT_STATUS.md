@@ -126,10 +126,14 @@ Preparar Física I concentrándose en:
 - [x] Teoría esencial y 14 casos que cubren los ejercicios 1–21 del PDF.
 - [x] Correspondencia de numeración PPTX/PDF y ampliación de fuerzas de presión,
   flotación, boya oscilante y par enderezador.
-- [x] Introducción bibliográfica de Elasticidad claramente separada de cátedra.
+- [x] Introducción bibliográfica de Elasticidad conservada como comprobación complementaria.
+- [x] Actualizar Elasticidad con las 27 diapositivas teóricas de cátedra del 7/11.
+- [x] Procedimientos E1–E4, comparación visual de módulos y controles numéricos.
+- [x] Incorporar Sears §12.1–12.3 y tensión superficial cualitativa, sin ampliar el parcial a Hidrodinámica.
 - [x] Esquema SVG de presión, empuje y lecturas de las dos balanzas.
 - [x] Fuentes y correcciones de unidades, densidades y equilibrio del ej. 17 del PDF.
-- [ ] Obtener material/alcance de Elasticidad y Tensión superficial de cátedra.
+- [x] Obtener teoría de cátedra de Elasticidad y bibliografía de tensión superficial.
+- [ ] Confirmar peso específico de Elasticidad y Tensión superficial en el examen; no hay ejercicios en TP 11.
 - [ ] Incorporar nuevos ejercicios cuando estén disponibles.
 
 ## Material por incorporar
@@ -152,6 +156,25 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**7 de noviembre de 2026 — teoría del último tema:** se incorporó la
+presentación `11 Hidrostática.pptx` (27 diapositivas) como fuente principal
+de Elasticidad e Hidrostática, junto con Sears §12.1–12.3. Se ampliaron
+Young, curva de tracción, corte, módulo volumétrico, atmósfera y tensión
+superficial conceptual; se agregaron cuatro métodos E1–E4 y un SVG propio.
+La copia nueva de TP 11 es idéntica por SHA-256: se conservan sus 21 ejercicios.
+Se registraron erratas de notación, presión y signos de empuje/apoyos.
+Índices, contexto y tercer parcial actualizados sin modificar exclusiones
+ni atribuir ejercicios de Elasticidad inexistentes a la cátedra.
+
+**7 de noviembre de 2026 — Laboratorio 2:** se revisaron PDF, Excel y tres
+escaneos de Trabajo contra las fuerzas de rozamiento. Se prepararon respuestas
+a los incisos, tablas, error medio y conclusión, más un Excel con fórmulas y
+CSV reproducibles. Se guardaron las respuestas finales del formulario:
+E = 0,00016 J y Wfr = (−0,03426 ± 0,00016) J. Se adoptó la conversión de masas
+de g a kg tras contrastar el Laboratorio 1 y la ficha del carro Leybold 337110;
+la justificación distingue inferencia de unidad y medición directa de balanza.
+El error es estadístico del promedio; faltan incertidumbres instrumentales.
 
 **5 de noviembre de 2026 — preparación con exámenes anteriores:** se
 inventariaron 39 archivos externos y se confirmaron seis copias binarias

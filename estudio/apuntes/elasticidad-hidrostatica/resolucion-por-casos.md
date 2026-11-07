@@ -4,8 +4,11 @@
 
 **Convertir unidades → dibujar niveles o DCL → elegir presión de referencia →
 plantear hidrostática / equilibrio → verificar unidades y sentido físico.**
-Se usa la numeración de **tp11.pdf, ejercicios 1–21**. La presentación numera
-tres ejercicios de otra manera; ver la correspondencia en fuentes.
+Se usa la numeración de **tp11.pdf, ejercicios 1–21**, sin cambios en la copia
+del 7/11. Las referencias «diap.» de los casos 1–8 corresponden a la
+presentación **práctica anterior**, no a las 27 diapositivas de teoría nueva.
+Elasticidad se agrega como E1–E4: procedimientos basados en la nueva teoría,
+**sin asignarles números de ejercicio inexistentes en el TP**.
 
 ## 🖼️ Esquema / dibujo
 
@@ -294,13 +297,87 @@ El PDF imprime N en lugar de N·m. El centro de empuje no es el CG.
 Este brazo está justificado para 45°: a otros ángulos recalcular el
 centro del volumen sumergido.
 
-### Complemento — Elasticidad sin ejercicios de cátedra disponibles
+### Ampliación — Manómetro y atmósfera
 
-Para una barra bajo tracción axial: identificar L₀, sección A, módulo Y
-y fuerza interna F; plantear $\Delta L=FL_0/(AY)$ y verificar pequeñas
-deformaciones dentro del rango lineal. Si dan diámetro, usar $A=\pi d^2/4$.
-Si falta Y, buscarlo en la fuente indicada por el docente; no inventarlo.
-Este procedimiento no corresponde a un ejercicio del archivo provisto.
+**Nueva teoría: diap. 19–21; Sears §12.2, ejemplo 12.4 y ej. 12.16.**
+No es un ejercicio nuevo del TP 11.
+
+1. Elegir y hacia arriba y una horizontal dentro del mismo líquido conectado.
+2. Recorrer desde una superficie conocida: bajar suma ρgh; subir resta.
+3. Con un único líquido y un brazo abierto:
+   $p_{gas}-p_{atm}=\rho g(y_{abierto}-y_{gas})$.
+4. Si pgas > patm, el gas empuja el líquido hacia abajo en su brazo: comprobar
+   el signo con el dibujo. Convertir h a m y patm a Pa antes de sumar.
+
+Si se pide presión atmosférica a otra altitud, **no** tomar la densidad del
+aire constante en un gran desnivel. Usar el modelo indicado por el enunciado;
+para el isotérmico de diap. 21:
+$p(y)=p_0e^{-\rho_0gy/p_0}$, con y desde el nivel de p₀ y ρ₀.
+Control: a y = 0 se recupera p₀; al subir, p disminuye. Si se pide hallar y,
+$y=-[p_0/(\rho_0g)]\ln(p/p_0)$. El cociente del logaritmo no lleva unidades.
+
+<a id="complemento--elasticidad-sin-ejercicios-de-cátedra-disponibles"></a>
+
+### E1 — Tracción o compresión axial
+
+**Nueva teoría de cátedra: diap. 4 y 8. Sin ejercicio numerado en TP 11.**
+
+1. Dibujar la barra y hacer un corte imaginario: hallar la fuerza interna
+   axial F por equilibrio. Dos fuerzas opuestas de módulo F no se suman a 2F.
+2. Identificar longitud inicial L₀ y sección perpendicular a F.
+   Si dan diámetro, $A=\pi d^2/4$; convertir mm² a m² (factor 10⁻⁶).
+3. Usar Y del material: $\Delta L=FL_0/(AY)$; $L_f=L_0+\Delta L$.
+   Si se pide Y: $Y=FL_0/(A\Delta L)$ en el tramo proporcional.
+4. Verificar $|\Delta L|/L_0\ll1$ y que no se excedan los límites del material
+   si están dados. Pequeña deformación por sí sola no certifica rango elástico.
+
+**Control propio, no enunciado de TP:** acero con Y = 200 GPa (diap. 8),
+L₀ = 2 m, A = 1 mm² y F = 100 N de tracción:
+ΔL = **0,001 m = 1 mm**, S = **100 MPa**, ε = **0,0005**.
+El cálculo supone régimen lineal; la fuente no da aquí un límite de fluencia
+para esa muestra. No se lo verifica sólo con Y.
+
+### E2 — Leer una curva de tracción
+
+**Nueva teoría: diap. 5.** Reconocer primero qué representan los ejes.
+
+1. Si son F–ΔL, pendiente inicial $k=\Delta F/\Delta(\Delta L)$, en N/m;
+   obtener $Y=kL_0/A$. Si son S–ε, la pendiente inicial ya es Y, en Pa.
+2. Distinguir fin de proporcionalidad, límite elástico, fluencia y rotura.
+   No prolongar la recta de Hooke sobre el tramo plástico.
+3. Para energía, identificar el área: $\int F\,d(\Delta L)$ da J;
+   $\int S\,d\varepsilon$ da J/m³. El área elástica recuperable no es toda
+   el área hasta la rotura.
+4. Si faltan escala, geometría o curva de descarga, explicar cualitativamente
+   lo observable; no inventar Y ni deformación residual numérica.
+
+### E3 — Deformación por corte
+
+**Nueva teoría: diap. 6 y 8.** Caras paralelas de área A, separadas h;
+una se desplaza x respecto de la otra bajo una fuerza tangencial F∥.
+
+1. A es el área sobre la que actúa la fuerza, no el área de la cara lateral.
+2. Plantear $G=(F_\parallel/A)/(x/h)$ → $x=F_\parallel h/(AG)$.
+3. Si piden ángulo, $\varphi\simeq x/h$ en radianes, para corte pequeño.
+4. Comprobar que G está en Pa y x en m. No usar módulo de Young en su lugar.
+
+Control propio: Gacero = 80 GPa, F∥ = 100 N, h = 0,10 m y A = 1 cm²
+dan **x = 1,25 μm** y **φ ≈ 1,25 × 10⁻⁵ rad**.
+
+### E4 — Compresión volumétrica
+
+**Nueva teoría: diap. 7–8.** La presión aumenta uniformemente alrededor
+del cuerpo o fluido; no es una fuerza aplicada sólo en un extremo.
+
+1. Identificar V₀ y **Δp = pf − pi**. Un incremento de 1 MPa es 10⁶ Pa.
+2. Usar $\Delta V=-V_0\Delta p/B$ y $V_f=V_0+\Delta V$.
+3. Si dan compresibilidad K, usar $B=1/K$, no B = K.
+4. Controlar signos: al aumentar p disminuye V; B positivo. Usar B constante
+   sólo en el intervalo donde la aproximación lineal sea válida.
+
+Control propio: 1 L de agua, B = 2,0 GPa (diap. 8) y Δp = 1 MPa:
+**ΔV = −0,5 cm³**, **Vf = 999,5 cm³**; reducción relativa de 0,0005.
+Para gases no trasladar ese B: depende del estado y del proceso térmico.
 
 ## ⚠️ Error frecuente
 
@@ -309,6 +386,8 @@ Este procedimiento no corresponde a un ejercicio del archivo provisto.
 - Igualar las fuerzas de los émbolos en vez de sus presiones.
 - Dibujar el empuje dos veces, como resultante y como sus fuerzas de presión.
 - Confundir reacción al empuje con el peso completo del bloque sobre el vaso.
+- Copiar E − P − T = 0 para un dinamómetro superior: T apunta hacia arriba.
+- Convertir GPa a Pa con 10⁶: 1 GPa = 10⁹ Pa.
 
 ## 🔗 Ver también
 

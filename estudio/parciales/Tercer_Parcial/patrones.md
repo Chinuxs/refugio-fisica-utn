@@ -17,7 +17,12 @@ Mover masas en una plataforma giratoria **sí** es rotación/momento angular;
 no confundirlo con un cuerpo que rueda y cuyo CM se traslada.
 La boya tiene traslación vertical y empuje, no rodadura.
 Elasticidad y Tensión superficial no tienen ejercicios en los TP disponibles:
-no se les asigna peso en estos patrones; su alcance teórico específico queda pendiente.
+no se les asigna peso en estos patrones históricos. Desde el **7/11** sí hay
+[teoría de cátedra de Elasticidad](../../apuntes/elasticidad-hidrostatica/teoria-esencial.md)
+y explicación cualitativa de tensión superficial en el Sears suministrado.
+Conviene repasarlas como contenido nuevo de la materia; su peso específico
+en el parcial no está confirmado. El recorte también trae Hidrodinámica:
+eso no cambia la exclusión informada por el profesor.
 
 ## Los tres exámenes recibidos
 

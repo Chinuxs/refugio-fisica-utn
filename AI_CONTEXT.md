@@ -65,10 +65,16 @@ Evitar teoría innecesaria y no copiar capítulos completos de libros.
   del tema Cuerpo Rígido para evitar duplicados.
 - Modelo de cuerpo deformable, Elasticidad y Estática de los fluidos:
   `estudio/apuntes/elasticidad-hidrostatica/`. Se dispone de `tp11.pdf` con
-  21 ejercicios y una presentación con ocho casos. Usar numeración del PDF:
-  PPTX 13/18/21 equivalen a PDF 11/17/20. Elasticidad sigue como complemento
-  bibliográfico; tensión superficial sólo figura en el título, sin ejercicios.
-  Registrar diferencias y correcciones de fuentes explícitamente.
+  21 ejercicios y una presentación práctica con ocho casos. Usar numeración
+  del PDF: PPTX práctico 13/18/21 equivalen a PDF 11/17/20. Desde el 7/11/2026
+  hay teoría de cátedra `11 Hidrostática.pptx` (27 diapositivas): Elasticidad
+  (Young, corte, módulo volumétrico, curva de tracción) e Hidrostática.
+  El nuevo TP es copia binaria del anterior. Sears cap. 12, páginas impresas
+  369–397, aporta Hidrostática y tensión superficial cualitativa (p. 378);
+  su Hidrodinámica no amplía el parcial. No hay ejercicios de Elasticidad
+  ni tensión superficial en TP 11: E1–E4 son procedimientos de teoría.
+  Registrar erratas de la teoría (signos diap. 26, resta diap. 23, Δp en B)
+  separadas de las correcciones de la presentación práctica anterior.
 
 Para Trabajo y Energía, MAS, Impulso, Cuerpo Rígido y Estática y
 Rototraslación y Elasticidad e Hidrostática, mantener dos guías breves por tema:

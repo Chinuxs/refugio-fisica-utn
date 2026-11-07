@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">Elasticidad: elegir Young, corte o módulo volumétrico</title>
+  <desc id="desc">Tres paneles comparan deformaciones pequeñas: dos fuerzas axiales opuestas alargan una barra; fuerzas tangenciales desplazan una cara respecto de la otra; un aumento uniforme de presión comprime el volumen. El contorno discontinuo indica la geometría inicial. Young, G y B tienen unidades de pascal, pero responden a cargas diferentes.</desc>
+  <defs>
+    <marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#a63737"/></marker>
+  </defs>
+  <rect width="1200" height="590" rx="18" fill="#f5f7fb"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#172b43">
+    <text x="28" y="42" font-size="26" font-weight="700">Misma idea: esfuerzo / deformación. Tres cargas distintas.</text>
+    <text x="28" y="73" font-size="16">Modelo lineal. Esquemas sin escala; deformaciones exageradas para comparar.</text>
+    <rect x="20" y="96" width="370" height="410" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="406" y="96" width="370" height="410" rx="14" fill="white" stroke="#d8e0eb"/>
+    <rect x="792" y="96" width="388" height="410" rx="14" fill="white" stroke="#d8e0eb"/>
+    <text x="40" y="135" font-size="20" font-weight="700">01 / AXIAL → YOUNG Y</text>
+    <text x="426" y="135" font-size="20" font-weight="700">02 / CORTE → G</text>
+    <text x="812" y="135" font-size="20" font-weight="700">03 / VOLUMEN → B</text>
+
+    <rect x="110" y="238" width="160" height="64" fill="#e0edff" stroke="#2457a7" stroke-width="2.5"/>
+    <path d="M245 220V318" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+    <path d="M110 270H58" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <path d="M270 270H332" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <text x="60" y="249" font-size="19">F</text><text x="315" y="249" font-size="19">F</text>
+    <text x="171" y="276" font-size="18">Área A</text>
+    <path d="M110 328V344M245 328V344M110 336H245M245 200V216M270 200V216M245 208H270" stroke="#475569" stroke-width="1.5"/>
+    <text x="166" y="366" font-size="19">L₀</text><text x="243" y="192" font-size="18">ΔL</text>
+    <text x="40" y="408" font-family="Cambria Math,Georgia,serif" font-size="26">ΔL = FL₀ / (AY)</text>
+    <text x="40" y="447" font-size="16">Cambia la longitud.</text>
+    <text x="40" y="474" font-size="16">Usar F interna, no 2F.</text>
+
+    <path d="M470 230H615V330H470Z" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+    <path d="M510 230H655L615 330H470Z" fill="#e0edff" fill-opacity="0.75" stroke="#2457a7" stroke-width="2.5"/>
+    <path d="M583 230H720" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <path d="M543 330H438" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <text x="670" y="211" font-size="19">F∥</text>
+    <path d="M470 190V210M510 190V210M470 200H510M730 230H748M730 330H748M739 230V330" stroke="#475569" stroke-width="1.5"/>
+    <text x="482" y="184" font-size="19">x</text><text x="747" y="287" font-size="19">h</text>
+    <text x="519" y="285" font-size="17">Caras: A</text>
+    <text x="426" y="408" font-family="Cambria Math,Georgia,serif" font-size="26">x = F∥h / (AG)</text>
+    <text x="426" y="447" font-size="16">Cambia la forma por deslizamiento.</text>
+    <text x="426" y="474" font-size="16">x/h ≈ ángulo pequeño, en rad.</text>
+
+    <rect x="871" y="226" width="230" height="115" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="891" y="244" width="190" height="79" fill="#e0edff" stroke="#2457a7" stroke-width="2.5"/>
+    <path d="M830 283H885" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <path d="M1142 283H1087" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <path d="M986 181V238" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <path d="M986 371V329" stroke="#a63737" stroke-width="3" marker-end="url(#force)"/>
+    <text x="932" y="165" font-size="18">Δp uniforme</text>
+    <text x="918" y="290" font-size="18">V₀ + ΔV</text>
+    <text x="812" y="408" font-family="Cambria Math,Georgia,serif" font-size="26">ΔV = −V₀ Δp / B</text>
+    <text x="812" y="447" font-size="16">Aumenta p → disminuye V.</text>
+    <text x="812" y="474" font-size="16">Presión en todas las caras; B &gt; 0.</text>
+
+    <path d="M34 539H75" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="88" y="545" font-size="16">Inicial</text>
+    <path d="M180 539H221" stroke="#2457a7" stroke-width="2.5"/>
+    <text x="234" y="545" font-size="16">Deformado</text>
+    <text x="430" y="545" font-size="17" font-weight="600">Y, G y B en Pa · K = 1/B en Pa⁻¹ · No intercambiar módulos.</text>
+    <text x="28" y="575" font-size="14">Síntesis propia · Teoría de cátedra, diapositivas 4–8 · El Refugio de Física</text>
+  </g>
+</svg>

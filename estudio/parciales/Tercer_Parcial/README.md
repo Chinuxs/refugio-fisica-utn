@@ -22,6 +22,11 @@ Espacio para organizar el enunciado, la preparación y las resoluciones del
 TP 11 **1–21**. En T1–T3 omitir el ejercicio de Venturi y las preguntas
 de Hidrodinámica o Rototraslación. Los originales se conservan completos.
 
+**Material nuevo del 7/11:** se actualizó el
+[último tema con la teoría de cátedra](../../apuntes/elasticidad-hidrostatica/README.md),
+incluida Elasticidad. El TP 11 sigue siendo el mismo; la nueva bibliografía
+no habilita Bernoulli ni modifica por sí sola el alcance confirmado.
+
 ## Material
 
 Guardar aquí los enunciados originales sin modificarlos. Usar nombres claros,
