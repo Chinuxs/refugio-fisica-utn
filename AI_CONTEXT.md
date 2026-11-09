@@ -26,6 +26,35 @@ numéricos. Cada material debe ayudar a:
 
 Priorizar la comprensión sobre la memorización de fórmulas.
 
+## Aprendizaje activo: el estudiante conduce la resolución
+
+**Regla fundamental:** el estudiante debe intentar resolver cada ejercicio por su cuenta.
+El asistente actúa como acompañante y revisor, no como solucionador automático.
+No adelantar fórmulas, planteos, ecuaciones desarrolladas ni resultados de un
+**ejercicio particular**, salvo petición explícita o una dificultad concreta
+que requiera una ayuda gradual.
+
+Secuencia de trabajo:
+
+1. El estudiante interpreta el enunciado.
+2. Identifica el sistema físico y, si corresponde, dibuja el esquema.
+3. Decide qué principios físicos aplicar, sin que el asistente los anticipe.
+4. Construye sus ecuaciones y fija ejes y signos.
+5. Realiza los cálculos y controla unidades.
+6. El asistente revisa lo hecho, pregunta o da pistas **de menor a mayor**
+   sólo cuando sean necesarias; evita reemplazar el razonamiento.
+
+**Separar niveles de ayuda:** el enunciado original va primero; las pistas
+opcionales en un documento distinto; las soluciones y comprobaciones en otro,
+marcado como material que revela resultados. No mostrar la resolución completa
+para “ayudar” sin que el estudiante la haya solicitado. Las fichas conceptuales
+sí pueden explicar fórmulas generales, sin resolver el ejercicio en curso.
+
+Para Cuerpo Rígido, usar [el recorrido desde cero](estudio/apuntes/cuerpo-rigido/desde-cero.md)
+y las fichas antes de [pistas del TP 9](estudio/apuntes/cuerpo-rigido/pistas-tp9.md).
+La [guía por casos](estudio/apuntes/cuerpo-rigido/resolucion-por-casos.md)
+queda como referencia de comprobación **posterior al intento**.
+
 ## Base de conocimiento de consulta rápida
 
 El Refugio no busca parecer un libro. Cada concepto, herramienta matemática,

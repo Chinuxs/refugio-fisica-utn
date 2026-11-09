@@ -108,6 +108,12 @@ Preparar Física I concentrándose en:
 - [x] Energía, rodadura/eje instantáneo, momento angular y conservación.
 - [x] Referencias breves de impulso angular, precesión y segunda ley de Kepler.
 - [x] Esquema SVG comparativo y registro de hipótesis, erratas y comprobaciones.
+- [x] Recorrido progresivo desde cero y cinco fichas breves: torque, inercia,
+  Steiner, energía rotacional y momento angular.
+- [x] Comparación visual de disco y aro; pistas opcionales para TP 9 ej. 2
+  y familia 28/30/31, separadas de las soluciones existentes.
+- [x] Metodología de aprendizaje activo registrada en AI_CONTEXT e índices
+  enlazados desde la portada, el tema y el tercer parcial.
 - [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
 ## Estática y Rototraslación
@@ -156,6 +162,14 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**9 de noviembre de 2026 — Cuerpo Rígido desde cero:** se añadió una puerta
+de entrada conceptual, cinco fichas breves y una comparación visual de aro
+y disco. Las pistas del ejercicio 2 y de la familia 28/30/31 del TP 9
+quedaron separadas de la guía existente, que contiene planteos y resultados.
+Se ampliaron errores frecuentes y enlaces, y se formalizó en AI_CONTEXT
+la regla de no anticipar el desarrollo del estudiante. Se conservan las
+guías anteriores y las advertencias/erratas registradas.
 
 **7 de noviembre de 2026 — teoría del último tema:** se incorporó la
 presentación `11 Hidrostática.pptx` (27 diapositivas) como fuente principal
