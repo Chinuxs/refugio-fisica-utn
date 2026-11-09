@@ -19,17 +19,17 @@ Es un ejemplo esquemático de partículas unidas rígidamente, no un ejercicio d
 
 Partimos de la energía cinética de cada partícula y usamos \(v_i=r_{\perp i}|\omega|\):
 
-\[
+$
 K=\sum_i \frac12 m_i v_i^2
 =\frac12\left(\sum_i m_i r_{\perp i}^2\right)\omega^2
 =\frac12 I\omega^2
-\]
+$
 
 Para un cuerpo rígido en movimiento plano general:
 
-\[
+$
 K=\frac12 Mv_{\mathrm{CM}}^2+\frac12 I_{\mathrm{CM}}\omega^2.
-\]
+$
 
 \(I\) se refiere al eje fijo de la primera expresión. Un disco cuyo centro permanece fijo no tiene energía de traslación de su centro. Unidad: **J**.
 

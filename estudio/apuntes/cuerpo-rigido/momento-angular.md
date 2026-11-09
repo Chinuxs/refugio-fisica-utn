@@ -12,16 +12,16 @@ Ejemplo didáctico: dos pesas sobre una plataforma giratoria se acercan al eje. 
 
 ## 📐 Fórmula
 
-\[
+$
 \sum\tau_{\mathrm{ext},z}=\frac{dL_z}{dt},\qquad
 \sum\tau_{\mathrm{ext},z}=0\Rightarrow L_{z,i}=L_{z,f}.
-\]
+$
 
 Si **todas las partes giran juntas** alrededor del mismo eje en cada estado:
 
-\[
+$
 L_z=I_z\omega_z,\qquad I_i\omega_i=I_f\omega_f.
-\]
+$
 
 Si partes distintas giran con velocidades angulares diferentes, sumar sus \(I_j\omega_j\) con signo; no imponer una única \(\omega\). Unidad de \(L\): **kg·m²/s**.
 
