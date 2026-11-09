@@ -16,6 +16,16 @@ impresa. El TP contiene fórmulas y dibujos que no se extraen bien como texto;
 se contrastaron visualmente las figuras de poleas con dos radios y los casos
 de energía y momento angular de las páginas PDF 5, 6 y 8.
 
+## Alcance del material de aprendizaje progresivo
+
+Las [fichas introductorias](desde-cero.md) y sus ejemplos cotidianos
+(puerta, regla, disco, aro y plataforma) son **elaboraciones didácticas
+propias** apoyadas en los conceptos de las fuentes anteriores: **no son
+nuevos enunciados de cátedra**. Las [pistas del TP 9](pistas-tp9.md)
+remiten a los ejercicios originales sin reproducirlos ni mostrar resultados.
+La guía por casos y las comprobaciones de esta página contienen soluciones
+parciales y deben reservarse para **después** de un intento personal.
+
 ## Criterios
 
 - Se mantienen «momento de una fuerza», «momento de inercia», «momento

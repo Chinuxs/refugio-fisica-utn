@@ -1,5 +1,19 @@
 # Cuerpo Rígido y Rotación
 
+**Si recién empezás:** seguí [Cuerpo Rígido desde cero](desde-cero.md).
+**Si estás practicando:** intentá el enunciado original y pedí sólo las
+[pistas graduales del TP 9](pistas-tp9.md) que necesites.
+La **guía por casos contiene ecuaciones y respuestas numéricas**: abrila
+preferentemente después de hacer tu propio planteo.
+
+### Fichas conceptuales breves
+
+- [Torque, signos y equilibrio rotacional](torque.md)
+- [Momento de inercia: masas, disco y aro](momento-de-inercia.md)
+- [Teorema de Steiner: cambio de eje](steiner.md)
+- [Energía cinética rotacional](energia-rotacional.md)
+- [Momento angular y conservación](momento-angular.md)
+
 **Para repasar:** [teoría esencial](teoria-esencial.md).
 **Para resolver:** [guía por casos del TP 9](resolucion-por-casos.md).
 

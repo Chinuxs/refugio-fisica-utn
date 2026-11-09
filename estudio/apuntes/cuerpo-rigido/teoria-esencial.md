@@ -134,6 +134,9 @@ potencia en W. Se usa g = 9,8 m/s² salvo indicación.
 
 ## 🔗 Ver también
 
+- [Aprender Cuerpo Rígido desde cero](desde-cero.md) y sus cinco fichas
+  (torque, inercia, Steiner, energía y momento angular).
+- [Pistas sin resultados para TP 9 ej. 2 y familia 28/30/31](pistas-tp9.md)
 - [Resolución por casos del TP 9](resolucion-por-casos.md)
 - [Fuentes y comprobaciones](fuentes.md)
 - [Movimiento Circular](../movimiento-circular/README.md)

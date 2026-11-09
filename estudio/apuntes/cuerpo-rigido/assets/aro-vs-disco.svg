@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="390" viewBox="0 0 980 390" role="img" aria-labelledby="title desc">
+  <title id="title">Igual masa y radio: disco uniforme y aro delgado</title>
+  <desc id="desc">A la izquierda, el disco tiene masa distribuida desde el eje central hasta el borde. A la derecha, el aro delgado tiene la masa en el borde. En ambos el eje es perpendicular al plano y pasa por el centro. La inercia del aro es el doble que la del disco.</desc>
+  <rect width="980" height="390" rx="16" fill="#f5f7fb"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#172b43">
+    <text x="28" y="40" font-size="25" font-weight="700">La distancia al eje importa</text>
+    <text x="28" y="68" font-size="17">Dos cuerpos de igual masa M y radio R. Ejes centrales perpendiculares a la hoja.</text>
+    <rect x="26" y="86" width="450" height="282" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="502" y="86" width="450" height="282" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="48" y="120" font-size="21" font-weight="700">Disco uniforme</text>
+    <text x="524" y="120" font-size="21" font-weight="700">Aro delgado</text>
+    <circle cx="248" cy="226" r="90" fill="#b8d8ff" stroke="#285e9c" stroke-width="3"/>
+    <circle cx="725" cy="226" r="90" fill="none" stroke="#285e9c" stroke-width="25"/>
+    <circle cx="248" cy="226" r="6" fill="#172b43"/>
+    <circle cx="725" cy="226" r="6" fill="#172b43"/>
+    <path d="M248 226H338 M725 226H815" stroke="#172b43" stroke-width="2" stroke-dasharray="5 3"/>
+    <text x="290" y="217" font-size="17">R</text>
+    <text x="767" y="217" font-size="17">R</text>
+    <text x="48" y="314" font-size="18">Masa repartida desde el centro</text>
+    <text x="524" y="314" font-size="18">Masa concentrada cerca del borde</text>
+    <text x="48" y="346" font-family="Cambria Math,Georgia,serif" font-size="22">I = ½ MR²</text>
+    <text x="524" y="346" font-family="Cambria Math,Georgia,serif" font-size="22">I = MR² (mayor inercia)</text>
+  </g>
+</svg>

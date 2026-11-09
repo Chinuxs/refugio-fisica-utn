@@ -27,6 +27,19 @@ de Hidrodinámica o Rototraslación. Los originales se conservan completos.
 incluida Elasticidad. El TP 11 sigue siendo el mismo; la nueva bibliografía
 no habilita Bernoulli ni modifica por sí sola el alcance confirmado.
 
+## Cuerpo Rígido: practicar sin ver la solución
+
+Para los ejercicios de inercia y plataforma giratoria del TP 9,
+empezar por [la guía desde cero](../../apuntes/cuerpo-rigido/desde-cero.md).
+Leer el enunciado **original**, dibujar y construir un planteo propio.
+Si aparece un bloqueo, abrir las [pistas graduales del TP 9: ejercicio 2
+y familia 28/30/31](../../apuntes/cuerpo-rigido/pistas-tp9.md).
+
+**Sólo para verificar después del intento:** la
+[resolución por casos](../../apuntes/cuerpo-rigido/resolucion-por-casos.md)
+y las [comprobaciones](../../apuntes/cuerpo-rigido/fuentes.md)
+**sí revelan ecuaciones y resultados**.
+
 ## Material
 
 Guardar aquí los enunciados originales sin modificarlos. Usar nombres claros,
