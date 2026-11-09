@@ -19,9 +19,9 @@ Ambos símbolos ⊙ representan ejes **perpendiculares a la hoja** y paralelos e
 
 ## 📐 Fórmula
 
-$
+$$
 I_A=I_{\mathrm{CM}}+Md^2
-$
+$$
 
 - \(I_{\mathrm{CM}}\): inercia respecto del eje paralelo por el centro de masa.
 - \(M\): masa total del cuerpo.

@@ -17,10 +17,10 @@ La fuerza representada es perpendicular a la puerta. Si empujás **hacia la bisa
 
 ## 📐 Fórmula
 
-$
+$$
 |\tau|=rF\sin\varphi=F\,d_\perp,\qquad
 \sum\tau_z=I_z\alpha_z
-$
+$$
 
 - \(r\): distancia desde el eje al punto de aplicación; \(\varphi\): ángulo entre \(\vec r\) y \(\vec F\); \(d_\perp\): distancia **del eje a la línea de acción**.
 - Elegir un sentido positivo (por ejemplo, antihorario visto desde un lado). El contrario tiene signo negativo.

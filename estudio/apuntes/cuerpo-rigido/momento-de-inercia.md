@@ -14,11 +14,11 @@ Los ejes indicados son perpendiculares al plano del dibujo y pasan por los centr
 
 ## 📐 Fórmula
 
-$
+$$
 I=\sum_i m_i r_{\perp i}^{\,2},
 \qquad I_{\mathrm{disco}}=\tfrac12 MR^2,\qquad
 I_{\mathrm{aro}}=MR^2.
-$
+$$
 
 \(r_{\perp i}\) es la distancia **perpendicular** de la masa \(m_i\) al eje. Para un sistema de piezas, sumar sus aportes **respecto del mismo eje**. Una partícula ubicada sobre el eje contribuye cero. Unidad: **kg·m²**.
 
