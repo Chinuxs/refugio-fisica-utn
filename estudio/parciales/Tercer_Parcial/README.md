@@ -11,6 +11,22 @@ Espacio para organizar el enunciado, la preparación y las resoluciones del
   por el estudiante el 5 de noviembre de 2026.
 - Material: tres versiones históricas de 2022; dos comparten plantilla.
 
+## Alcance actual informado, no programa oficial publicado
+
+| Material | Qué preparar ahora | Qué conservar como complemento o excluir del parcial actual |
+| --- | --- | --- |
+| **TP 9 — Cuerpo rígido y rotación** | Conceptos y ejercicios de rotación del TP 9 | Excluir el complemento de **Rototraslación/rodadura** del repaso actual |
+| **TP 10 — Estática y Rototraslación** | **Estática: ejercicios 1–9** | **Rototraslación: ejercicios 10–21, excluidos** |
+| **TP 11 — Fluidos** | **Hidrostática** (ejercicios del TP 11 según el material registrado) | **Hidrodinámica**, incluidos Venturi, Bernoulli y Pitot, excluida |
+
+Esta delimitación fue **informada por el estudiante** a partir de su
+preparación y lo comunicado por el profesor; **no se verificó en esta
+revisión un programa oficial publicado**. Si hubiera un temario posterior,
+actualizar el filtro, sin eliminar los ejercicios históricos.
+
+[Índice de Estática: qué ejercicios entran y cómo empezar](../../apuntes/estatica-rototraslacion/README.md) ·
+[Fuentes de Estática y pendientes de contraste](../../apuntes/estatica-rototraslacion/fuentes.md).
+
 ## Empezar a practicar
 
 - [Patrones, cruce con TP y filtro del alcance](patrones.md).
@@ -18,8 +34,9 @@ Espacio para organizar el enunciado, la preparación y las resoluciones del
 - [Enunciados originales](enunciados/).
 - [Auditoría del material](../auditoria-material.md).
 
-**Selección rápida:** TP 9 sin el complemento de rodadura; TP 10 **1–9**;
-TP 11 **1–21**. En T1–T3 omitir el ejercicio de Venturi y las preguntas
+**Selección rápida según el alcance informado:** TP 9 sin el complemento
+de rodadura; TP 10 **1–9** (no 10–21); TP 11 **1–21**, en su contenido
+de Hidrostática. En T1–T3 omitir el ejercicio de Venturi y las preguntas
 de Hidrodinámica o Rototraslación. Los originales se conservan completos.
 
 **Material nuevo del 7/11:** se actualizó el
