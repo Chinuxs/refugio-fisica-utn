@@ -84,6 +84,34 @@ Basar los casos en los TP de la cátedra, indicar sus números de ejercicio y
 registrar las fuentes en `fuentes.md`. Priorizar la consulta rápida; conservar
 el material ampliado como referencia adicional.
 
+## Trazabilidad de fuentes y alcance
+
+La documentación debe permitir distinguir **de dónde sale** cada tema,
+sin convertir cada oración en una cita. En `fuentes.md` incluir, cuando
+corresponda, una tabla **por apartado o concepto** con estas procedencias:
+
+- **Fuente de cátedra:** presentación, enunciado de TP u otro material
+  oficial. Identificar archivo y diapositiva, página o número de ejercicio
+  **sólo cuando esa ubicación esté comprobada**. Una referencia heredada
+  de una revisión anterior debe identificarse como tal si no se volvió
+  a contrastar con el original.
+- **Bibliografía complementaria:** Sears u otra obra, con capítulo o
+  sección disponible; no presentar su contenido como temario exigido.
+- **Elaboración propia:** analogías, diagramas, reglas para elegir un
+  planteo, deducciones, hipótesis o ejemplos agregados para aprender.
+  Señalar expresamente que no son enunciados de cátedra.
+
+En `teoria-esencial.md` alcanza con un enlace o una referencia breve
+**por bloque temático** a `fuentes.md`. Nunca inventar números de
+diapositivas, lecturas de figuras ni resultados; si el material primario
+no está accesible, marcar **pendiente de contraste con el original**.
+
+El **alcance de un parcial** debe indicar también su procedencia:
+un temario informado por el estudiante o por el docente a través del
+estudiante **no equivale a un programa oficial publicado**. Separar
+visualmente lo que entra ahora de los complementos, sin eliminar estos
+últimos. Ver [alcance del tercer parcial](estudio/parciales/Tercer_Parcial/README.md).
+
 ## Formato para documentar ejercicios
 
 ### Preparación de parciales

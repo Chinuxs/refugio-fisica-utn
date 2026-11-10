@@ -86,6 +86,10 @@ separado del código del simulador y se escribe en español claro.
 
 **Estática y Rototraslación**
 
+**Tercer parcial, alcance informado:** Estática, TP 10 **ejercicios 1–9**.
+Rototraslación, TP 10 **10–21**, queda como material complementario
+**excluido del parcial actual**. [Índice con los dos recorridos](estudio/apuntes/estatica-rototraslacion/README.md).
+
 - [Teoría esencial](estudio/apuntes/estatica-rototraslacion/teoria-esencial.md)
 - [Resolución por casos del TP 10](estudio/apuntes/estatica-rototraslacion/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/estatica-rototraslacion/README.md)

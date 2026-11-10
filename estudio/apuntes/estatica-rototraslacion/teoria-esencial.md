@@ -1,5 +1,11 @@
 # Estática y Rototraslación — teoría esencial
 
+> **Alcance del tercer parcial informado:** estudiar aquí las secciones de
+> **equilibrio y estabilidad** (TP 10, ejercicios 1–9). Las secciones de
+> **rodadura y dinámica de la rototraslación** corresponden a los ejercicios
+> 10–21 y **no entran en el parcial actual**. Se conservan para consulta.
+> [Ver selección del TP 10](README.md).
+
 ## 🎯 Qué recordar
 
 - **Equilibrio de un cuerpo rígido:** deben anularse tanto la fuerza externa
@@ -18,17 +24,46 @@
 
 ![Escalera en equilibrio con fuerzas reales y rueda rodando sin deslizar: CM, contacto y velocidades.](assets/equilibrio-rodadura.svg)
 
+## Antes de las fórmulas: elegir una herramienta (Estática, TP 10: 1–9)
+
+1. **Interpretar** qué cuerpo o sistema permanece en reposo y qué solicita
+   el problema: reacción, tensión o un límite de contacto.
+2. **Dibujar un DCL** sólo con fuerzas reales: peso, tensiones, normales,
+   rozamiento y reacciones de articulación según el apoyo.
+3. **Comprobar el modelo de equilibrio:** para un cuerpo rígido en reposo
+   deben anularse fuerzas y momentos externos.
+4. **Elegir ejes y punto de momentos.** Un punto por el que pasan reacciones
+   desconocidas suele evitar que aparezcan en la ecuación de momentos.
+5. **Plantear y verificar.** Calcular primero las fuerzas necesarias;
+   sólo imponer rozamiento máximo o normal nula al llegar al límite
+   correspondiente. Revisar signos, unidades y si hay contacto.
+
+Esta secuencia es **elaboración didáctica propia**, basada en los tipos de
+problemas de los ejercicios 1–9. No adelanta el desarrollo de ninguno.
+
 ## 📐 Fórmula
 
-### Equilibrio: fuerzas y momentos
+### Equilibrio: fuerzas y momentos (TP 10: 1–9)
+
+**Origen del bloque:** condiciones de equilibrio registradas para la
+presentación de cátedra, **diapositivas 8–9**; fuerzas, apoyos y elección de
+pivote ilustrados por **TP 10, ejercicios 1–6 y 9**.
+Las convenciones y el orden de resolución son una síntesis propia.
+[Detalle de procedencia y cotejo pendiente](fuentes.md#mapa-de-trazabilidad-por-concepto).
 
 $$\sum F_x=0,\qquad \sum F_y=0,\qquad \sum\tau_{O,z}=0.$$
 
 En problemas planos hay tres ecuaciones independientes. Elegir O en un apoyo
-o articulación suele eliminar torques de fuerzas desconocidas.
+o articulación suele eliminar torques de fuerzas desconocidas **porque su
+línea de acción pasa por O**. Esto simplifica el cálculo; no significa que
+esas fuerzas desaparezcan del DCL o de las ecuaciones de traslación.
 Con fuerza neta nula, el torque neto es el mismo respecto de cualquier punto.
 
 $$\tau_{O,z}=r_xF_y-r_yF_x,\qquad |\tau|=Fd_\perp.$$
+
+Para dibujar un **DCL**, primero aislá el cuerpo: el peso actúa en el CG,
+y cada contacto o vínculo se reemplaza por las fuerzas que ejerce sobre
+él. No dibujes a la vez una fuerza y sus componentes como fuerzas extra.
 
 **Apoyos ideales:** pared lisa → normal perpendicular a la pared;
 suelo rugoso → normal y rozamiento; cable → tensión a lo largo del cable;
@@ -44,7 +79,15 @@ uniformidad si el enunciado da otro CG.
 | Contacto unilateral | $N\ge0$; al perder apoyo, $N=0$ |
 | Vuelco inminente | La resultante normal llega al borde de la base |
 
-### Estabilidad: mirar la altura del CG
+### Estabilidad: mirar la altura del CG (TP 10: 7–9)
+
+**Origen del bloque:** centro de gravedad en la presentación de cátedra,
+**diapositiva 3**; estabilidad y energía potencial, **diapositivas 4–7**.
+Condiciones de deslizamiento, desplazamiento de la normal y vuelco:
+**TP 10, ejercicios 7–9**, con apoyo del límite de rozamiento en el
+**ejercicio 2**. Los umbrales del bloque son deducciones para la
+**geometría ideal indicada**, no fórmulas universales.
+[Detalle y verificación pendiente](fuentes.md#mapa-de-trazabilidad-por-concepto).
 
 $$U_g=Mgy_{cm},\qquad F_x=-\frac{\partial U}{\partial x}.$$
 
@@ -64,7 +107,12 @@ Ocurre primero el límite de menor ángulo. La proyección vertical del CG
 llega al borde al comenzar el vuelco; este criterio supone la gravedad
 y los contactos del caso, sin fuerzas adicionales.
 
-### Rodadura: separar movimiento del CM y giro
+### Rodadura: separar movimiento del CM y giro — complemento excluido (TP 10: 10–21)
+
+**Origen del bloque:** presentación de cátedra, diapositivas **12–16**,
+y **Sears §10.3** como bibliografía complementaria. No usar este apartado
+para ampliar el alcance informado del tercer parcial.
+[Fuentes](fuentes.md).
 
 $$\vec v_P=\vec v_{cm}+\vec\omega\times\vec r_{P/cm}.$$
 
@@ -83,7 +131,11 @@ $$K=\frac12Mv_{cm}^2+\frac12I_{cm}\omega^2
 La última igualdad es una alternativa: no sumar otra vez la energía de
 traslación a $I_{CIR}\omega^2/2$.
 
-### Dinámica y energía de la rototraslación
+### Dinámica y energía de la rototraslación — complemento excluido (TP 10: 10–21)
+
+**Origen del bloque:** presentación de cátedra, diapositivas **12–16**,
+TP 10 ejercicios **10–21** y **Sears §10.3**. Las hipótesis adicionales
+de modelos concretos están registradas en [fuentes](fuentes.md).
 
 $$\sum\vec F_{ext}=M\vec a_{cm},\qquad
 \sum\tau_{ext,cm,z}=I_{cm}\alpha_z.$$
@@ -124,6 +176,8 @@ $v_{cm}=\sqrt{2gh/(1+c)}$.
 
 ## 🔗 Ver también
 
+- [Índice separado: Estática 1–9 / Rototraslación 10–21](README.md)
+- [Mapa de trazabilidad por concepto y estado de verificación](fuentes.md#mapa-de-trazabilidad-por-concepto)
 - [Casos del TP 10](resolucion-por-casos.md)
 - [Inercias y Steiner](../cuerpo-rigido/teoria-esencial.md)
 - [Trabajo y Energía](../trabajo-energia/README.md)
