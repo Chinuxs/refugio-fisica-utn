@@ -12,6 +12,9 @@
 - **Un choque no garantiza conservar energía cinética.** Un sistema puede
   conservar $\vec P$ mientras parte de $K$ pasa a deformación, calor o sonido.
 
+[Procedencia: cátedra, diap. 3–9 y 21–26](fuentes.md#trazabilidad-por-concepto).
+Ver [cómo justificar una conservación](conservacion-y-choques.md).
+
 ## 🖼️ Esquema / dibujo
 
 ![Comparación numérica de choques elástico, inelástico y plástico: se conserva el momento, pero cambia la energía cinética](assets/comparar-choques.svg)
@@ -33,6 +36,12 @@ de partículas elegido como sistema.
 
 ![Centro de masa más próximo a la masa mayor y transformación de velocidades desde el suelo al sistema del CM](assets/centro-masa.svg)
 
+Si $M$ es constante y se conserva $\vec P$, también se conservan
+$\vec v_{CM}$ y $K_{CM}=P^2/(2M)$, aunque cambie la energía cinética total.
+La fuerza media $\vec F_{med}=\vec J/\Delta t$ está definida aunque la
+fuerza real varíe durante el contacto.
+[CM y referencias: diap. 10–20; impulso: diap. 4–5](fuentes.md#trazabilidad-por-concepto).
+
 **Choques frontales en 1D**, con velocidades algebraicas y sin impulso externo
 apreciable:
 
@@ -50,6 +59,8 @@ $$
 La energía total se conserva en todos los casos: cambia su forma. Una explosión
 puede **aumentar** $K$ a costa de energía interna. En choques oblicuos, no aplicar
 la relación 1D de $e$ a los módulos de las velocidades.
+
+[Restitución y tipos de choque: diap. 22–26, con precisiones y erratas](fuentes.md#trazabilidad-por-concepto).
 
 **Unidades:** $p,J$ en kg·m/s = N·s; energía en J. En estos apuntes $J$ sin
 flecha representa el impulso en un eje; $\mathrm J$ como unidad significa joule.

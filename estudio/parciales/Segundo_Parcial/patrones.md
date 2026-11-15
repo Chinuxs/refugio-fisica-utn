@@ -1,5 +1,8 @@
 # Segundo parcial — qué se repite y qué practicar
 
+Revisión del **15 de noviembre de 2026**. Primero leer este mapa; después,
+intentar los [enunciados](enunciados/) con la [ruta de práctica](practica.md).
+
 ## Alcance actual
 
 **Trabajo y Energía, MAS e Impulso/Cantidad de Movimiento**, según lo indicado
@@ -12,6 +15,9 @@ ellos entra ahora.
 Se cuentan **siete versiones PDF**, una vez cada una, sin sumar el RAR ni
 su resolución como si fueran nuevas evaluaciones. Son de 2020–2021 y dos
 comisiones; no estiman probabilidades del próximo examen.
+La [matriz por ejercicio](matriz-examenes.csv) permite reproducir los recuentos:
+son **17 problemas en siete PDF**, tres de ellos principalmente fuera del
+recorte informado. Se revisaron nuevamente el texto y las figuras de los siete.
 
 | ID / original | Ejercicio 1 | Ejercicio 2 | Ejercicio 3 |
 | --- | --- | --- | --- |
@@ -40,6 +46,61 @@ Se cuenta presencia por examen, no cantidad de incisos. Las filas se superponen.
 energía para recorrido → momento para impacto → energía/MAS después.
 No hay base para decir que un ejercicio «siempre» vuelve a tomarse.
 
+## Cómo está construido el parcial en esta muestra
+
+| Evidencia | Qué preparar |
+| --- | --- |
+| M11: S1, S3 y S4 tienen dos problemas extensos, con varios incisos encadenados | Conservar los estados intermedios: una rapidez o una masa obtenida alimenta la etapa siguiente |
+| E11: S2 tiene dos problemas; S5–S7 tienen tres | Poder reconocer métodos en situaciones diferentes, sin depender de un único problema integrador |
+| S1.2 y S3.2 piden impulso, fuerza media, ecuaciones horarias, período y energía | Justificar el impacto y reconstruir después el oscilador; no alcanza con hallar su compresión |
+| S4.1 enlaza una pérdida de energía con resorte y MAS | Distinguir energía disponible, amplitud, masa oscilante y condiciones iniciales |
+| S5.3 y S6.3 cambian el enfoque a CM o componentes | Practicar referencias relativas y vectores, además del choque frontal |
+| F1 y la foto del martinete incluyen una parte teórica explícita | Ensayar explicaciones breves de las condiciones de conservación, CM y fórmulas de MAS |
+
+No están establecidos el tiempo disponible, el puntaje, el criterio de aprobación
+ni el formato de la evaluación actual. La modalidad remota de 2020–2021 tampoco
+permite deducir el formato presencial actual.
+
+## Material nuevo: las imágenes llamadas «2025»
+
+El año procede **del nombre del archivo**, no de un encabezado verificable.
+No se suman estas imágenes al denominador de los siete PDF fechados.
+
+| ID / archivo | Qué se ve | Relación comprobada con cátedra |
+| --- | --- | --- |
+| [F1 · Parcial_2025_1.png](enunciados/Parcial_2025_1.png) | Dos problemas y una parte teórica; faltan fecha, comisión y encabezado | Problema 1: mismos datos, texto y esquema que **TP 6, ej. 19**. Problema 2: mismos datos e incisos que **TP 8, ej. 16** |
+| H1 · `Parcial_2025_2.png`, conservada en la carpeta externa | Una resolución manuscrita y, abajo, el enunciado impreso de un solo problema | Resorte → superficie rugosa → plano liso; variante del método de TP 6, no un segundo examen completo ni un TP identificado literalmente |
+
+**Conclusión que sí permite F1:** en esta hoja se reutilizan dos ejercicios
+del TP, no sólo su método. Eso da una razón concreta para practicar el TP vigente.
+**Límite:** una hoja sin encabezado no demuestra que el parcial próximo repetirá
+ejercicios ni que todos sus contenidos sigan dentro del alcance actual.
+
+En F1, las preguntas teóricas **a–d** trabajan conservación de energía cinética,
+conservación de cantidad de movimiento, restitución y energía cinética del MAS.
+Las **e–g** tratan movimiento circular y la **h**, momento de inercia. Esta
+última se reserva para Cuerpo Rígido; no amplía por sí sola el segundo parcial.
+Las preguntas seleccionadas están en [Teoría para practicar](preguntas-teoricas.md).
+
+H1 sirve para practicar balances y signos. Sus cuentas manuscritas no son
+respuestas oficiales: los [controles separados](comprobaciones.md) aclaran
+qué magnitud se está calculando.
+
+## Prioridad razonada
+
+| Prioridad | Competencia | Evidencia |
+| --- | --- | --- |
+| Primera | Balances entre estados, roce localizado y resortes | Energía 7/7; resortes 6/7; coincidencia literal F1 ↔ TP 6.19 |
+| Primera | Choques 1D: signos, tipo de choque, CM y balance de energía | Momento/CM 6/7; coincidencia literal F1 ↔ TP 8.16 |
+| Primera | MAS desde condiciones iniciales y después de un impacto | S1.2, S3.2 y S4.1; TP 7.2, 5, 12–16 |
+| Segunda | Contacto circular junto con energía; reconocer el vínculo | S1–S4; TP 6.22–23 |
+| Segunda | CM con desplazamiento relativo y choques oblicuos | S5.3 y S6.3; TP 8.13, 27–29, 31–32 |
+| Segunda | Péndulo: hipótesis, período y primer paso por el equilibrio | S7.3; TP 7.19–25 |
+| Base de cátedra | Trabajo por áreas, potencia, impulso por áreas y oscilaciones amortiguadas/forzadas | Presentaciones y TP; su menor presencia en esta muestra no los excluye del temario |
+
+Este orden organiza el estudio; no asigna probabilidades ni reemplaza un
+temario actualizado del docente.
+
 ## Otras hojas: útiles, sin inflar el recuento
 
 - [Hoja sin fecha: energía, MAS y choque](enunciados/hoja-energia-mas-choques-sin-fecha.jpeg):
@@ -48,7 +109,9 @@ No hay base para decir que un ejercicio «siempre» vuelve a tomarse.
 - [Foto de parcial con rotación](enunciados/foto-parcial-con-rotacion.jpg):
   martinete y retroceso de bote sí sirven. El ejercicio de niños acercándose
   al eje pertenece al TP 9 y se reserva para el tercero. La fecha manuscrita
-  no se usa como identificación certificada.
+  no se usa como identificación certificada. Incluye teoría explícita:
+  las preguntas 1–6 se seleccionan para estos temas y la 7, sobre torque,
+  se reserva para Cuerpo Rígido.
 - La otra foto de WhatsApp, terminada en `(1).jpeg`, contiene tiro oblicuo,
   bloques con polea ideal y curva de automóvil: principalmente primer parcial.
   Se conserva en la fuente externa y no se incorpora a esta práctica priorizada.
@@ -89,4 +152,7 @@ resueltos de apoyo antiguos pueden usar otra numeración: manda el TP vigente.
   falta usar ni compartir DNI o fecha de nacimiento: para practicar se pueden
   elegir datos ficticios, indicándolo.
 
-[Práctica y controles](practica.md) · [Auditoría de material](../auditoria-material.md) · [Volver](README.md)
+La correspondencia detallada de fuentes, los errores de los apoyos y los
+límites de lectura están en la [auditoría de las cuatro carpetas](auditoria-fuentes.md).
+
+[Práctica sin respuestas](practica.md) · [Auditoría actual](auditoria-fuentes.md) · [Volver](README.md)

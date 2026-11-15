@@ -1,5 +1,8 @@
 # Trabajo y Energía — resolución por casos
 
+**Material de comprobación:** incluye planteos y respuestas. Para intentar
+un ejercicio sin adelantos, usar primero el enunciado y pedir pistas graduales.
+
 ## 🎯 Qué recordar
 
 **Rutina de arranque:** dibujar inicio y final → anotar $v,h,x$ → identificar
@@ -49,6 +52,10 @@ Marcar dónde hay roce y dónde actúa el resorte. Relacionar los extremos con
 $W_r=E_f-E_i$; para hallar una velocidad intermedia, cortar el balance en ese
 punto. Si el tramo rugoso es horizontal y $N=mg$: $\mu_k=-W_r/(mgd)$.
 
+En variantes con porcentajes o varios regresos a la zona rugosa, ver
+[qué magnitud pierde energía y cómo contar los cruces](balances-y-tramos.md).
+Separar el punto C de la máxima compresión: no son el mismo estado.
+
 ### 6. Penetración / fuerza resistente — ej. 12
 
 Si cae desde reposo una altura $h$ y penetra $d$ hasta detenerse, el peso
@@ -75,6 +82,17 @@ $\mathcal P=\vec F_{\text{motor}}\cdot\vec v$. A rapidez constante y sin roce,
 subiendo un plano: $\mathcal P=mgv\sin\alpha$.
 Para una bomba ideal: $\mathcal P=\dot m[g\Delta h+(v_f^2-v_i^2)/2]$,
 sin diferencia de presión entre entrada y salida. $\dot m$ es masa por segundo.
+
+### 9. Energía y salida horizontal — variante S7, ej. 2
+
+Hallar primero la rapidez necesaria en el borde con cinemática del vuelo.
+Si la recepción está $\Delta y>0$ más abajo y el ancho es $d$, para salida
+horizontal $t=\sqrt{2\Delta y/g}$ y $v_{borde,\min}=d/t$.
+Después relacionar base y borde por energía, incluyendo sus alturas.
+Las alturas se leen desde una misma referencia: la caída es la diferencia
+entre borde y recepción. No introducir el ancho del foso como altura.
+Referencia del método de energía: TP 6.20; combinación didáctica con
+cinemática a partir del enunciado histórico S7.2.
 
 ### Dos comprobaciones cortas
 

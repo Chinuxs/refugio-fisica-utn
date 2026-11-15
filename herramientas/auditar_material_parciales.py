@@ -21,10 +21,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('base', type=Path)
     parser.add_argument('salida', type=Path)
+    parser.add_argument('--segundo-completo', action='store_true',
+                        help='Inventariar el segundo parcial y las carpetas de los TP 6–8.')
     args = parser.parse_args()
     base = args.base.resolve()
     roots = ['8.2do Parcialito', '12. 3er Parcialito']
     reference_roots = ['6. Trabajo & Energia', '7. MAS', '8. Modelo sistema de partículas']
+    if args.segundo_completo:
+        roots = ['8.2do Parcialito'] + reference_roots
+        reference_roots = []
     references = {}
     for name in reference_roots:
         for path in sorted((base / name).rglob('*')):
@@ -43,6 +48,8 @@ def main():
                          'sha256': digest, 'duplicado_exacto_de': ' | '.join(matches),
                          'tipo': path.suffix.lower().lstrip('.')})
             seen.setdefault(digest, []).append(relative)
+    if not rows:
+        parser.error('No se encontraron archivos en las carpetas indicadas.')
     with args.salida.open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
         writer.writeheader()

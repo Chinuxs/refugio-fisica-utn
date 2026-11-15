@@ -1,5 +1,8 @@
 # Impulso y cantidad de movimiento — resolución por casos
 
+**Material de comprobación:** incluye planteos y respuestas. Antes de abrirlo,
+intentar el enunciado y pedir sólo las pistas necesarias.
+
 ## 🎯 Qué recordar
 
 **Antes de calcular:** elegir sistema → marcar justo antes y justo después →
@@ -70,6 +73,9 @@ $v_{2f}=2m_1v_{1i}/(m_1+m_2)$.
 Con masas iguales intercambian velocidades. Si no informan el tipo pero dan
 una velocidad final, usar momento para la otra y evaluar después $\Delta K$.
 
+Comprobar también que los cuerpos se separen y que los datos permitan un
+choque pasivo ordinario. Ver [conservación, restitución y viabilidad](conservacion-y-choques.md).
+
 ### 7. Choque + roce / altura / resorte — ej. 22–25
 
 1. **Antes:** hallar la velocidad de entrada por energía, si hace falta.
@@ -88,6 +94,10 @@ Con $\delta$ como deformación estática **anterior** y $y$ como bajada adiciona
 $\frac12MV^2+Mgy=\frac12k[(\delta+y)^2-\delta^2]$.
 Usar $M$ combinado, $V$ posterior al choque y la raíz positiva; no perder el
 estiramiento que ya tenía el resorte.
+
+Si se pide además el MAS posterior, medir la elongación desde el **nuevo**
+equilibrio. La amplitud se obtiene del estado posterior completo, no sólo
+de su velocidad: [fase y equilibrio](../movimiento-armonico-simple/fase-y-equilibrio.md).
 
 ### 8. Choque oblicuo — ej. 27–29, 31–32
 

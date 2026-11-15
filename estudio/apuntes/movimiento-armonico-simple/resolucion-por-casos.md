@@ -1,5 +1,8 @@
 # MAS — resolución por casos
 
+**Material de comprobación:** incluye planteos y respuestas. Para practicar
+sin adelantos: [ruta del segundo parcial](../../parciales/Segundo_Parcial/practica.md).
+
 ## 🎯 Qué recordar
 
 Primero fijar **equilibrio, eje positivo e instante inicial**. Pasar a SI,
@@ -32,6 +35,10 @@ Con $A=\sqrt{x_0^2+(v_0/\omega)^2}$, imponer simultáneamente
 $\sin\varphi_0=x_0/A$ y $\cos\varphi_0=v_0/(A\omega)$.
 Soltado desde $+A$: $\varphi_0=\pi/2$; desde el centro hacia $+x$:
 $\varphi_0=0$; desde el centro hacia $-x$: $\varphi_0=\pi$.
+
+Si el oscilador se forma después de otra etapa, fijar un nuevo origen de
+tiempo y usar la velocidad posterior y la masa que realmente oscila.
+Ver [tabla de fases y elección del equilibrio](fase-y-equilibrio.md).
 
 ### 3. Tiempo hasta una posición — ej. 9, 12–13
 
@@ -95,6 +102,8 @@ Identificar $m\ddot x+b\dot x+kx=F_0\sin(\Omega t)$.
 Sin fuerza externa y con $b<2\sqrt{mk}$:
 $x=A_0e^{-bt/(2m)}\sin(\omega_dt+\varphi_0)$,
 $\omega_d=\sqrt{k/m-(b/2m)^2}$. Para $b\geq2\sqrt{mk}$ no hay oscilaciones libres.
+
+La igualdad es el amortiguamiento **crítico**; por encima es sobreamortiguado.
 Con excitación y amortiguamiento, la amplitud estacionaria es
 $A_{est}=F_0/\sqrt{(k-m\Omega^2)^2+(b\Omega)^2}$.
 No aplicar conservación de energía mecánica a todo ese movimiento.

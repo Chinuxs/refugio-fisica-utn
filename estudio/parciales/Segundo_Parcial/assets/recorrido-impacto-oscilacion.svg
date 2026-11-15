@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="570" viewBox="0 0 1080 570" role="img" aria-labelledby="title desc">
+  <title id="title">Recorrido, impacto y oscilación: tres intervalos</title>
+  <desc id="desc">Ejemplo conceptual de un bloque que baja, choca y queda unido a otro sujeto a un resorte horizontal. En cada intervalo hay que revisar sistema, fuerzas y estado inicial. Después del impacto cambia la masa que oscila. No contiene datos ni resultados de un ejercicio.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#f4f7fc"/></marker>
+    <style>text{font-family:Inter,"Segoe UI",Arial,sans-serif}.title{font-size:26px;font-weight:700;fill:#f4f7fc}.head{font-size:21px;font-weight:700;fill:#f4f7fc}.body{font-size:19px;fill:#b9c7da}.label{font-size:20px;fill:#f4f7fc}</style>
+  </defs>
+  <rect x="12" y="12" width="1056" height="546" rx="22" fill="#141b25" stroke="#45556b"/>
+  <text x="40" y="55" class="title">Un proceso, tres intervalos</text>
+  <text x="40" y="85" class="body">Ejemplo conceptual: un bloque baja, choca y queda unido a otro con resorte.</text>
+  <rect x="40" y="112" width="316" height="353" rx="14" fill="#202a38"/>
+  <rect x="382" y="112" width="316" height="353" rx="14" fill="#202a38"/>
+  <rect x="724" y="112" width="316" height="353" rx="14" fill="#202a38"/>
+  <text x="60" y="151" class="head">1. RECORRIDO</text>
+  <text x="402" y="151" class="head">2. IMPACTO BREVE</text>
+  <text x="744" y="151" class="head">3. OSCILACIÓN</text>
+  <path d="M62 204 Q100 270 173 276 H333" stroke="#b9c7da" stroke-width="3" fill="none"/>
+  <rect x="78" y="190" width="38" height="29" rx="4" transform="rotate(45 97 204)" fill="#79b7ff"/>
+  <text x="125" y="205" class="label">m₁</text>
+  <path d="M179 247 H251" stroke="#f4f7fc" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="191" y="231" class="label">u</text>
+  <text x="60" y="322" class="body">¿Qué energías cambian?</text>
+  <text x="60" y="355" class="body">Marcar alturas y tramos.</text>
+  <text x="60" y="388" class="body">Revisar dónde hay roce.</text>
+  <text x="60" y="433" font-size="19" fill="#79b7ff">Salida: velocidad de entrada</text>
+  <path d="M401 276 H680" stroke="#b9c7da" stroke-width="3"/>
+  <rect x="421" y="225" width="55" height="49" rx="5" fill="#79b7ff"/>
+  <rect x="555" y="225" width="76" height="49" rx="5" fill="#ffce75"/>
+  <text x="433" y="256" font-size="21" fill="#141b25">m₁</text>
+  <text x="579" y="256" font-size="21" fill="#141b25">m₂</text>
+  <path d="M486 246 H543" stroke="#f4f7fc" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="402" y="322" class="body">¿Qué cuerpos se analizan?</text>
+  <text x="402" y="355" class="body">Evaluar el impulso externo.</text>
+  <text x="402" y="388" class="body">Revisar el tipo de choque.</text>
+  <text x="402" y="433" font-size="19" fill="#ffce75">Salida: estado posterior</text>
+  <path d="M744 276 H1020 M1018 208 V276" stroke="#b9c7da" stroke-width="3"/>
+  <rect x="760" y="224" width="102" height="50" rx="5" fill="#79dfba"/>
+  <text x="767" y="256" font-size="21" fill="#141b25">m₁ + m₂</text>
+  <path d="M862 249 H878 L885 235 L898 263 L911 235 L924 263 L937 235 L950 263 L957 249 H1018" stroke="#79dfba" stroke-width="3" fill="none"/>
+  <path d="M779 202 H839" stroke="#f4f7fc" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="798" y="190" class="label">V</text>
+  <text x="744" y="322" class="body">¿Qué masa queda oscilando?</text>
+  <text x="744" y="355" class="body">Fijar equilibrio y nuevo t = 0.</text>
+  <text x="744" y="388" class="body">Comprobar posición y sentido.</text>
+  <text x="744" y="433" font-size="19" fill="#79dfba">Salida: descripción del MAS</text>
+  <path d="M357 291 H379" stroke="#f4f7fc" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M699 291 H721" stroke="#f4f7fc" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="40" y="505" font-size="21" fill="#f4f7fc">Una conservación debe justificarse para cada sistema e intervalo.</text>
+  <text x="40" y="536" class="body">Las velocidades conectan las etapas; las condiciones físicas se revisan en cada una.</text>
+</svg>

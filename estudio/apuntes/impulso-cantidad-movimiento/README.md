@@ -2,8 +2,10 @@
 
 Incluye el **modelo de sistema de partículas**, centro de masa y choques del TP 8.
 
+**Para elegir una conservación:** [sistema, intervalo y tipo de choque](conservacion-y-choques.md).
 **Para repasar:** [teoría esencial](teoria-esencial.md).
-**Para resolver:** [guía por casos](resolucion-por-casos.md).
+**Para comprobar después de tu intento:** [guía por casos](resolucion-por-casos.md),
+que contiene planteos y resultados.
 
 | Si el problema tiene… | Buscar en la guía |
 | --- | --- |
@@ -16,5 +18,9 @@ Incluye el **modelo de sistema de partículas**, centro de masa y choques del TP
 
 Basado en la presentación de Sistemas de Partículas y el TP 8 de la cátedra.
 [Fuentes y criterios](fuentes.md).
+
+**Segundo parcial:** [patrones observados](../../parciales/Segundo_Parcial/patrones.md)
+y [práctica sin respuestas](../../parciales/Segundo_Parcial/practica.md).
+La hoja F1 repite el **TP 8, ej. 16**; su año no está verificado.
 
 [Volver a temas de Física I](../../../README.md)

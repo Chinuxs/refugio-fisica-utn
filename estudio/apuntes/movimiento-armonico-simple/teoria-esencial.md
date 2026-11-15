@@ -14,6 +14,8 @@
 
 ## 🖼️ Esquema / dibujo
 
+[Origen de conceptos y condiciones: presentación, diap. 3–17](fuentes.md#trazabilidad-por-concepto).
+
 ![MAS en menos A, cero y más A: velocidad, aceleración hacia el equilibrio y reparto de energía cinética y potencial](assets/posicion-velocidad-energia.svg)
 
 De un extremo al equilibrio: $T/4$. De $-A$ a $+A$: $T/2$.
@@ -38,6 +40,11 @@ Para el resorte vertical, ese $U$ es el potencial **total efectivo** referido al
 equilibrio (elástico + gravitatorio, salvo una constante). La energía elástica
 sola usa la deformación desde la longitud natural.
 
+Para construir la fase y distinguir amplitud de deformación estática:
+[fase inicial, equilibrio y masa que oscila](fase-y-equilibrio.md).
+Un cuerpo que sólo toca un resorte puede dejar de oscilar al perder contacto.
+[Fuentes de energía, fase y resorte vertical](fuentes.md#trazabilidad-por-concepto).
+
 **Péndulo simple:** masa puntual, cuerda inextensible y sin masa, sin roce.
 Para ángulos pequeños, $\sin\theta\simeq\theta$ en radianes:
 
@@ -54,6 +61,8 @@ la ecuación pasa a $m\ddot x+b\dot x+kx=F_0\sin(\Omega t)$.
 Con amortiguamiento libre disminuyen amplitud y energía; en respuesta forzada
 estacionaria se oscila a $\Omega$. Con poco amortiguamiento, la respuesta es
 grande cerca de la frecuencia natural (resonancia).
+
+[Péndulo, amortiguamiento y respuesta forzada: diap. 18–21 y contraste bibliográfico](fuentes.md#trazabilidad-por-concepto).
 
 **Unidades:** $A,x,L$ en m; $T$ en s; $f$ en Hz; $\omega$ en rad/s; fases en rad.
 

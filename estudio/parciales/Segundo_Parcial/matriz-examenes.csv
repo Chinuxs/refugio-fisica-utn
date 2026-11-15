@@ -1,0 +1,18 @@
+id,ejercicio,energia,resorte,momento_cm,mas,contacto_circular,choque_resorte_mas,alcance,observacion
+S1,1,1,0,0,0,1,0,parcial,El inciso de rueda requiere explicitar el modelo
+S1,2,1,1,1,1,0,1,parcial,Bala atraviesa bloque
+S2,1,1,1,0,0,1,0,parcial,Resorte roce y arco
+S2,2,0,0,0,0,0,0,fuera_del_recorte,Cinematica angular de generador
+S3,1,1,1,0,0,1,0,parcial,Perdida del diez por ciento de rapidez
+S3,2,1,1,1,1,0,1,parcial,Bloques unidos despues del choque
+S4,1,1,1,0,1,0,0,parcial,Perdida del diez por ciento de energia cinetica
+S4,2,1,0,1,0,1,0,parcial,Datos del choque incompatibles con alcance pasivo ordinario
+S5,1,0,0,0,0,0,0,fuera_del_recorte,Cinematica angular de generador
+S5,2,1,1,0,0,0,0,parcial,Roce solo antes del resorte en plano inclinado
+S5,3,0,0,1,0,0,0,parcial,CM y desplazamiento relativo en canoa
+S6,1,0,0,0,0,0,0,fuera_del_recorte,Dinamica circular con dos cuerdas
+S6,2,1,1,0,0,0,0,parcial,Contar cruces completos y recorrido parcial final
+S6,3,1,0,1,0,0,0,parcial,Choque oblicuo con B quieto como hipotesis
+S7,1,1,0,1,0,0,0,parcial,Choque elastico con masa desconocida
+S7,2,1,0,0,0,0,0,parcial,Energia y salida horizontal sobre foso
+S7,3,0,0,0,1,0,0,parcial,Pendulo y tiempo hasta rapidez maxima

@@ -1,5 +1,12 @@
 # Auditoría del material de segundo y tercer parcial
 
+**Ampliación del segundo parcial, 15/11/2026:** la
+[auditoría de las cuatro carpetas](Segundo_Parcial/auditoria-fuentes.md)
+actualiza las fuentes y límites de lectura del segundo. Incluye las dos
+imágenes llamadas «2025», lectura de los PPT antiguos y del texto del DOC,
+y verificación completa del RAR MAS. El registro que sigue conserva el
+alcance histórico del 5/11; sus pendientes no sustituyen esa revisión nueva.
+
 Revisión del **5 de noviembre de 2026**. Fuentes externas:
 `E:\UTN\Fisica I\8.2do Parcialito` y `E:\UTN\Fisica I\12. 3er Parcialito`.
 Los originales externos no se modificaron ni eliminaron. Sólo se copiaron

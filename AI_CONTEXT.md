@@ -55,6 +55,14 @@ y las fichas antes de [pistas del TP 9](estudio/apuntes/cuerpo-rigido/pistas-tp9
 La [guía por casos](estudio/apuntes/cuerpo-rigido/resolucion-por-casos.md)
 queda como referencia de comprobación **posterior al intento**.
 
+Para el segundo parcial se aplica la misma separación:
+[práctica sin respuestas](estudio/parciales/Segundo_Parcial/practica.md),
+[pistas opcionales](estudio/parciales/Segundo_Parcial/pistas.md),
+[teoría para explicar](estudio/parciales/Segundo_Parcial/preguntas-teoricas.md)
+y [comprobaciones que revelan resultados](estudio/parciales/Segundo_Parcial/comprobaciones.md).
+Las guías por casos de TyE, MAS e Impulso también contienen resultados;
+usarlas para contrastar después del planteo propio.
+
 ## Base de conocimiento de consulta rápida
 
 El Refugio no busca parecer un libro. Cada concepto, herramienta matemática,
@@ -146,6 +154,15 @@ visualmente lo que entra ahora de los complementos, sin eliminar estos
 ### Preparación de parciales
 
 - Segundo parcial: Trabajo y Energía, MAS e Impulso/Cantidad de Movimiento.
+  Revisión del 15/11/2026: siete PDF fechados (S1–S7, 17 problemas) más
+  hojas auxiliares. La nueva F1, `Parcial_2025_1.png`, reproduce TP 6.19
+  y TP 8.16 y contiene teoría; **2025 es sólo el nombre del archivo**, no
+  una fecha confirmada. H1 es un enunciado junto a un manuscrito, no otro
+  examen completo. No mezclar estas hojas en el denominador histórico.
+  La auditoría de las cuatro carpetas registra 64 archivos y 15 copias
+  binarias; los MP4 no se transcribieron y el OneNote no pudo recuperarse.
+  Ver [patrones](estudio/parciales/Segundo_Parcial/patrones.md) y
+  [fuentes y límites](estudio/parciales/Segundo_Parcial/auditoria-fuentes.md).
 - Tercero: TP 9–11, excluyendo Rototraslación (TP 10: practicar sólo 1–9)
   e Hidrodinámica; el estudiante confirmó que entra sólo Hidrostática.
 - Los índices en `estudio/parciales/` tienen enunciados, patrones y práctica.

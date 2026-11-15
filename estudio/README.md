@@ -48,6 +48,15 @@ Cada tema incluye fuentes, condiciones de aplicación, errores frecuentes y
 comprobaciones breves. La guía ampliada anterior de Trabajo y Energía sigue
 accesible desde su índice.
 
+Para el segundo parcial hay entradas conceptuales sobre
+[balances y tramos](apuntes/trabajo-energia/balances-y-tramos.md),
+[fase y equilibrio](apuntes/movimiento-armonico-simple/fase-y-equilibrio.md)
+y [conservación en choques](apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md).
+Intentar primero el enunciado: las guías por casos incluyen respuestas.
+La [práctica](parciales/Segundo_Parcial/practica.md), las
+[pistas](parciales/Segundo_Parcial/pistas.md) y las
+[comprobaciones](parciales/Segundo_Parcial/comprobaciones.md) tienen entradas separadas.
+
 Las fichas usan una
 [convención visual común](apuntes/PLANTILLA.md) para encontrar siempre en el
 mismo lugar el recordatorio, el esquema, la fórmula, el error y los enlaces

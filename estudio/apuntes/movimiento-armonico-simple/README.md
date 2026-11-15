@@ -1,7 +1,9 @@
 # Movimiento Armónico Simple (MAS)
 
+**Para fijar el estado inicial:** [fase, equilibrio y masa oscilante](fase-y-equilibrio.md).
 **Para repasar:** [teoría esencial](teoria-esencial.md).
-**Para resolver:** [guía por casos](resolucion-por-casos.md).
+**Para comprobar después de tu intento:** [guía por casos](resolucion-por-casos.md),
+que contiene planteos y resultados.
 
 | Si el problema tiene… | Buscar en la guía |
 | --- | --- |
@@ -13,5 +15,9 @@
 
 Basado en la presentación de Movimiento Oscilatorio y el TP 7 de la cátedra.
 [Fuentes y criterios](fuentes.md).
+
+**Segundo parcial:** [patrones observados](../../parciales/Segundo_Parcial/patrones.md),
+[preguntas teóricas](../../parciales/Segundo_Parcial/preguntas-teoricas.md)
+y [práctica sin respuestas](../../parciales/Segundo_Parcial/practica.md).
 
 [Volver a temas de Física I](../../../README.md)

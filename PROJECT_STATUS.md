@@ -81,6 +81,8 @@ Preparar Física I concentrándose en:
 - [x] Energías potenciales gravitatoria y elástica.
 - [x] Conservación de energía mecánica y fuerzas no conservativas.
 - [x] Referencia breve de rozamiento cinético y potencia.
+- [x] Ficha de estados, tramos, pérdidas porcentuales y varios cruces;
+  trazabilidad por concepto y erratas recontrastadas con TP 6 y apoyos de 2022.
 - [ ] Ejercicios de parciales y finales.
 - [ ] Fichas específicas surgidas de ejercicios reales.
 
@@ -90,6 +92,8 @@ Preparar Física I concentrándose en:
 - [x] Resolución por casos del TP 7: fase, tiempos, resortes, roce y péndulos.
 - [x] Referencia breve de oscilaciones amortiguadas y forzadas.
 - [x] Fuentes y comprobaciones de convenciones y resultados.
+- [x] Ficha de fase, equilibrio y masa oscilante; energía temporal y cambio
+  de referencia vertical. Lectura de los PPT antiguos y correcciones registradas.
 - [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
 ## Impulso y cantidad de movimiento
@@ -98,6 +102,8 @@ Preparar Física I concentrándose en:
 - [x] Resolución por casos del TP 8, separando impacto y recorrido.
 - [x] Comprobaciones breves de impulso y choque seguido de frenado.
 - [x] Fuentes y criterios para enunciados que requieren hipótesis adicionales.
+- [x] Ficha de sistema e intervalo, restitución y energía del CM; bibliografía
+  de Sears incorporada a fuentes y comprobaciones de TP 8 actualizadas.
 - [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
 ## Cuerpo Rígido y Rotación
@@ -156,6 +162,27 @@ Preparar Física I concentrándose en:
 - [ ] Ejercicios resueltos.
 - [ ] Formularios de repaso.
 
+## Preparación del segundo parcial — revisión del 15/11/2026
+
+- [x] Inventariar las cuatro carpetas: 64 archivos, 49 contenidos binarios
+  distintos y 15 copias exactas; CSV y comando reproducible.
+- [x] Releer las tres presentaciones (76 diapositivas) y los TP 6–8
+  (91 ejercicios); comprobar casos y erratas seleccionados.
+- [x] Revisar los siete PDF históricos, registrar sus 17 problemas y mantener
+  recuentos por examen separados de las hojas sin fecha confirmada.
+- [x] Incorporar F1 y documentar coincidencias literales con TP 6.19 y TP 8.16;
+  seleccionar teoría de F1 y de la foto del martinete según el alcance informado.
+- [x] Separar práctica, pistas y comprobaciones conservando los controles anteriores.
+- [x] Leer los dos PPT antiguos y el texto del DOC; verificar los siete
+  miembros del RAR MAS contra la carpeta expandida.
+- [ ] Reproducir/transcribir íntegramente los seis MP4 distintos (3 h 48 min 59 s).
+- [ ] Recuperar contenido del OneNote: la API no devolvió páginas accesibles.
+- [ ] Confirmar fecha, formato y temario oficial actualizado del parcial.
+- [ ] Registrar intentos propios, dificultades y resultado de un simulacro.
+
+El contraste de los tres recortes de Sears fue focalizado en conceptos y
+ejemplos pertinentes; no se certifica todo su banco de ejercicios.
+
 ## Próximas tareas
 
 1. Incorporar finales y parciales al repositorio.
@@ -168,6 +195,18 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**15 de noviembre de 2026 — segundo parcial y TP 6–8:** se revisaron las
+cuatro carpetas indicadas por el estudiante y se ampliaron patrones,
+trazabilidad y preparación. F1, llamada `Parcial_2025_1.png` sin fecha
+visible que confirme el año, reproduce TP 6.19 y TP 8.16. H1 corresponde
+a un problema junto a una resolución manuscrita. Se mantuvo la muestra
+histórica de siete PDF, se agregaron preguntas teóricas y una matriz por
+ejercicio, y se separaron pistas y controles de la práctica. Se incorporaron
+tres fichas conceptuales y un esquema del proceso recorrido–impacto–MAS.
+Se documentaron errores de fases, frecuencias, signos, estados y redondeo;
+los MP4 y el OneNote mantienen límites explícitos de lectura. No se registran
+ejercicios del alumno como resueltos por esta revisión documental.
 
 **10 de noviembre de 2026 — trazabilidad y alcance de Estática:** se definió
 una política general de fuentes con tres procedencias; se enlazaron los

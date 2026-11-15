@@ -47,6 +47,7 @@ separado del código del simulador y se escribe en español claro.
 - [Laboratorio 2: resultados y conclusiones](estudio/laboratorios/laboratorio-2-resultados.md)
 - [Parciales y finales](estudio/parciales/README.md)
 - [Preparar el segundo parcial](estudio/parciales/Segundo_Parcial/README.md)
+- [Segundo parcial: patrones, TP relacionados y teoría](estudio/parciales/Segundo_Parcial/patrones.md)
 - [Preparar el tercer parcial](estudio/parciales/Tercer_Parcial/README.md)
 - [Errores frecuentes](estudio/errores-comunes/README.md)
 
@@ -62,18 +63,21 @@ separado del código del simulador y se escribe en español claro.
 
 **Trabajo y Energía**
 
+- [Comprender balances, tramos y pérdidas](estudio/apuntes/trabajo-energia/balances-y-tramos.md)
 - [Teoría esencial](estudio/apuntes/trabajo-energia/teoria-esencial.md)
 - [Resolución por casos](estudio/apuntes/trabajo-energia/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/trabajo-energia/README.md)
 
 **Movimiento Armónico Simple (MAS)**
 
+- [Fase inicial, equilibrio y masa que oscila](estudio/apuntes/movimiento-armonico-simple/fase-y-equilibrio.md)
 - [Teoría esencial](estudio/apuntes/movimiento-armonico-simple/teoria-esencial.md)
 - [Resolución por casos](estudio/apuntes/movimiento-armonico-simple/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/movimiento-armonico-simple/README.md)
 
 **Impulso y cantidad de movimiento**
 
+- [Qué se conserva y cuándo](estudio/apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md)
 - [Teoría esencial](estudio/apuntes/impulso-cantidad-movimiento/teoria-esencial.md)
 - [Resolución por casos](estudio/apuntes/impulso-cantidad-movimiento/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/impulso-cantidad-movimiento/README.md)

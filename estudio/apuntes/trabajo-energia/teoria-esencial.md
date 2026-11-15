@@ -13,6 +13,10 @@
 - Sirve para relacionar **dos estados**. Para hallar tiempo, tensión o normal,
   puede hacer falta agregar cinemática o Newton.
 
+[Procedencia: cátedra, diap. 3–17 y 20–26](fuentes.md#trazabilidad-por-concepto).
+Para elegir sistema y no contar dos veces una transferencia, ver
+[balances, tramos y pérdidas](balances-y-tramos.md).
+
 ## 🖼️ Esquema / dibujo
 
 ![Balance del TP 6 ejercicio 19: altura inicial, tramo rugoso y compresión del resorte; barras de energía mecánica y energía transformada](assets/balance-energia.svg)
@@ -39,6 +43,12 @@ longitud natural. No confundir $x$ con el recorrido total del bloque.
 
 **Unidades:** masa en kg, longitud en m; $k$ en N/m; trabajo y energía en J;
 potencia en W. En estos apuntes se usa $g=9{,}8\ \mathrm{m/s^2}$ salvo indicación.
+
+**Pérdidas:** $\Delta E=E_f-E_i$ es negativa cuando disminuye la energía
+mecánica; la energía disipada se informa como $D=-\Delta E>0$ si ése es
+el único cambio mecánico. Perder un porcentaje de rapidez no equivale
+a perder el mismo porcentaje de $K$.
+[Balances y potencia: diap. 20–28 y TP 6](fuentes.md#trazabilidad-por-concepto).
 
 ## ⚠️ Error frecuente
 

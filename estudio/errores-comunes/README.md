@@ -18,6 +18,45 @@ problemas y la preparación de evaluaciones.
 - Aplicar fórmulas antes de construir el diagrama de cuerpo libre.
 - Confundir una fuerza individual con la fuerza resultante.
 
+## Trabajo y Energía
+
+- **Contar dos veces el peso o el resorte:** si se incluyeron como potencial,
+  su trabajo no vuelve a sumarse en el mismo balance.
+- **Confundir trabajo, variación y disipación:** el trabajo del roce cinético
+  sobre una superficie fija es negativo; la energía disipada se informa positiva.
+- **Perder rapidez y perder energía en el mismo porcentaje:** $K$ depende
+  del cuadrado de la rapidez, con la misma masa.
+- **Extender el roce a toda la pista:** usar sólo el tramo y el recorrido
+  indicados; un intento que termina dentro de la zona no es un cruce completo.
+
+[Balances, tramos y pérdidas](../apuntes/trabajo-energia/balances-y-tramos.md).
+
+## Movimiento Armónico Simple
+
+- **Elegir fase sólo con una posición:** comprobar también la velocidad y su signo.
+- **Usar deformación estática como amplitud:** fijar el equilibrio del
+  sistema que realmente oscila, especialmente si acaba de recibir otra masa.
+- **Prolongar el MAS al perder contacto con el resorte:** comprobar si el
+  bloque estaba unido o solamente apoyado.
+- **Cambiar la frecuencia angular al derivar:** todas las funciones del
+  mismo movimiento deben conservar el mismo argumento y origen temporal.
+
+[Fase inicial, equilibrio y masa oscilante](../apuntes/movimiento-armonico-simple/fase-y-equilibrio.md).
+
+## Impulso y cantidad de movimiento
+
+- **Conservar momento sin sistema ni intervalo:** primero evaluar el impulso externo.
+- **Usar módulos en un choque con sentidos opuestos:** escribir velocidades
+  algebraicas o componentes en una misma referencia.
+- **Conservar $K$ en un choque plástico:** distinguir impacto de caída,
+  frenado o compresión posterior.
+- **Confundir $K_{CM}$ con $K$ total:** conservar momento y masa mantiene
+  $K_{CM}$, pero puede cambiar la energía del movimiento relativo.
+- **Redondear velocidades antes de calcular diferencias de energías grandes:**
+  conservar cifras intermedias y redondear al informar el resultado.
+
+[Condiciones de conservación y choques](../apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md).
+
 ## Movimiento Circular
 
 - Pensar que rapidez constante implica aceleración nula.
