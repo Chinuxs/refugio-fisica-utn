@@ -123,6 +123,12 @@ Preparar Física I concentrándose en:
 - [x] Equilibrio, estabilidad, reacciones, deslizamiento y vuelco.
 - [x] Energía de rodadura, rampas, carretes, ruedas, loop y cilindro con cuerda.
 - [x] Esquema SVG y fuentes con hipótesis y discrepancias de respuestas.
+- [x] Separación visible del TP 10: Estática 1–9 (parcial informado)
+  y Rototraslación 10–21 (complemento excluido del parcial actual).
+- [x] Trazabilidad por bloque temático, diferenciando fuentes de cátedra
+  registradas, bibliografía complementaria y elaboración didáctica propia.
+- [ ] Contrastar de nuevo las diapositivas/figuras específicas y sus
+  referencias con los originales locales de cátedra (fuera del repositorio).
 - [ ] Incorporar resoluciones completas de ejercicios y parciales.
 
 ## Elasticidad e Hidrostática
@@ -162,6 +168,16 @@ Preparar Física I concentrándose en:
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**10 de noviembre de 2026 — trazabilidad y alcance de Estática:** se definió
+una política general de fuentes con tres procedencias; se enlazaron los
+conceptos centrales de equilibrio, DCL, apoyos, momentos, CG, estabilidad,
+deslizamiento y vuelco con los registros de cátedra ya disponibles. El índice
+del TP 10 distingue los ejercicios 1–9, incluidos según el alcance
+informado para el tercer parcial, de los ejercicios 10–21, conservados como
+complemento excluido. Las ubicaciones heredadas de diapositivas no se
+revalidaron contra archivos originales, no incluidos en GitHub: queda
+pendiente su contraste directo, sin presentarlo como verificación nueva.
 
 **9 de noviembre de 2026 — Cuerpo Rígido desde cero:** se añadió una puerta
 de entrada conceptual, cinco fichas breves y una comparación visual de aro

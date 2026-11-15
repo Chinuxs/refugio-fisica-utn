@@ -1,5 +1,14 @@
 # Estática y Rototraslación — resolución por casos
 
+> **Alcance actual informado:** los **casos 1–3** (TP 10: ejercicios 1–9)
+> corresponden a Estática y entran en el tercer parcial. Los **casos 4–9**
+> (TP 10: ejercicios 10–21) son Rototraslación y están **excluidos del
+> parcial actual**. Se mantienen íntegros como complemento.
+>
+> **Esta guía contiene ecuaciones y resultados:** primero intentá el
+> enunciado original; para elegir la herramienta sin adelantar la solución,
+> consultá el [índice de Estática](README.md#estática--entra-en-el-tercer-parcial-tp-10-ejercicios-19).
+
 ## 🎯 Qué recordar
 
 **DCL → ejes y signos → momentos respecto de un punto conveniente →
@@ -13,6 +22,11 @@ Los números corresponden a los ejercicios del **TP 10**.
 ![Equilibrio de una escalera y velocidades de una rueda en rodadura.](assets/equilibrio-rodadura.svg)
 
 ## 📐 Fórmula
+
+**Estática — ejercicios 1–9, incluido en el tercer parcial actual.**
+Los tres casos siguientes se basan en enunciados del TP 10 y emplean
+criterios de equilibrio; los planteos y cálculos son **elaboración propia**
+para contrastar después de un intento. [Procedencia](fuentes.md#mapa-de-trazabilidad-por-concepto).
 
 ### Caso 1 — Escaleras y cargas
 
@@ -105,6 +119,12 @@ N_A=P/2-Fh/d,\quad N_B=P/2+Fh/d.$$
 Aquí las etiquetas y el sentido siguen la figura del TP.
 Con h = 0,90 m: NA = 98 N, NB = 686 N.
 El límite NA = 0 da **hmáx = d/(2μk) = 1,20 m**.
+
+---
+
+**Rototraslación — ejercicios 10–21, complemento excluido del parcial
+actual.** Se conservan los casos y sus comprobaciones; Sears §10.3 es
+bibliografía complementaria, no prueba de inclusión en el examen.
 
 ### Caso 4 — Energía de rodadura
 

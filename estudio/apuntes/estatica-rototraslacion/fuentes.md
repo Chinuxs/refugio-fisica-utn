@@ -20,6 +20,39 @@ PDF 1, 3, 4, 6 y 7 para fijar geometría, radios, puntos de aplicación y víncu
 Las guías cubren estrategias por casos; no son las resoluciones completas de
 todos los ejercicios.
 
+## Mapa de trazabilidad por concepto
+
+**Cómo leer este mapa:** las ubicaciones de diapositivas y la correspondencia
+de ejercicios provienen de la **revisión documental ya asentada** en este
+repositorio. Los originales están en una carpeta local fuera de GitHub,
+por lo que **no se realizó un nuevo cotejo directo** para este cambio.
+La referencia es útil para localizar el contenido, pero no debe presentarse
+como una cita textual verificada en esta revisión.
+
+| Concepto | Fuente de cátedra registrada | Bibliografía complementaria / elaboración propia |
+| --- | --- | --- |
+| Equilibrio de traslación y rotación | Presentación, diap. **8–9**; TP 10 **1–9** | Orden de resolución en DCL → fuerzas → momentos: **elaboración propia** |
+| Reacciones de apoyo y DCL | TP 10 **1–6 y 9** (apoyos, tensiones, bisagras y contactos) | Idealizaciones de apoyos y elección de ejes explicadas como **síntesis propia**; asignación exacta a una diapositiva: **pendiente** |
+| Momento de fuerza y elección del punto O | TP 10 **1–6 y 9** (planteos de momentos); presentación, diap. **8–9** (equilibrio) | Explicación de por qué conviene tomar momentos en un apoyo: **elaboración propia** |
+| Centro de gravedad y estabilidad | Presentación, diap. **3** (CG), **4–7** (potencial y estabilidad); TP 10 **7–8** | Lectura de la altura del CG como ayuda conceptual: **síntesis propia** |
+| Deslizamiento, vuelco y pérdida de apoyo | TP 10 **2 y 7–9** | Límites deducidos bajo geometría y contactos ideales de los casos: **elaboración propia**; no extrapolar como fórmulas universales |
+| Rodadura, CIR, dinámica y energía (excluidos del parcial actual) | Presentación, diap. **12–16**; TP 10 **10–21** | **Sears §10.3**, complemento bibliográfico; hipótesis y comprobaciones propias debajo |
+
+**Pendiente de contraste con los originales:** confirmar la numeración y
+el contenido exacto de las diapositivas 3–9 y 12–16; repasar las figuras
+y condiciones de apoyo, dirección de fuerzas, puntos de aplicación y
+enunciados de los ejercicios 1–9. No atribuir a la presentación una
+idealización o deducción que aquí se marque como propia.
+
+## Alcance de evaluación (no es una fuente de cátedra)
+
+Según el alcance **informado por el estudiante**, el tercer parcial incluye
+**Estática del TP 10, ejercicios 1–9**, y excluye la **Rototraslación del
+TP 10, ejercicios 10–21**. Se conserva toda la bibliografía para estudio
+posterior. Esta selección **no procede de las diapositivas ni de Sears**
+y debe reconfirmarse si se publica un temario oficial diferente.
+[Índice separado](README.md).
+
 ## Criterios y comprobaciones
 
 - Se mantienen las convenciones y el campo de validez de la presentación:
