@@ -1,5 +1,10 @@
 # Cuerpo Rígido — resolución por casos
 
+> **Atención: esta guía contiene planteos, comprobaciones y resultados.**
+> Para un primer intento, partir del [recorrido desde cero](desde-cero.md)
+> y usar [pistas opcionales sin soluciones](pistas-tp9.md).
+> Los enunciados oficiales deben consultarse en el TP 9 original.
+
 ## 🎯 Qué recordar
 
 **Sistema → DCL → eje y signos → I → ecuaciones → unidades y verificación.**

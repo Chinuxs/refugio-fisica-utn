@@ -80,6 +80,8 @@ separado del código del simulador y se escribe en español claro.
 
 **Cuerpo Rígido y Rotación**
 
+- [Aprender desde cero: recorrido progresivo](estudio/apuntes/cuerpo-rigido/desde-cero.md)
+- [Fichas conceptuales y pistas del TP 9](estudio/apuntes/cuerpo-rigido/README.md)
 - [Teoría esencial](estudio/apuntes/cuerpo-rigido/teoria-esencial.md)
 - [Resolución por casos del TP 9](estudio/apuntes/cuerpo-rigido/resolucion-por-casos.md)
 - [Ver tema completo →](estudio/apuntes/cuerpo-rigido/README.md)
