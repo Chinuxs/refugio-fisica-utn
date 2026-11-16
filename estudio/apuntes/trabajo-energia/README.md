@@ -1,5 +1,7 @@
 # Trabajo y Energía
 
+**Consulta comparativa:** [conservación, trabajo de fuerzas y ceros](balances-y-tramos.md#conservación-de-dónde-sale-y-cuándo-usarla).
+
 **Para comprender los balances:** [estados, tramos y pérdidas](balances-y-tramos.md).
 **Para repasar:** [teoría esencial](teoria-esencial.md).
 **Para comprobar después de tu intento:** [guía por casos](resolucion-por-casos.md),

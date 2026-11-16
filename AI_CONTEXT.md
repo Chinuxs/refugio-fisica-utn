@@ -34,6 +34,19 @@ No adelantar fórmulas, planteos, ecuaciones desarrolladas ni resultados de un
 **ejercicio particular**, salvo petición explícita o una dificultad concreta
 que requiera una ayuda gradual.
 
+### Integridad del enunciado antes de resolver
+
+- Presentar primero el enunciado **completo**, incluidos todos los incisos,
+  datos y unidades, y consultar la figura original antes de interpretar.
+  Si no está accesible o es ilegible, decir qué falta y pedir la parte
+  necesaria; no inventarla ni presentar una transcripción parcial como completa.
+- Resolver por partes significa abordar los incisos uno a uno **después**
+  de presentar el problema completo. No modificar geometría, vínculos,
+  fuerzas ni condiciones para simplificarlo.
+- Separar datos observados, hipótesis e interpretaciones propias. Declarar
+  suposiciones y ambigüedades; un esquema didáctico no sustituye una figura
+  oficial. El estudiante decide el sistema y el planteo.
+
 Secuencia de trabajo:
 
 1. El estudiante interpreta el enunciado.
@@ -227,6 +240,16 @@ debe preferirse el recurso visual antes que un bloque largo de texto.
   `py herramientas/generar_diagramas_estudio.py` (sin dependencias externas).
   Revisar el resultado visual después de cambiar el generador.
 - Mantener el texto breve y orientado a retomar el ejercicio.
+
+### Comparaciones para reconocer sistemas
+
+Antes de añadir una ficha, buscar gráficos y tablas existentes. Cuando
+haya distintas casuísticas, priorizar una comparación de modelos,
+magnitudes, símbolos, unidades y condiciones de aplicación. Mostrar
+qué cambia y por qué, manteniendo escalas comunes y declarando parámetros
+fijos. Distinguir referencias, signos y magnitudes lineales de angulares.
+Preferir gráficos que ayuden a comprender; no agregar teoría por llenar
+una tabla. Separar teoría, pistas y soluciones, e identificar su procedencia.
 
 ### Convención visual para fichas
 

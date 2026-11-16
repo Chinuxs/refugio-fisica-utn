@@ -84,3 +84,11 @@ intentar ejercicios sin verlos, entrar desde la [práctica](../../parciales/Segu
 [Inventario y límites de la auditoría](../../parciales/Segundo_Parcial/auditoria-fuentes.md).
 
 [Volver al tema](README.md)
+
+## Comparaciones didácticas
+
+Los cuadros de [conservación, fuerzas, referencias y ceros](balances-y-tramos.md)
+y la deducción son **elaboración propia**. Se apoyan en el contraste
+registrado el 15/11: diap. 3–10, 11–15, 20–25 y TP 6.13–23.
+Sears §6.1–6.3 complementa trabajo y cinética, no sustituye la presentación
+para conservación. No se volvieron a abrir los originales locales.

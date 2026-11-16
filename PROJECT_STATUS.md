@@ -74,6 +74,7 @@ Preparar Física I concentrándose en:
 
 ## Trabajo y Energía
 
+- [x] Cuadros de conservación, trabajo de fuerzas, referencias y ceros; deducción del balance.
 - [x] Teoría esencial y resolución por casos del TP 6, con fuentes y comprobaciones.
 - [x] Guía anterior conservada como consulta ampliada.
 - [x] Machete visual para reconocer la herramienta y relacionar estados.
@@ -88,6 +89,7 @@ Preparar Física I concentrándose en:
 
 ## Movimiento Armónico Simple
 
+- [x] Comparación de osciladores, diccionario SI, parámetros y curvas; método de cocientes.
 - [x] Teoría esencial: cinemática, energía, equilibrio y péndulo simple.
 - [x] Resolución por casos del TP 7: fase, tiempos, resortes, roce y péndulos.
 - [x] Referencia breve de oscilaciones amortiguadas y forzadas.
@@ -98,6 +100,7 @@ Preparar Física I concentrándose en:
 
 ## Impulso y cantidad de movimiento
 
+- [x] Cuadros de condiciones por choque y etapas; SVG existentes reutilizados.
 - [x] Teoría esencial: impulso, sistemas, centro de masa y choques.
 - [x] Resolución por casos del TP 8, separando impacto y recorrido.
 - [x] Comprobaciones breves de impulso y choque seguido de frenado.
@@ -195,6 +198,14 @@ ejemplos pertinentes; no se certifica todo su banco de ejercicios.
 8. Actualizar el estado después de cada sesión de estudio.
 
 ## Última actualización
+
+**16 de noviembre de 2026 — metodología visual TP 6–8:** auditados los
+recursos existentes; añadidos cuadros de MAS y cocientes, actualizado
+el esquema de equilibrio y agregadas curvas comparativas; reforzados
+balances y choques sin duplicar SVG. El contexto permanente exige
+enunciado completo y figura original antes de resolver por incisos.
+Se mantienen el alcance y las fuentes de la revisión del 15/11, sin
+reabrir sus originales locales en esta intervención.
 
 **15 de noviembre de 2026 — segundo parcial y TP 6–8:** se revisaron las
 cuatro carpetas indicadas por el estudiante y se ampliaron patrones,
