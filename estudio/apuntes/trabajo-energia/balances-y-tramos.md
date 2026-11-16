@@ -96,9 +96,8 @@ El peso usa la diferencia de altura con signo; el roce usa el recorrido.
           ● inicial
           |\
    |Δh|   | \ d = recorrido
-          |  \
-          +---● final
-             α
+          | α \
+          +----● final
 ~~~
 
 El ángulo se mide entre la horizontal y el plano. Estas tablas y deducción

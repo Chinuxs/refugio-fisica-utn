@@ -33,7 +33,7 @@ Sea $\psi=\omega t+\varphi_0$ (convención seno).
 | Posición | $x=A\sin\psi$ | igual desde equilibrio | $\theta=\theta_m\sin\psi$ |
 | Velocidad | $v=A\omega\cos\psi$ | igual | $\dot\theta=\theta_m\omega\cos\psi$; $v_t=L\dot\theta$ |
 | Aceleración | $a=-\omega^2x$ | igual | $\ddot\theta=-\omega^2\theta$; $a_t=L\ddot\theta$ |
-| Máximos en módulo | $v_m=\omega A$, $a_m=\omega^2 A$ | iguales | $\dot\theta_m=\omega\theta_m$, módulo máx. de $\ddot\theta=\omega^2\theta_m$ |
+| Máximos en módulo | $v_m=\omega A$, $a_m=\omega^2 A$ | iguales | $\max(\lvert\dot\theta\rvert)=\omega\theta_m$; $\max(\lvert\ddot\theta\rvert)=\omega^2\theta_m$ |
 | Restauradora | $-kx$ | $mg-kz=-kx$ | $F_t=-mg\sin\theta\approx-mg\theta$ |
 | Cinética | $K=mv^2/2$ | igual | $K=mL^2\dot\theta^2/2$ |
 | Potencial desde equilibrio | $U=kx^2/2$ | $U_{\rm ef}=kx^2/2$ | $U=mgL(1-\cos\theta)\approx mgL\theta^2/2$ |

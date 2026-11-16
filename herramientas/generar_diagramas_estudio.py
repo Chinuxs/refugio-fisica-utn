@@ -264,19 +264,19 @@ def mas_comparaciones():
 <text x="42" y="90" class="muted">Modelos ideales · flecha dorada = componente restauradora · posiciones esquemáticas</text>
 <rect x="42" y="120" width="321" height="450" rx="15" class="panel"/><rect x="379" y="120" width="321" height="450" rx="15" class="panel"/><rect x="716" y="120" width="322" height="450" rx="15" class="panel"/>
 <text x="60" y="156" font-weight="700">RESORTE HORIZONTAL</text><text x="397" y="156" font-weight="700">RESORTE VERTICAL</text><text x="734" y="156" font-weight="700">PÉNDULO SIMPLE</text>
-<path d="M66 253V340M66 340H340" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<path d="M66 253V321M66 321H340" stroke="#b9c7da" stroke-width="3" fill="none"/>
 <path class="spring" d="M66 300H83L94 288L105 312L116 288L127 312L138 288L149 312L160 288L171 312L182 288L193 312L204 288L215 312L226 288L237 312L248 300H271"/>
 <rect x="151" y="279" width="38" height="42" rx="5" class="ghost"/><rect x="211" y="279" width="38" height="42" rx="5" class="ghost"/><rect x="271" y="279" width="38" height="42" rx="5" class="mass"/><text x="290" y="307" text-anchor="middle">m</text>
-<path class="guide" d="M170 324V380M230 324V380M290 324V380"/><path d="M120 373H335" stroke="#b9c7da" stroke-width="2"/>
+<path class="guide" d="M170 324V373M230 324V373M290 324V373"/><path d="M120 373H335" stroke="#b9c7da" stroke-width="2"/><path d="M335 373L325 368V378Z" fill="#b9c7da"/>
 <text x="170" y="402" text-anchor="middle" class="muted">−A</text><text x="230" y="402" text-anchor="middle" class="blue">0</text><text x="290" y="402" text-anchor="middle" class="muted">+A</text><text x="334" y="402" class="muted">x</text>
 <path class="rest" d="M286 258H240"/><text x="259" y="244" class="gold" text-anchor="middle">−kx</text>
 <text x="60" y="447" class="blue">x = +A (extremo)</text><text x="60" y="478" class="muted">Equilibrio: x = 0</text><text x="60" y="525">T = 2π√(m/k)</text>
 <path d="M410 190H669" stroke="#b9c7da" stroke-width="4"/><path class="spring" d="M520 192V207L510 218L530 229L510 240L530 251L510 262L530 273L510 284L530 295L510 306L530 317L510 328L530 339L520 350V369"/>
-<path class="guide" d="M401 235H670M401 310H670M401 390H670"/><rect x="499" y="214" width="42" height="42" rx="5" class="ghost"/><rect x="499" y="289" width="42" height="42" rx="5" class="ghost"/><rect x="499" y="369" width="42" height="42" rx="5" class="mass"/><text x="520" y="397" text-anchor="middle">m</text>
-<path d="M432 235V310M425 235H439M425 310H439" stroke="#79b7ff" stroke-width="2" fill="none"/><text x="409" y="280" class="blue">δ</text>
+<path class="guide" d="M401 215H670M401 310H670M401 390H670"/><rect x="499" y="209" width="42" height="42" rx="5" class="ghost"/><text x="550" y="250" class="muted">−A</text><rect x="499" y="289" width="42" height="42" rx="5" class="ghost"/><rect x="499" y="369" width="42" height="42" rx="5" class="mass"/><text x="520" y="397" text-anchor="middle">m</text>
+<path d="M432 215V310M425 215H439M425 310H439" stroke="#79b7ff" stroke-width="2" fill="none"/><text x="409" y="280" class="blue">δ</text>
 <path d="M463 310V390M456 310H470M456 390H470" stroke="#79dfba" stroke-width="2" fill="none"/><text x="444" y="354" class="green">x</text>
 <path class="rest" d="M565 390V333"/><text x="574" y="358" class="gold">−kx</text>
-<text x="550" y="224" class="muted">natural</text><text x="550" y="300" class="blue">x = 0</text><text x="550" y="416" class="muted">+A</text><path d="M675 312V418" stroke="#b9c7da" stroke-width="2"/><text x="667" y="438" class="muted">+x</text>
+<text x="550" y="208" class="muted">natural</text><text x="550" y="300" class="blue">x = 0</text><text x="550" y="416" class="muted">+A</text><path d="M675 312V418" stroke="#b9c7da" stroke-width="2"/><path d="M675 418L670 408H680Z" fill="#b9c7da"/><text x="667" y="438" class="muted">+x</text>
 <text x="397" y="460" class="muted">δ = mg/k; x = z − δ</text><text x="397" y="488" class="green">Aquí x = +A</text><text x="397" y="525">T = 2π√(m/k)</text>
 <circle cx="852" cy="192" r="5" fill="#f4f7fc"/><path class="guide" d="M852 192V398"/><path d="M852 192L898 381" stroke="#79b7ff" stroke-width="3"/><path class="guide" d="M852 192L806 381M806 381A194.5 194.5 0 0 0 898 381"/><circle cx="852" cy="386.5" r="15" class="ghost"/><circle cx="806" cy="381" r="15" class="ghost"/><circle cx="898" cy="381" r="15" class="mass"/>
 <path d="M852 266A74 74 0 0 0 869.5 264" fill="none" stroke="#79dfba" stroke-width="2"/><text x="874" y="271" class="green">θ</text><text x="897" y="309" class="blue">L</text><path class="rest" d="M886 386L835 398"/><text x="752" y="427" class="gold">−mg sen θ</text>
