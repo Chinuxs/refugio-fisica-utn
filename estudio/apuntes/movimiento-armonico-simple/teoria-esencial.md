@@ -12,6 +12,9 @@
 - En un resorte vertical, el peso desplaza el equilibrio. **$x=0$ se fija en el
   equilibrio con la masa colocada**, no en la longitud natural.
 
+Para comparar sistemas, símbolos y efectos de los parámetros, ver
+[cuadros y gráficos del MAS](comparar-osciladores.md).
+
 ## 🖼️ Esquema / dibujo
 
 [Origen de conceptos y condiciones: presentación, diap. 3–17](fuentes.md#trazabilidad-por-concepto).

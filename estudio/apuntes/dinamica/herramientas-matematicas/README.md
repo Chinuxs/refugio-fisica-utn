@@ -9,3 +9,4 @@ recordar para seguir con el problema.
 ## Herramientas disponibles
 
 - [Descomponer una fuerza inclinada](descomponer-fuerza-inclinada.md)
+- [Comparar estados por cocientes y factores de cambio](comparar-por-cocientes.md)
