@@ -48,6 +48,63 @@ Aquí el calentamiento es interno. No agregar además el mismo roce como una
 segunda pérdida externa. Un sistema cerrado no intercambia materia; eso no
 implica por sí solo que esté aislado ni que conserve energía mecánica.
 
+### Conservación: de dónde sale y cuándo usarla
+
+$$
+\begin{aligned}
+W_{\rm neto}&=\Delta K\\
+W_c+W_{nc}&=\Delta K\\
+-\Delta U+W_{nc}&=\Delta K\\
+W_{nc}&=\Delta(K+U)=\Delta E
+\end{aligned}
+$$
+
+| Condición del intervalo | Balance | Qué significa |
+| --- | --- | --- |
+| $W_{nc}=0$ | $K_i+U_i=K_f+U_f$ | Energía mecánica igual en ambos estados |
+| $W_{nc}\ne0$ | $K_i+U_i+W_{nc}=K_f+U_f$ | Energía mecánica cambia |
+| $W_{\rm neto}=0$ | $K_i=K_f$ | No garantiza conservación de $E$ |
+
+Pueden existir fuerzas no conservativas sin trabajo, por ejemplo la normal
+en una pista fija lisa. Los trabajos no conservativos también pueden
+cancelarse entre sí. Para conservar $E$ durante todo el recorrido,
+la condición debe cumplirse en cada intervalo, no sólo entre los extremos.
+
+| Fuerza | Clasificación | ¿Cuándo realiza trabajo? |
+| --- | --- | --- |
+| Peso (campo uniforme) | Conservativa | Si cambia altura: $W_g=mg(h_i-h_f)$ |
+| Resorte ideal fijo | Conservativa | Si cambia deformación: $W_e=k(z_i^2-z_f^2)/2$ |
+| Normal o tensión ideal | No necesariamente asociada a un potencial | Cero si perpendicular al desplazamiento de aplicación; puede no serlo con soporte móvil |
+| Roce cinético en superficie fija | No conservativa | Negativo si desliza; $-\mu_kNd$ para $N$ constante |
+| Fuerza aplicada / motor | Depende del modelo | Evaluar producto escalar a lo largo del recorrido |
+
+### Referencias y justificación de ceros
+
+| Término | Cuándo vale cero |
+| --- | --- |
+| $K$ | Reposo instantáneo en el marco elegido |
+| $U_g$ | Altura en el nivel cero elegido |
+| $U_e$ | Resorte sin deformar, con su longitud natural como referencia |
+| $W$ de una fuerza | Sin desplazamiento de aplicación, perpendicular a él o contribuciones que se cancelan |
+
+El cero de $U_g$ no significa ausencia de gravedad. Usar la misma referencia
+en estado inicial, intermedio y final. En una rampa recta con ángulo $\alpha$
+respecto de la horizontal y recorrido $d$, $|\Delta h|=d\sin\alpha$.
+El peso usa la diferencia de altura con signo; el roce usa el recorrido.
+
+~~~text
+          ● inicial
+          |\
+   |Δh|   | \ d = recorrido
+          | α \
+          +----● final
+~~~
+
+El ángulo se mide entre la horizontal y el plano. Estas tablas y deducción
+son elaboración propia. Reutilizar los diagramas de
+[transformación de energía](assets/balance-energia.svg) y
+[proyección del trabajo](assets/trabajo-proyeccion-area.svg).
+
 ### Qué significa cada signo
 
 | Magnitud pedida | Cómo informarla |

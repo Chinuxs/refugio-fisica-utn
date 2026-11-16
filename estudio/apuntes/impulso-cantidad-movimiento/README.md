@@ -2,6 +2,8 @@
 
 Incluye el **modelo de sistema de partículas**, centro de masa y choques del TP 8.
 
+**Consulta comparativa:** [tipos de choque y etapas](conservacion-y-choques.md#comparar-los-tres-tipos-de-choque).
+
 **Para elegir una conservación:** [sistema, intervalo y tipo de choque](conservacion-y-choques.md).
 **Para repasar:** [teoría esencial](teoria-esencial.md).
 **Para comprobar después de tu intento:** [guía por casos](resolucion-por-casos.md),

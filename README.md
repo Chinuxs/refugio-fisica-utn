@@ -106,6 +106,13 @@ Rototraslación, TP 10 **10–21**, queda como material complementario
 - [Casos del TP 11 y métodos de Elasticidad](estudio/apuntes/elasticidad-hidrostatica/resolucion-por-casos.md)
 - [Ver tema y alcance del material →](estudio/apuntes/elasticidad-hidrostatica/README.md)
 
+### Consulta visual del segundo parcial
+
+- [MAS: comparar osciladores, magnitudes y parámetros](estudio/apuntes/movimiento-armonico-simple/comparar-osciladores.md)
+- [Trabajo y Energía: conservación, fuerzas y estados](estudio/apuntes/trabajo-energia/balances-y-tramos.md)
+- [Impulso: tipos de choque y etapas](estudio/apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md)
+- [Herramienta matemática: comparar por cocientes](estudio/apuntes/dinamica/herramientas-matematicas/comparar-por-cocientes.md)
+
 ## Cómo contribuir
 
 Antes de agregar o modificar material, consultar

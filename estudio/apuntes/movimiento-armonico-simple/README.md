@@ -1,5 +1,9 @@
 # Movimiento Armónico Simple (MAS)
 
+**Para reconocer y comparar:** [sistemas, magnitudes y parámetros del MAS](comparar-osciladores.md).
+Incluye resorte horizontal/vertical, péndulo, ecuaciones con unidades y
+comparación por cocientes.
+
 **Para fijar el estado inicial:** [fase, equilibrio y masa oscilante](fase-y-equilibrio.md).
 **Para repasar:** [teoría esencial](teoria-esencial.md).
 **Para comprobar después de tu intento:** [guía por casos](resolucion-por-casos.md),

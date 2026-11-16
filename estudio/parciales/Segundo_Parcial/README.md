@@ -42,6 +42,17 @@ el formato ni las preguntas del próximo examen.
 | Función horaria y masa que oscila | [MAS: fase y equilibrio](../../apuntes/movimiento-armonico-simple/fase-y-equilibrio.md) |
 | Qué conservar en un impacto | [Impulso: sistema, intervalo y tipo de choque](../../apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md) |
 
+## Consulta visual antes de practicar
+
+[MAS: sistemas, magnitudes y parámetros](../../apuntes/movimiento-armonico-simple/comparar-osciladores.md) ·
+[Comparar estados por cocientes](../../apuntes/dinamica/herramientas-matematicas/comparar-por-cocientes.md) ·
+[Conservación y referencias de energía](../../apuntes/trabajo-energia/balances-y-tramos.md) ·
+[Tipos de choque y etapas](../../apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md).
+
+Leer primero todos los incisos y la figura original; después resolver por
+partes. Estas fichas contienen teoría y ejemplos propios, no soluciones
+del examen elegido.
+
 ## Material
 
 Guardar aquí los enunciados originales sin modificarlos. Usar nombres claros,
