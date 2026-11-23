@@ -199,6 +199,17 @@ ejemplos pertinentes; no se certifica todo su banco de ejercicios.
 
 ## Última actualización
 
+**23 de noviembre de 2026 — aprendizajes posteriores al segundo parcial:**
+se incorporó un método transversal para pasar del fenómeno al planteo,
+una herramienta algebraica de sustituciones, raíces y porcentajes,
+y una ficha con esquema vectorial didáctico de choques oblicuos.
+Se ampliaron las explicaciones de estado/proceso y trabajo del resorte,
+la distinción entre impulso externo e interno y una ruta individual para
+el recuperatorio. Se conservaron los siete PDF históricos y sus
+frecuencias; los dos ejercicios nuevos sólo están **relatados por el
+estudiante**, sin enunciado/figura oficial verificados. No se
+marcaron prácticas como resueltas ni se completaron resultados de examen.
+
 **16 de noviembre de 2026 — metodología visual TP 6–8:** auditados los
 recursos existentes; añadidos cuadros de MAS y cocientes, actualizado
 el esquema de equilibrio y agregadas curvas comparativas; reforzados

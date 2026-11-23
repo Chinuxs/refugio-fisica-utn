@@ -10,6 +10,15 @@ Espacio para organizar el enunciado, la preparación y las resoluciones del
 - Material: siete PDF históricos fechados, fotos auxiliares y una hoja con
   teoría llamada `Parcial_2025_1.png`; ese año no está confirmado en la imagen.
 
+## Después de rendir: recuperar el método
+
+El [diagnóstico posterior al segundo parcial](aprendizajes-post-parcial.md)
+distingue dificultades **relatadas por el estudiante** de enunciados
+oficiales: estados y procesos de energía, choque oblicuo, sustituciones
+y porcentajes. Para practicar sin anticipar respuestas,
+usar [del fenómeno al planteo](../../apuntes/metodo-del-fenomeno-al-planteo.md)
+y la [ruta de recuperación](practica.md#ruta-específica-para-el-recuperatorio).
+
 ## Empezar a practicar
 
 - [Patrones observados y cruce con TP 6–8](patrones.md).
