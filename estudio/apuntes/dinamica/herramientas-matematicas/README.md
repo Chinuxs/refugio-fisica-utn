@@ -10,3 +10,4 @@ recordar para seguir con el problema.
 
 - [Descomponer una fuerza inclinada](descomponer-fuerza-inclinada.md)
 - [Comparar estados por cocientes y factores de cambio](comparar-por-cocientes.md)
+- [Relacionar ecuaciones, factorizar y calcular porcentajes](relacionar-ecuaciones.md)

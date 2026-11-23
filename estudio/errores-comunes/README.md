@@ -18,6 +18,15 @@ problemas y la preparación de evaluaciones.
 - Aplicar fórmulas antes de construir el diagrama de cuerpo libre.
 - Confundir una fuerza individual con la fuerza resultante.
 
+## Método transversal
+
+- Elegir conservación sin **sistema, intervalo ni condiciones** de aplicación.
+- Perder factores en sustituciones; no volver a comprobar las ecuaciones.
+- Memorizar una fracción de energía sin ver **parte / referencia**.
+
+[Del fenómeno a las ecuaciones](../apuntes/metodo-del-fenomeno-al-planteo.md) ·
+[Álgebra y porcentajes](../apuntes/dinamica/herramientas-matematicas/relacionar-ecuaciones.md).
+
 ## Trabajo y Energía
 
 - **Contar dos veces el peso o el resorte:** si se incluyeron como potencial,
@@ -28,6 +37,10 @@ problemas y la preparación de evaluaciones.
   del cuadrado de la rapidez, con la misma masa.
 - **Extender el roce a toda la pista:** usar sólo el tramo y el recorrido
   indicados; un intento que termina dentro de la zona no es un cruce completo.
+- **Confundir compresión máxima y proceso:** es un estado con $v=0$;
+  la fuerza elástica puede no ser cero.
+- **Llamar disipación al almacenamiento en un resorte ideal:**
+  $W_e=-\Delta U_e$ puede ser distinto de cero.
 
 [Balances, tramos y pérdidas](../apuntes/trabajo-energia/balances-y-tramos.md).
 
@@ -54,6 +67,9 @@ problemas y la preparación de evaluaciones.
   $K_{CM}$, pero puede cambiar la energía del movimiento relativo.
 - **Redondear velocidades antes de calcular diferencias de energías grandes:**
   conservar cifras intermedias y redondear al informar el resultado.
+- **Presuponer elasticidad en un choque oblicuo:** la conservación de
+  momento por ejes no implica conservación de $K$.
+  [Ficha vectorial](../apuntes/impulso-cantidad-movimiento/choques-oblicuos.md).
 
 [Condiciones de conservación y choques](../apuntes/impulso-cantidad-movimiento/conservacion-y-choques.md).
 

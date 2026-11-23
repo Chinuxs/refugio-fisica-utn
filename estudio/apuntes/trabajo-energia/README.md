@@ -2,6 +2,9 @@
 
 **Consulta comparativa:** [conservación, trabajo de fuerzas y ceros](balances-y-tramos.md#conservación-de-dónde-sale-y-cuándo-usarla).
 
+**Para distinguir estado, proceso y resorte:** [balances y tramos](balances-y-tramos.md#estado-no-es-proceso).
+**Método general:** [del fenómeno a las ecuaciones](../metodo-del-fenomeno-al-planteo.md).
+
 **Para comprender los balances:** [estados, tramos y pérdidas](balances-y-tramos.md).
 **Para repasar:** [teoría esencial](teoria-esencial.md).
 **Para comprobar después de tu intento:** [guía por casos](resolucion-por-casos.md),
