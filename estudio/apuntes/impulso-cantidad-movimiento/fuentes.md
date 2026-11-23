@@ -84,3 +84,17 @@ propia** que reutiliza diagramas existentes. Referencias registradas el
 15/11: presentación diap. 6–9, 10–20, 22–26, TP 8.15–21, 22–25, 26
 y S1.2/S3.2 como patrones históricos; Sears §8.2–8.5 es complemento.
 No se volvieron a abrir los originales locales.
+
+## Aprendizajes posteriores al parcial (23/11/2026)
+
+La [ficha y el SVG de choques oblicuos](choques-oblicuos.md)
+son **elaboración propia** a partir de dificultades
+[relatadas por el estudiante](../../parciales/Segundo_Parcial/aprendizajes-post-parcial.md).
+El relato de dos asteroides no incluye en este repositorio
+el enunciado completo ni la figura original: no se reconstruye como
+ejercicio oficial y no se certifican velocidades numéricas.
+
+Los fundamentos de teorema impulso–momento y choques oblicuos siguen
+respaldados por la trazabilidad anterior (presentación de Sistemas
+de Partículas, TP 8.27–29 y 31–32; Sears §8.2–8.5 como complemento).
+No se reabrieron los originales de cátedra en esta intervención.

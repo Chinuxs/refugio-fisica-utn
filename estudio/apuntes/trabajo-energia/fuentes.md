@@ -92,3 +92,16 @@ y la deducción son **elaboración propia**. Se apoyan en el contraste
 registrado el 15/11: diap. 3–10, 11–15, 20–25 y TP 6.13–23.
 Sears §6.1–6.3 complementa trabajo y cinética, no sustituye la presentación
 para conservación. No se volvieron a abrir los originales locales.
+
+## Aprendizajes posteriores al parcial (23/11/2026)
+
+Las distinciones entre [estado y proceso, trabajo elástico y almacenamiento](balances-y-tramos.md#estado-no-es-proceso)
+son **elaboración didáctica propia**, motivadas por dificultades
+[relatadas por el estudiante](../../parciales/Segundo_Parcial/aprendizajes-post-parcial.md).
+No se dispone del enunciado completo ni de la figura del examen
+relatado; **no se atribuyen a la cátedra** sus condiciones particulares.
+
+Los conceptos generales se apoyan en las fuentes ya registradas
+sobre trabajo, potencial y conservación (presentación y TP 6).
+La consulta de Sears §6.1–6.3 sigue siendo complementaria.
+No se realizó un nuevo cotejo con originales para esta ampliación.

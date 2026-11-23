@@ -88,6 +88,23 @@ componentes. El coeficiente de restitución se refiere a la dirección de
 impacto, no al cociente entre rapideces completas.
 Momento por sí solo no determina todas las velocidades finales desconocidas.
 
+### Choque oblicuo: conservar por componentes, no por intuición
+
+Un esquema original con ejes, signos y dos ecuaciones está en
+[choques oblicuos](choques-oblicuos.md). Partir del teorema
+$\Delta\vec P=\vec J_{\rm ext}$ para el **sistema de ambos cuerpos**.
+Por la tercera ley se cancelan sus impulsos **internos**, pero
+eso **no implica** que el impulso **externo** sea cero. Si éste es
+despreciable durante el impacto, conservar $P_x$ y $P_y$ por separado.
+
+La conservación de $K$ no sale de la de $\vec P$. Si el enunciado
+no asegura choque elástico, no agregar $K_i=K_f$ como ecuación;
+evaluar $K_i$ y $K_f$ **después** de obtener las velocidades,
+si la consigna lo pide.
+
+Para resolver las ecuaciones sin perder factores ni redondear
+temprano, ver [sustitución y comprobación](../dinamica/herramientas-matematicas/relacionar-ecuaciones.md).
+
 ### Centro de masa y energía
 
 $$
