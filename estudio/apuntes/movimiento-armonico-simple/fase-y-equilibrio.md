@@ -92,6 +92,9 @@ Después de agregar una masa, calcular primero el nuevo $\delta$ y luego
 $x_0$ respecto de ese nuevo equilibrio. La máxima bajada desde el equilibrio
 anterior no tiene por qué ser la nueva amplitud.
 
+El [esquema comparativo de osciladores](comparar-osciladores.md) reúne
+resorte horizontal, vertical y péndulo y muestra de dónde mide cada coordenada.
+
 ## ⚠️ Error frecuente
 
 - Tomar siempre $A=v_0/\omega$: sólo vale en módulo si $x_0=0$.

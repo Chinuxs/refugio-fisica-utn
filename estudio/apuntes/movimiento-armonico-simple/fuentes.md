@@ -89,3 +89,14 @@ usar primero la [práctica sin controles](../../parciales/Segundo_Parcial/practi
 [Inventario y límites de lectura](../../parciales/Segundo_Parcial/auditoria-fuentes.md).
 
 [Volver al tema](README.md)
+
+## Comparaciones didácticas
+
+[Cuadros de osciladores y parámetros](comparar-osciladores.md), el esquema
+de los tres sistemas, las curvas y
+[el método de cocientes](../dinamica/herramientas-matematicas/comparar-por-cocientes.md)
+son **elaboración propia**. Referencias del contraste registrado el 15/11:
+diap. 3–17 (MAS y energía), 18–19 (péndulo), TP 7.10–11, 15–16
+(vertical), 19–25 (péndulo), y `Resumen clase 12.ppt` diap. 21–22.
+Sears §14.2–14.5 es bibliografía complementaria. No se reabrieron los
+originales locales en esta modificación.

@@ -76,3 +76,11 @@ Para intentar enunciados, usar la [ruta sin resultados](../../parciales/Segundo_
 [Inventario y límites de lectura](../../parciales/Segundo_Parcial/auditoria-fuentes.md).
 
 [Volver al tema](README.md)
+
+## Comparaciones didácticas
+
+La tabla de [choques y etapas](conservacion-y-choques.md) es **elaboración
+propia** que reutiliza diagramas existentes. Referencias registradas el
+15/11: presentación diap. 6–9, 10–20, 22–26, TP 8.15–21, 22–25, 26
+y S1.2/S3.2 como patrones históricos; Sears §8.2–8.5 es complemento.
+No se volvieron a abrir los originales locales.

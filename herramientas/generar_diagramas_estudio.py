@@ -248,38 +248,98 @@ def mas():
         ('Resorte vertical','Equilibrio nuevo → x desde allí','El alargamiento estático no es A'),
     ],'Primero: equilibrio, eje positivo e instante inicial. Después: ecuaciones.')
 
-    s=SVG('Dónde está el equilibrio', 'Dos osciladores: el resorte vertical y el péndulo simple.',
-          'Resorte sin carga comparado con resorte cargado: la carga lo alarga delta=mg/k y el origen de la oscilación se fija en el nuevo equilibrio. Un péndulo oscila alrededor de la vertical y su período aproximado es dos pi por raíz de L sobre g.',610)
-    s.panel(42,126,478,381,'RESORTE VERTICAL')
-    s.line(80,206,429,206,MUTED,5)
-    s.spring(155,207,155,287)
-    s.line(116,288,397,288,MUTED,1.5,False,'5 5')
-    s.text(82,193,'sin carga',19,MUTED)
-    s.spring(340,207,340,365)
-    s.block(310,365,'m')
-    s.line(267,288,267,365,GOLD,2)
-    s.line(260,288,274,288,GOLD);s.line(260,365,310,365,GOLD)
-    s.text(246,345,'δ',22,GOLD)
-    s.line(372,387,472,387,BLUE,2,False,'6 5')
-    s.text(397,373,'x = 0',21,BLUE)
-    s.text(294,193,'con carga',19,BLUE)
-    s.text(77,461,'δ = mg/k',26,GOLD,eq=True)
-    s.text(280,461,'ω = √(k/m)',26,WHITE,eq=True)
-    s.panel(540,126,498,381,'PÉNDULO · ÁNGULOS PEQUEÑOS')
-    px,py,length,theta=777,203,190,math.radians(14)
-    bx,by=px+length*math.sin(theta),py+length*math.cos(theta)
-    s.line(px,py,px,414,MUTED,1.5,False,'6 6')
-    s.line(px,py,bx,by,WHITE,3)
-    s.circle(px,py,6,WHITE);s.circle(bx,by,14,BLUE)
-    s.path(f'M{px} {py+80} A80 80 0 0 0 {px+80*math.sin(theta):.2f} {py+80*math.cos(theta):.2f}',GOLD,2)
-    s.text(805,285,'θ',23,GOLD)
-    s.text(832,333,'L',23,WHITE)
-    s.text(582,239,'vertical de',19,MUTED)
-    s.text(582,266,'equilibrio',19,MUTED)
-    s.line(704,258,765,294,MUTED,1.5,True)
-    s.text(787,461,'T ≈ 2π √(L/g)',29,WHITE,'middle',eq=True)
-    s.footer('Resorte: x desde el equilibrio cargado. Péndulo: θ desde la vertical; usar radianes en las ecuaciones.')
-    s.save(topic,'equilibrio-resorte-pendulo')
+    mas_comparaciones()
+
+
+def mas_comparaciones():
+    """Diagramas de elaboración propia y curvas calculadas."""
+    dest = ROOT / 'movimiento-armonico-simple' / 'assets'
+    dest.mkdir(parents=True, exist_ok=True)
+    sistemas = '''<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="640" viewBox="0 0 1080 640" role="img" aria-labelledby="title desc">
+<title id="title">Tres osciladores: equilibrio y restauración</title><desc id="desc">Resortes horizontal y vertical, y péndulo. Posiciones de equilibrio y extremos; delta se mide desde longitud natural y x desde el equilibrio.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffce75"/></marker>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif;fill:#f4f7fc;font-size:20px}.muted{fill:#b9c7da;font-size:17px}.blue{fill:#79b7ff}.gold{fill:#ffce75}.green{fill:#79dfba}.panel{fill:#202a38}.spring{fill:none;stroke:#79b7ff;stroke-width:3}.guide{stroke:#b9c7da;stroke-dasharray:6 5;fill:none}.rest{stroke:#ffce75;stroke-width:3;marker-end:url(#arr)}.mass{fill:#202a38;stroke:#79b7ff;stroke-width:3}.ghost{fill:none;stroke:#b9c7da;stroke-width:1.5;stroke-dasharray:5 4}</style></defs>
+<rect x="12" y="12" width="1056" height="616" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" style="font-size:29px;font-weight:700">Tres osciladores: equilibrio y restauración</text>
+<text x="42" y="90" class="muted">Modelos ideales · flecha dorada = componente restauradora · posiciones esquemáticas</text>
+<rect x="42" y="120" width="321" height="450" rx="15" class="panel"/><rect x="379" y="120" width="321" height="450" rx="15" class="panel"/><rect x="716" y="120" width="322" height="450" rx="15" class="panel"/>
+<text x="60" y="156" font-weight="700">RESORTE HORIZONTAL</text><text x="397" y="156" font-weight="700">RESORTE VERTICAL</text><text x="734" y="156" font-weight="700">PÉNDULO SIMPLE</text>
+<path d="M66 253V321M66 321H340" stroke="#b9c7da" stroke-width="3" fill="none"/>
+<path class="spring" d="M66 300H83L94 288L105 312L116 288L127 312L138 288L149 312L160 288L171 312L182 288L193 312L204 288L215 312L226 288L237 312L248 300H271"/>
+<rect x="151" y="279" width="38" height="42" rx="5" class="ghost"/><rect x="211" y="279" width="38" height="42" rx="5" class="ghost"/><rect x="271" y="279" width="38" height="42" rx="5" class="mass"/><text x="290" y="307" text-anchor="middle">m</text>
+<path class="guide" d="M170 324V373M230 324V373M290 324V373"/><path d="M120 373H335" stroke="#b9c7da" stroke-width="2"/><path d="M335 373L325 368V378Z" fill="#b9c7da"/>
+<text x="170" y="402" text-anchor="middle" class="muted">−A</text><text x="230" y="402" text-anchor="middle" class="blue">0</text><text x="290" y="402" text-anchor="middle" class="muted">+A</text><text x="334" y="402" class="muted">x</text>
+<path class="rest" d="M286 258H240"/><text x="259" y="244" class="gold" text-anchor="middle">−kx</text>
+<text x="60" y="447" class="blue">x = +A (extremo)</text><text x="60" y="478" class="muted">Equilibrio: x = 0</text><text x="60" y="525">T = 2π√(m/k)</text>
+<path d="M410 190H669" stroke="#b9c7da" stroke-width="4"/><path class="spring" d="M520 192V207L510 218L530 229L510 240L530 251L510 262L530 273L510 284L530 295L510 306L530 317L510 328L530 339L520 350V369"/>
+<path class="guide" d="M401 215H670M401 310H670M401 390H670"/><rect x="499" y="209" width="42" height="42" rx="5" class="ghost"/><text x="550" y="250" class="muted">−A</text><rect x="499" y="289" width="42" height="42" rx="5" class="ghost"/><rect x="499" y="369" width="42" height="42" rx="5" class="mass"/><text x="520" y="397" text-anchor="middle">m</text>
+<path d="M432 215V310M425 215H439M425 310H439" stroke="#79b7ff" stroke-width="2" fill="none"/><text x="409" y="280" class="blue">δ</text>
+<path d="M463 310V390M456 310H470M456 390H470" stroke="#79dfba" stroke-width="2" fill="none"/><text x="444" y="354" class="green">x</text>
+<path class="rest" d="M565 390V333"/><text x="574" y="358" class="gold">−kx</text>
+<text x="550" y="208" class="muted">natural</text><text x="550" y="300" class="blue">x = 0</text><text x="550" y="416" class="muted">+A</text><path d="M675 312V418" stroke="#b9c7da" stroke-width="2"/><path d="M675 418L670 408H680Z" fill="#b9c7da"/><text x="667" y="438" class="muted">+x</text>
+<text x="397" y="460" class="muted">δ = mg/k; x = z − δ</text><text x="397" y="488" class="green">Aquí x = +A</text><text x="397" y="525">T = 2π√(m/k)</text>
+<circle cx="852" cy="192" r="5" fill="#f4f7fc"/><path class="guide" d="M852 192V398"/><path d="M852 192L898 381" stroke="#79b7ff" stroke-width="3"/><path class="guide" d="M852 192L806 381M806 381A194.5 194.5 0 0 0 898 381"/><circle cx="852" cy="386.5" r="15" class="ghost"/><circle cx="806" cy="381" r="15" class="ghost"/><circle cx="898" cy="381" r="15" class="mass"/>
+<path d="M852 266A74 74 0 0 0 869.5 264" fill="none" stroke="#79dfba" stroke-width="2"/><text x="874" y="271" class="green">θ</text><text x="897" y="309" class="blue">L</text><path class="rest" d="M886 386L835 398"/><text x="752" y="427" class="gold">−mg sen θ</text>
+<text x="742" y="463" class="muted">Equilibrio: θ = 0</text><text x="742" y="490" class="green">Aquí θ = +θₘ; arco s = Lθ</text><text x="742" y="525">T ≈ 2π√(L/g)</text>
+<text x="42" y="605" class="muted">A y x en m; θ y θₘ en rad. El alargamiento estático δ no determina por sí solo la amplitud.</text>
+</svg>
+'''
+    (dest / 'equilibrio-resorte-pendulo.svg').write_text(sistemas, encoding='utf-8')
+    plantilla = '''<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="710" viewBox="0 0 1080 710" role="img" aria-labelledby="title desc">
+<title id="title">Cambiar amplitud o período</title><desc id="desc">Curvas seno calculadas: A 1 y 0,5 metros, T 2 segundos; A 1 metro, T 2 y 1 segundos. Los mismos ejes y escalas.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffce75"/></marker>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif;fill:#f4f7fc;font-size:20px}.muted{fill:#b9c7da;font-size:17px}.blue{fill:#79b7ff}.gold{fill:#ffce75}.green{fill:#79dfba}.panel{fill:#202a38}.spring{fill:none;stroke:#79b7ff;stroke-width:3}.guide{stroke:#b9c7da;stroke-dasharray:6 5;fill:none}.rest{stroke:#ffce75;stroke-width:3;marker-end:url(#arr)}.mass{fill:#202a38;stroke:#79b7ff;stroke-width:3}.ghost{fill:none;stroke:#b9c7da;stroke-width:1.5;stroke-dasharray:5 4}</style></defs>
+<rect x="12" y="12" width="1056" height="686" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" style="font-size:29px;font-weight:700">Cambiar amplitud o período</text>
+<text x="42" y="90" class="muted">x(t) = A sen(2πt/T) · fase cero · mismos ejes y escalas</text>
+<rect x="42" y="120" width="996" height="248" rx="15" class="panel"/><rect x="42" y="385" width="996" height="248" rx="15" class="panel"/>
+<text x="60" y="153" font-weight="700">1. Igual período, distinta amplitud</text><text x="60" y="418" font-weight="700">2. Igual amplitud, distinto período</text>
+<text x="65" y="182" class="muted">x (m)</text>
+<path d="M135 307H992" stroke="#45556b" stroke-dasharray="4 5"/><text x="117" y="313" text-anchor="end" class="muted">-1</text>
+<path d="M135 247H992" stroke="#45556b" stroke-dasharray="4 5"/><text x="117" y="253" text-anchor="end" class="muted">0</text>
+<path d="M135 187H992" stroke="#45556b" stroke-dasharray="4 5"/><text x="117" y="193" text-anchor="end" class="muted">1</text>
+<path d="M135 175V319" stroke="#45556b" stroke-dasharray="4 5"/><text x="135" y="341" text-anchor="middle" class="muted">0</text>
+<path d="M345 175V319" stroke="#45556b" stroke-dasharray="4 5"/><text x="345" y="341" text-anchor="middle" class="muted">1</text>
+<path d="M555 175V319" stroke="#45556b" stroke-dasharray="4 5"/><text x="555" y="341" text-anchor="middle" class="muted">2</text>
+<path d="M765 175V319" stroke="#45556b" stroke-dasharray="4 5"/><text x="765" y="341" text-anchor="middle" class="muted">3</text>
+<path d="M975 175V319" stroke="#45556b" stroke-dasharray="4 5"/><text x="975" y="341" text-anchor="middle" class="muted">4</text>
+<path d="M135 319V172M135 247H1000" fill="none" stroke="#b9c7da" stroke-width="1.5"/><text x="1000" y="341" text-anchor="end" class="muted">t (s)</text>
+<text x="65" y="447" class="muted">x (m)</text>
+<path d="M135 572H992" stroke="#45556b" stroke-dasharray="4 5"/><text x="117" y="578" text-anchor="end" class="muted">-1</text>
+<path d="M135 512H992" stroke="#45556b" stroke-dasharray="4 5"/><text x="117" y="518" text-anchor="end" class="muted">0</text>
+<path d="M135 452H992" stroke="#45556b" stroke-dasharray="4 5"/><text x="117" y="458" text-anchor="end" class="muted">1</text>
+<path d="M135 440V584" stroke="#45556b" stroke-dasharray="4 5"/><text x="135" y="606" text-anchor="middle" class="muted">0</text>
+<path d="M345 440V584" stroke="#45556b" stroke-dasharray="4 5"/><text x="345" y="606" text-anchor="middle" class="muted">1</text>
+<path d="M555 440V584" stroke="#45556b" stroke-dasharray="4 5"/><text x="555" y="606" text-anchor="middle" class="muted">2</text>
+<path d="M765 440V584" stroke="#45556b" stroke-dasharray="4 5"/><text x="765" y="606" text-anchor="middle" class="muted">3</text>
+<path d="M975 440V584" stroke="#45556b" stroke-dasharray="4 5"/><text x="975" y="606" text-anchor="middle" class="muted">4</text>
+<path d="M135 584V437M135 512H1000" fill="none" stroke="#b9c7da" stroke-width="1.5"/><text x="1000" y="606" text-anchor="end" class="muted">t (s)</text>
+<path d="@@p1@@" fill="none" stroke="#79b7ff" stroke-width="3"/>
+<path d="@@p2@@" fill="none" stroke="#ffce75" stroke-width="3" stroke-dasharray="8 5"/>
+<path d="@@p3@@" fill="none" stroke="#79b7ff" stroke-width="3"/>
+<path d="@@p4@@" fill="none" stroke="#ffce75" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="560" y="153" class="blue">A = 1 m, T = 2 s</text><text x="796" y="153" class="gold">A = 0,5 m, T = 2 s (- -)</text>
+<text x="560" y="418" class="blue">A = 1 m, T = 2 s</text><text x="796" y="418" class="gold">A = 1 m, T = 1 s (- -)</text>
+<text x="42" y="675" class="muted">Cambiar A no cambia el ritmo en MAS ideal. Menor T significa más ciclos en el mismo tiempo.</text>
+</svg>
+'''
+
+    def curva(cy, amplitud, periodo):
+        puntos = []
+        for j in range(201):
+            x = 135 + 840*j/200
+            y = cy - 60*amplitud*math.sin(2*math.pi*(4*j/200)/periodo)
+            puntos.append(('L' if j else 'M') + f'{x:.2f} {y:.2f}')
+        return ' '.join(puntos)
+
+    for nombre, cy, amplitud, periodo in (
+        ('p1', 247, 1, 2), ('p2', 247, .5, 2),
+        ('p3', 512, 1, 2), ('p4', 512, 1, 1),
+    ):
+        plantilla = plantilla.replace('@@' + nombre + '@@', curva(cy, amplitud, periodo))
+    (dest / 'comparar-parametros.svg').write_text(plantilla, encoding='utf-8')
+    print('movimiento-armonico-simple/assets/equilibrio-resorte-pendulo.svg')
+    print('movimiento-armonico-simple/assets/comparar-parametros.svg')
 
 
 def impulso():

@@ -37,6 +37,38 @@ Para la pareja que choca, los impulsos internos son iguales y opuestos;
 se cancelan en el balance total. Para hallar la fuerza media **sobre un
 cuerpo**, usar el cambio de momento de ese cuerpo, no el del conjunto.
 
+### Comparar los tres tipos de choque
+
+| Modelo pasivo frontal (partículas) | Elástico | Inelástico no plástico | Perfectamente inelástico (plástico) |
+| --- | --- | --- | --- |
+| Momento total $\vec P$ | Se conserva si $\vec J_{\rm ext}=0$ | misma condición | misma condición |
+| Energía cinética total $K$ | Se conserva | Disminuye | Disminuye, máxima pérdida con $P$ y masas fijos |
+| Restitución $e$ | $1$ | $0<e<1$ | $0$ |
+| Velocidad final | Se separan | Se separan; menor rapidez relativa | Velocidad común |
+| Qué evaluar | Momento y $K$ o restitución | Momento y $e$ u otro dato independiente | Momento y velocidad común |
+
+El diagrama anterior compara velocidades vectoriales en el mismo marco
+del suelo. Conservar momento y conservar cinética son condiciones
+diferentes. En 2D, $e=0$ en la normal de impacto no implica unión en todas
+las direcciones. Si $M$ es constante y $\vec J_{\rm ext}=0$, se mantiene
+$\vec v_{CM}$; en su marco inercial el momento total es cero.
+Ver [centro de masa y referencias](assets/centro-masa.svg).
+
+### Encadenar energía, choque y MAS
+
+| Intervalo | Principio que evaluar | Estado que se transmite |
+| --- | --- | --- |
+| Recorrido previo | Trabajo–energía | Rapidez/dirección antes del impacto |
+| Contacto breve | Impulso–momento; conservación si impulso externo despreciable | Velocidades y masas posteriores |
+| Recorrido posterior o MAS | Energía y/o Newton; MAS sólo con restauración lineal | Nuevo equilibrio, $x_0,v_0$, masa oscilante |
+
+![Recorrido, impacto y oscilación separados por intervalos](../../parciales/Segundo_Parcial/assets/recorrido-impacto-oscilacion.svg)
+
+Los estados anterior y posterior al impacto no son intercambiables.
+Si el proyectil atraviesa el bloque no se suma su masa al oscilador;
+si queda adherido sí. Puede elegirse un nuevo $t=0$ tras el impacto.
+El cuadro es elaboración propia.
+
 ### Segunda ecuación de un choque frontal
 
 Con velocidades algebraicas en un eje común:
