@@ -101,6 +101,19 @@ qué magnitud se está calculando.
 Este orden organiza el estudio; no asigna probabilidades ni reemplaza un
 temario actualizado del docente.
 
+## Ajuste de práctica por el examen relatado
+
+El [diagnóstico posterior al segundo parcial](aprendizajes-post-parcial.md)
+justifica subir **para este estudiante** la prioridad de
+[choques oblicuos y álgebra](../../apuntes/impulso-cantidad-movimiento/choques-oblicuos.md)
+(TP 8.27–29, 31–32; S6.3),
+de [estado y proceso en energía](../../apuntes/trabajo-energia/balances-y-tramos.md#estado-no-es-proceso)
+(TP 6.16/19, S5.2, S6.2)
+y de fracciones o porcentajes (S4.1, S6.3).
+Esto **no modifica el recuento de siete PDF**, no es una
+observación directa de un octavo original ni asigna probabilidades
+al recuperatorio.
+
 ## Otras hojas: útiles, sin inflar el recuento
 
 - [Hoja sin fecha: energía, MAS y choque](enunciados/hoja-energia-mas-choques-sin-fecha.jpeg):

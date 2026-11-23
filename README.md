@@ -51,6 +51,9 @@ separado del código del simulador y se escribe en español claro.
 - [Preparar el tercer parcial](estudio/parciales/Tercer_Parcial/README.md)
 - [Errores frecuentes](estudio/errores-comunes/README.md)
 
+**Del fenómeno a las ecuaciones:** [método transversal de resolución](estudio/apuntes/metodo-del-fenomeno-al-planteo.md) ·
+[aprendizajes posteriores al segundo parcial](estudio/parciales/Segundo_Parcial/aprendizajes-post-parcial.md).
+
 ### Temas de la materia
 
 **Dinámica**

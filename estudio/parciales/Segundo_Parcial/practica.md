@@ -27,6 +27,30 @@ Los TP originales están en las carpetas de cátedra externas al repositorio;
 las [fuentes auditadas](auditoria-fuentes.md) indican cuál es cada archivo.
 No usar la numeración de las resoluciones de 2022 como si fuera la vigente.
 
+## Ruta específica para el recuperatorio
+
+**Ajuste por dificultades observadas al rendir**, no cambio de la
+frecuencia histórica. En cada ejercicio consultar la **figura original
+completa** antes del planteo y no mirar respuestas hasta terminar.
+
+| Secuencia sugerida | Ejercicios | Qué practicar sin ver soluciones |
+| --- | --- | --- |
+| 1. Estados y resorte | TP 6: 16, 19; S5.2 y S6.2 | Separar fotos de procesos; trabajo por tramo; máxima compresión |
+| 2. Choque oblicuo | TP 8: 27–29, 31–32; S6.3 | Sistema, impulso externo, componentes, signos, álgebra |
+| 3. Energía fraccionaria | S4.1 y S6.3 | $Delta K$, disminución positiva y porcentaje con referencia declarada |
+| 4. Combinar principios | S1.2 y S3.2 | Choque breve vs. movimiento anterior/posterior; MAS posterior |
+| 5. Verificación independiente | Rehacer un problema que costó | Sustituir en ecuaciones originales y redondear sólo al final |
+
+[Diagnóstico post-examen y fuentes del relato](aprendizajes-post-parcial.md) ·
+[Del fenómeno a las ecuaciones](../../apuntes/metodo-del-fenomeno-al-planteo.md) ·
+[Choques oblicuos](../../apuntes/impulso-cantidad-movimiento/choques-oblicuos.md) ·
+[Herramienta algebraica](../../apuntes/dinamica/herramientas-matematicas/relacionar-ecuaciones.md).
+
+**S6.3:** en el documento histórico la figura sugiere que B parte
+quieto, pero el texto no lo afirma; **no trasladar sin revisar esa
+hipótesis** al examen relatado de asteroides. No son el mismo
+enunciado confirmado.
+
 ## Antes de pedir una pista
 
 - ¿Qué sistema elegí y dónde empieza y termina cada etapa?

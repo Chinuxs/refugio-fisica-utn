@@ -57,6 +57,18 @@ Secuencia de trabajo:
 6. El asistente revisa lo hecho, pregunta o da pistas **de menor a mayor**
    sólo cuando sean necesarias; evita reemplazar el razonamiento.
 
+**Diagnóstico y validación del principio:** antes de sugerir un teorema
+en un ejercicio concreto, ayudar al estudiante a justificar **sistema,
+intervalo, fuerzas y condiciones de aplicación**. Una vez construido su
+planteo, orientar sustituciones, factor común y verificación sin resolver
+por él. No presentar fórmulas de porcentajes como leyes adicionales:
+explicar que la fracción es **parte / total de referencia**.
+
+Los datos que el estudiante relata **después** de un examen no constituyen
+el enunciado ni su figura oficial: registrar el límite de la fuente y
+no dar resultados como si estuvieran contrastados. Consultar el
+[método transversal](estudio/apuntes/metodo-del-fenomeno-al-planteo.md).
+
 **Separar niveles de ayuda:** el enunciado original va primero; las pistas
 opcionales en un documento distinto; las soluciones y comprobaciones en otro,
 marcado como material que revela resultados. No mostrar la resolución completa

@@ -48,6 +48,53 @@ Aquí el calentamiento es interno. No agregar además el mismo roce como una
 segunda pérdida externa. Un sistema cerrado no intercambia materia; eso no
 implica por sí solo que esté aislado ni que conserve energía mecánica.
 
+### Estado no es proceso
+
+Un **estado** tiene valores de $v$, altura $h$ y deformación $x$
+en un instante. Entre dos estados ocurre un **proceso** con desplazamiento
+y trabajos. Conviene escribir ambos por separado:
+
+| Foto del sistema (estado) | Qué evaluar durante el tramo siguiente |
+| --- | --- |
+| Antes de entrar en una zona rugosa | Trabajo de rozamiento **sobre la distancia rugosa recorrida** |
+| Al salir de la zona rugosa | Fuerzas que actúan desde ese punto, que pueden ser distintas |
+| En la máxima compresión de un resorte | Es un instante de retorno: el **proceso de compresión ya ocurrió** |
+
+Estos son ejemplos **genéricos**. No se identifican con las letras A–D
+del parcial relatado porque aquí no está su figura original.
+
+Si $v=0$ en una compresión máxima, $K=0$ **en ese estado**.
+Eso no significa $\sum\vec F=0$: la fuerza del resorte puede empujar
+al bloque hacia el equilibrio y hacer que invierta su velocidad.
+
+### Un resorte puede realizar trabajo y ser conservativo
+
+La fuerza elástica ideal **cambia con la posición**: $F_e=-kx$,
+donde $x$ se mide desde la longitud natural. Por eso no se usa
+$W=Fd\cos\theta$ con una **única fuerza constante** durante toda la
+compresión. En un modelo unidimensional ideal:
+
+$$
+W_e=\int_{x_i}^{x_f}(-kx)\,dx
+=-\frac12k(x_f^2-x_i^2)
+=-\Delta U_e,\qquad U_e=\frac12kx^2.
+$$
+
+Desde $x_i=0$ hasta una compresión $|x_f|>0$, $W_e<0$ sobre el
+bloque y aumenta $U_e$. Eso es **almacenamiento reversible**,
+no disipación. Un resorte puede hacer trabajo distinto de cero
+sin dejar de ser conservativo. El sistema bloque–resorte (y Tierra,
+si se usa potencial gravitatorio) puede conservar energía mecánica
+aunque las energías cinética y potencial cambien.
+
+Si el peso y el resorte ya están representados mediante $U_g$ y
+$U_e$, no sumar de nuevo sus trabajos. Si hay rozamiento localizado,
+contarlo **sólo** en los tramos en que actúa; no imponer la misma
+conservación o pérdida a todo el camino.
+
+El [método transversal](../metodo-del-fenomeno-al-planteo.md)
+explica cómo elegir el teorema antes de escribir el balance.
+
 ### Conservación: de dónde sale y cuándo usarla
 
 $$

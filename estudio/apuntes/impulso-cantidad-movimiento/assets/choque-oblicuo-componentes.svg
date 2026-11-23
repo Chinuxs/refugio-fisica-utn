@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="550" viewBox="0 0 1080 550" role="img" aria-labelledby="title desc">
+<title id="title">Choque oblicuo: antes y después</title>
+<desc id="desc">Esquema original, no figura de examen. Antes: cuerpo A con velocidad positiva x, cuerpo B quieto. Después: A sale hacia arriba a la derecha, ángulo alfa, y B hacia abajo a la derecha, ángulo beta. Señaladas componentes verticales positiva y negativa.</desc>
+<defs>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#79b7ff"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#ffce75"/></marker>
+<marker id="arr-axis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b9c7da"/></marker>
+<style>text{font-family:Inter,"Segoe UI",Arial,sans-serif;fill:#f4f7fc} .muted{fill:#b9c7da} .blue{fill:#79b7ff} .gold{fill:#ffce75} .eq{font-family:"Cambria Math","STIX Two Math",Georgia,serif}</style>
+</defs>
+<rect x="12" y="12" width="1056" height="526" rx="24" fill="#141b25" stroke="#45556b"/>
+<text x="42" y="57" font-size="30" font-weight="bold">Choque oblicuo: separar vectores y ejes</text>
+<text x="42" y="88" font-size="19" class="muted">Esquema didáctico propio · no reproduce la figura de un examen</text>
+<rect x="42" y="117" width="470" height="356" rx="18" fill="#202a38"/>
+<rect x="528" y="117" width="510" height="356" rx="18" fill="#202a38"/>
+<text x="64" y="155" font-size="24" font-weight="bold">ANTES</text>
+<text x="550" y="155" font-size="24" font-weight="bold">DESPUÉS</text>
+<line x1="80" y1="317" x2="462" y2="317" stroke="#b9c7da" stroke-width="2" marker-end="url(#arr-axis)"/>
+<line x1="80" y1="378" x2="80" y2="195" stroke="#b9c7da" stroke-width="2" marker-end="url(#arr-axis)"/>
+<text x="459" y="346" font-size="20" class="muted">+x</text><text x="56" y="201" font-size="20" class="muted">+y</text>
+<circle cx="183" cy="317" r="18" fill="#2b4057" stroke="#79b7ff" stroke-width="3"/>
+<text x="183" y="324" font-size="20" text-anchor="middle">A</text>
+<line x1="208" y1="317" x2="336" y2="317" stroke="#79b7ff" stroke-width="4" marker-end="url(#arr-blue)"/>
+<text x="258" y="299" font-size="23" class="blue eq">v₀</text>
+<circle cx="385" cy="317" r="18" fill="#3c3a30" stroke="#ffce75" stroke-width="3"/>
+<text x="385" y="324" font-size="20" text-anchor="middle">B</text>
+<text x="367" y="374" font-size="20" class="gold">v = 0</text>
+<line x1="582" y1="317" x2="994" y2="317" stroke="#b9c7da" stroke-width="2" marker-end="url(#arr-axis)"/>
+<line x1="679" y1="433" x2="679" y2="177" stroke="#b9c7da" stroke-width="2" marker-end="url(#arr-axis)"/>
+<text x="992" y="344" font-size="20" class="muted">+x</text><text x="650" y="186" font-size="20" class="muted">+y</text>
+<circle cx="679" cy="317" r="13" fill="#f4f7fc"/>
+<line x1="679" y1="317" x2="877" y2="205" stroke="#79b7ff" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="679" y1="317" x2="870" y2="421" stroke="#ffce75" stroke-width="4" marker-end="url(#arr-gold)"/>
+<path d="M743 317 A64 64 0 0 0 735 285" fill="none" stroke="#79b7ff" stroke-width="2"/>
+<path d="M754 317 A75 75 0 0 1 745 353" fill="none" stroke="#ffce75" stroke-width="2"/>
+<text x="757" y="289" font-size="23" class="blue eq">α</text><text x="758" y="356" font-size="23" class="gold eq">β</text>
+<text x="873" y="193" font-size="22" class="blue eq">vA,f</text>
+<text x="872" y="444" font-size="22" class="gold eq">vB,f</text>
+<line x1="877" y1="205" x2="877" y2="317" stroke="#79b7ff" stroke-dasharray="7 5" stroke-width="2"/>
+<line x1="870" y1="421" x2="870" y2="317" stroke="#ffce75" stroke-dasharray="7 5" stroke-width="2"/>
+<text x="895" y="266" font-size="18" class="blue">+vy,A</text>
+<text x="894" y="397" font-size="18" class="gold">−vy,B</text>
+<text x="42" y="512" font-size="19" class="muted">Conservar P por componentes sólo si el impulso externo correspondiente es despreciable.</text>
+</svg>
